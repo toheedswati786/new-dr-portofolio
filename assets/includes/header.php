@@ -82,36 +82,14 @@
                         <li><a href="error.html">404 Error</a></li>
                       </ul>
                     </li>
-                    <li class="dropdown">
+                    <li>
                       <a
                         class="nav-link"
-                        href="#"
+                        href="contact.php"
                         id="contact_submenu"
                         role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
                         >Contact</a
                       >
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="contact_submenu"
-                      >
-                        <li>
-                          <a class="nav-link" href="contact.php"
-                            >Clinic Contacts</a
-                          >
-                        </li>
-                        <li>
-                          <a class="nav-link" href="contact_2.html"
-                            >Contact Information</a
-                          >
-                        </li>
-                        <li>
-                          <a class="nav-link" href="contact_3.html"
-                            >Contact Details</a
-                          >
-                        </li>
-                      </ul>
                     </li>
                   </ul>
                 </div>
@@ -132,10 +110,8 @@
                   </button>
                 </li>
                 <li>
-                  <a class="btn_hotline" href="tel:+8801680636189"
-                    ><span class="btn_icon"
-                      ><i class="fa-solid fa-phone"></i> </span
-                    ><span class="btn_text">+880-1680-6361-89</span></a
+                  <a class="btn btn-primary" href="tel:+8801680636189">
+                    <span class="btn_text">Book A Consultation</span></a
                   >
                 </li>
               </ul>
