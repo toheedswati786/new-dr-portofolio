@@ -1,64 +1,51 @@
 /*
- *  Bootstrap Touchspin - v4.7.3
- *  A mobile and touch friendly input spinner component for Bootstrap 3 & 4.
- *  https://www.virtuosoft.eu/code/bootstrap-touchspin/
+ * Bootstrap touchspain
  *
- *  Made by István Ujj-Mészáros
- *  Under MIT License
  */
-"use strict";
-function _typeof(t) {
-  return (_typeof =
-    "function" == typeof Symbol && "symbol" == typeof Symbol.iterator
-      ? function (t) {
-          return typeof t;
-        }
-      : function (t) {
-          return t &&
-            "function" == typeof Symbol &&
-            t.constructor === Symbol &&
-            t !== Symbol.prototype
-            ? "symbol"
-            : typeof t;
-        })(t);
-}
-!(function (o) {
-  "function" == typeof define && define.amd
-    ? define(["jquery"], o)
-    : "object" ===
-        ("undefined" == typeof module ? "undefined" : _typeof(module)) &&
-      module.exports
-    ? (module.exports = function (t, n) {
-        return (
-          void 0 === n &&
-            (n =
-              "undefined" != typeof window
-                ? require("jquery")
-                : require("jquery")(t)),
-          o(n),
-          n
+!(function (a) {
+  "use strict";
+  function c(a, b) {
+    return a + ".touchspin_" + b;
+  }
+  function d(b, d) {
+    return a.map(b, function (a) {
+      return c(a, d);
+    });
+  }
+  var b = 0;
+  a.fn.TouchSpin = function (c) {
+    if ("destroy" === c)
+      return void this.each(function () {
+        var b = a(this),
+          c = b.data();
+        a(document).off(
+          d(
+            [
+              "mouseup",
+              "touchend",
+              "touchcancel",
+              "mousemove",
+              "touchmove",
+              "scroll",
+              "scrollstart",
+            ],
+            c.spinnerid
+          ).join(" ")
         );
-      })
-    : o(jQuery);
-})(function (T) {
-  var A = 0;
-  T.fn.TouchSpin = function (N) {
-    var q = {
+      });
+    var e = {
         min: 0,
         max: 100,
         initval: "",
         replacementval: "",
-        firstclickvalueifempty: null,
         step: 1,
         decimals: 0,
         stepinterval: 100,
         forcestepdivisibility: "round",
         stepintervaldelay: 500,
         verticalbuttons: !1,
-        verticalup: "&plus;",
-        verticaldown: "&minus;",
-        verticalupclass: "",
-        verticaldownclass: "",
+        verticalupclass: "glyphicon glyphicon-chevron-up",
+        verticaldownclass: "glyphicon glyphicon-chevron-down",
         prefix: "",
         postfix: "",
         prefix_extraclass: "",
@@ -67,23 +54,16 @@ function _typeof(t) {
         boostat: 10,
         maxboostedstep: !1,
         mousewheel: !0,
-        buttondown_class: "btn btn-primary",
-        buttonup_class: "btn btn-primary",
-        buttondown_txt: "&minus;",
-        buttonup_txt: "&plus;",
-        callback_before_calculation: function (t) {
-          return t;
-        },
-        callback_after_calculation: function (t) {
-          return t;
-        },
+        buttondown_class: "btn btn-default",
+        buttonup_class: "btn btn-default",
+        buttondown_txt: "-",
+        buttonup_txt: "+",
       },
-      B = {
+      f = {
         min: "min",
         max: "max",
         initval: "init-val",
         replacementval: "replacement-val",
-        firstclickvalueifempty: "first-click-value-if-empty",
         step: "step",
         decimals: "decimals",
         stepinterval: "step-interval",
@@ -106,494 +86,386 @@ function _typeof(t) {
         buttonup_txt: "button-up-txt",
       };
     return this.each(function () {
-      var a,
-        e,
-        s,
-        i,
-        t,
-        o,
-        n,
-        p,
-        u,
-        c,
-        r,
-        l,
-        d,
-        f,
-        b,
-        h,
-        m,
-        v = T(this),
-        x = v.data(),
-        g = 0,
-        y = !1;
+      function s() {
+        if (!h.data("alreadyinitialized")) {
+          if (
+            (h.data("alreadyinitialized", !0),
+            (b += 1),
+            h.data("spinnerid", b),
+            !h.is("input"))
+          )
+            return void console.log("Must be an input.");
+          v(),
+            t(),
+            G(),
+            y(),
+            B(),
+            C(),
+            D(),
+            E(),
+            k.input.css("display", "block");
+        }
+      }
+      function t() {
+        "" !== g.initval && "" === h.val() && h.val(g.initval);
+      }
+      function u(a) {
+        x(a), G();
+        var b = k.input.val();
+        "" !== b &&
+          ((b = Number(k.input.val())), k.input.val(b.toFixed(g.decimals)));
+      }
+      function v() {
+        g = a.extend({}, e, i, w(), c);
+      }
       function w() {
-        "" === a.prefix && (e = i.prefix.detach()),
-          "" === a.postfix && (s = i.postfix.detach());
+        var b = {};
+        return (
+          a.each(f, function (a, c) {
+            var d = "bts-" + c;
+            h.is("[data-" + d + "]") && (b[a] = h.data(d));
+          }),
+          b
+        );
       }
-      function _() {
-        var t,
-          n,
-          o = a.callback_before_calculation(v.val());
-        "" === o
-          ? "" !== a.replacementval &&
-            (v.val(a.replacementval), v.trigger("change"))
-          : (0 < a.decimals && "." === o) ||
-            ((t = parseFloat(o)),
-            (n = t =
-              isNaN(t)
-                ? "" !== a.replacementval
-                  ? a.replacementval
-                  : 0
-                : t).toString() !== o && (n = t),
-            (n = (function (t) {
-              switch (a.forcestepdivisibility) {
-                case "round":
-                  return (Math.round(t / a.step) * a.step).toFixed(a.decimals);
-                case "floor":
-                  return (Math.floor(t / a.step) * a.step).toFixed(a.decimals);
-                case "ceil":
-                  return (Math.ceil(t / a.step) * a.step).toFixed(a.decimals);
-                default:
-                  return t.toFixed(a.decimals);
-              }
-            })(t)),
-            null !== a.min && t < a.min && (n = a.min),
-            null !== a.max && t > a.max && (n = a.max),
-            parseFloat(t).toString() !== parseFloat(n).toString() && v.val(n),
-            v.val(
-              a.callback_after_calculation(parseFloat(n).toFixed(a.decimals))
-            ));
+      function x(b) {
+        g = a.extend({}, g, b);
       }
-      function k() {
-        var t;
-        return a.booster
-          ? ((t = Math.pow(2, Math.floor(g / a.boostat)) * a.step),
-            a.maxboostedstep &&
-              t > a.maxboostedstep &&
-              ((t = a.maxboostedstep), (o = Math.round(o / t) * t)),
-            Math.max(a.step, t))
-          : a.step;
+      function y() {
+        var a = h.val(),
+          b = h.parent();
+        "" !== a && (a = Number(a).toFixed(g.decimals)),
+          h.data("initvalue", a).val(a),
+          h.addClass("form-control"),
+          b.hasClass("input-group") ? z(b) : A();
+      }
+      function z(b) {
+        b.addClass("bootstrap-touchspin");
+        var e,
+          f,
+          c = h.prev(),
+          d = h.next(),
+          i =
+            '<span class="input-group-addon bootstrap-touchspin-prefix">' +
+            g.prefix +
+            "</span>",
+          k =
+            '<span class="input-group-addon bootstrap-touchspin-postfix">' +
+            g.postfix +
+            "</span>";
+        c.hasClass("input-group-btn")
+          ? ((e =
+              '<button class="' +
+              g.buttondown_class +
+              ' bootstrap-touchspin-down" type="button">' +
+              g.buttondown_txt +
+              "</button>"),
+            c.append(e))
+          : ((e =
+              '<span class="input-group-btn"><button class="' +
+              g.buttondown_class +
+              ' bootstrap-touchspin-down" type="button">' +
+              g.buttondown_txt +
+              "</button></span>"),
+            a(e).insertBefore(h)),
+          d.hasClass("input-group-btn")
+            ? ((f =
+                '<button class="' +
+                g.buttonup_class +
+                ' bootstrap-touchspin-up" type="button">' +
+                g.buttonup_txt +
+                "</button>"),
+              d.prepend(f))
+            : ((f =
+                '<span class="input-group-btn"><button class="' +
+                g.buttonup_class +
+                ' bootstrap-touchspin-up" type="button">' +
+                g.buttonup_txt +
+                "</button></span>"),
+              a(f).insertAfter(h)),
+          a(i).insertBefore(h),
+          a(k).insertAfter(h),
+          (j = b);
+      }
+      function A() {
+        var b;
+        (b = g.verticalbuttons
+          ? '<div class="input-group bootstrap-touchspin"><span class="input-group-addon bootstrap-touchspin-prefix">' +
+            g.prefix +
+            '</span><span class="input-group-addon bootstrap-touchspin-postfix">' +
+            g.postfix +
+            '</span><span class="input-group-btn-vertical"><button class="' +
+            g.buttondown_class +
+            ' bootstrap-touchspin-up" type="button"><i class="' +
+            g.verticalupclass +
+            '"></i></button><button class="' +
+            g.buttonup_class +
+            ' bootstrap-touchspin-down" type="button"><i class="' +
+            g.verticaldownclass +
+            '"></i></button></span></div>'
+          : '<div class="input-group bootstrap-touchspin"><span class="input-group-btn"><button class="' +
+            g.buttondown_class +
+            ' bootstrap-touchspin-down" type="button">' +
+            g.buttondown_txt +
+            '</button></span><span class="input-group-addon bootstrap-touchspin-prefix">' +
+            g.prefix +
+            '</span><span class="input-group-addon bootstrap-touchspin-postfix">' +
+            g.postfix +
+            '</span><span class="input-group-btn"><button class="' +
+            g.buttonup_class +
+            ' bootstrap-touchspin-up" type="button">' +
+            g.buttonup_txt +
+            "</button></span></div>"),
+          (j = a(b).insertBefore(h)),
+          a(".bootstrap-touchspin-prefix", j).after(h),
+          h.hasClass("input-sm")
+            ? j.addClass("input-group-sm")
+            : h.hasClass("input-lg") && j.addClass("input-group-lg");
+      }
+      function B() {
+        k = {
+          down: a(".bootstrap-touchspin-down", j),
+          up: a(".bootstrap-touchspin-up", j),
+          input: a("input", j),
+          prefix: a(".bootstrap-touchspin-prefix", j).addClass(
+            g.prefix_extraclass
+          ),
+          postfix: a(".bootstrap-touchspin-postfix", j).addClass(
+            g.postfix_extraclass
+          ),
+        };
       }
       function C() {
-        return "number" == typeof a.firstclickvalueifempty
-          ? a.firstclickvalueifempty
-          : (a.min + a.max) / 2;
-      }
-      function F() {
-        var t = v.is(":disabled,[readonly]");
-        i.up.prop("disabled", t), i.down.prop("disabled", t), t && P();
-      }
-      function j() {
-        var t, n;
-        v.is(":disabled,[readonly]") ||
-          (_(),
-          (t = o = parseFloat(a.callback_before_calculation(i.input.val()))),
-          isNaN(o) ? (o = C()) : ((n = k()), (o += n)),
-          null !== a.max &&
-            o >= a.max &&
-            ((o = a.max), v.trigger("touchspin.on.max"), P()),
-          i.input.val(
-            a.callback_after_calculation(parseFloat(o).toFixed(a.decimals))
-          ),
-          t !== o && v.trigger("change"));
+        "" === g.prefix && k.prefix.hide(),
+          "" === g.postfix && k.postfix.hide();
       }
       function D() {
-        var t, n;
-        v.is(":disabled,[readonly]") ||
-          (_(),
-          (t = o = parseFloat(a.callback_before_calculation(i.input.val()))),
-          isNaN(o) ? (o = C()) : ((n = k()), (o -= n)),
-          null !== a.min &&
-            o <= a.min &&
-            ((o = a.min), v.trigger("touchspin.on.min"), P()),
-          i.input.val(
-            a.callback_after_calculation(parseFloat(o).toFixed(a.decimals))
+        h.on("keydown", function (a) {
+          var b = a.keyCode || a.which;
+          38 === b
+            ? ("up" !== r && (I(), L()), a.preventDefault())
+            : 40 === b && ("down" !== r && (J(), K()), a.preventDefault());
+        }),
+          h.on("keyup", function (a) {
+            var b = a.keyCode || a.which;
+            38 === b ? M() : 40 === b && M();
+          }),
+          h.on("blur", function () {
+            G();
+          }),
+          k.down.on("keydown", function (a) {
+            var b = a.keyCode || a.which;
+            (32 !== b && 13 !== b) ||
+              ("down" !== r && (J(), K()), a.preventDefault());
+          }),
+          k.down.on("keyup", function (a) {
+            var b = a.keyCode || a.which;
+            (32 !== b && 13 !== b) || M();
+          }),
+          k.up.on("keydown", function (a) {
+            var b = a.keyCode || a.which;
+            (32 !== b && 13 !== b) ||
+              ("up" !== r && (I(), L()), a.preventDefault());
+          }),
+          k.up.on("keyup", function (a) {
+            var b = a.keyCode || a.which;
+            (32 !== b && 13 !== b) || M();
+          }),
+          k.down.on("mousedown.touchspin", function (a) {
+            k.down.off("touchstart.touchspin"),
+              h.is(":disabled") ||
+                (J(), K(), a.preventDefault(), a.stopPropagation());
+          }),
+          k.down.on("touchstart.touchspin", function (a) {
+            k.down.off("mousedown.touchspin"),
+              h.is(":disabled") ||
+                (J(), K(), a.preventDefault(), a.stopPropagation());
+          }),
+          k.up.on("mousedown.touchspin", function (a) {
+            k.up.off("touchstart.touchspin"),
+              h.is(":disabled") ||
+                (I(), L(), a.preventDefault(), a.stopPropagation());
+          }),
+          k.up.on("touchstart.touchspin", function (a) {
+            k.up.off("mousedown.touchspin"),
+              h.is(":disabled") ||
+                (I(), L(), a.preventDefault(), a.stopPropagation());
+          }),
+          k.up.on("mouseout touchleave touchend touchcancel", function (a) {
+            r && (a.stopPropagation(), M());
+          }),
+          k.down.on("mouseout touchleave touchend touchcancel", function (a) {
+            r && (a.stopPropagation(), M());
+          }),
+          k.down.on("mousemove touchmove", function (a) {
+            r && (a.stopPropagation(), a.preventDefault());
+          }),
+          k.up.on("mousemove touchmove", function (a) {
+            r && (a.stopPropagation(), a.preventDefault());
+          }),
+          a(document).on(
+            d(["mouseup", "touchend", "touchcancel"], b).join(" "),
+            function (a) {
+              r && (a.preventDefault(), M());
+            }
           ),
-          t !== o && v.trigger("change"));
+          a(document).on(
+            d(["mousemove", "touchmove", "scroll", "scrollstart"], b).join(" "),
+            function (a) {
+              r && (a.preventDefault(), M());
+            }
+          ),
+          h.on("mousewheel DOMMouseScroll", function (a) {
+            if (g.mousewheel && h.is(":focus")) {
+              var b =
+                a.originalEvent.wheelDelta ||
+                -a.originalEvent.deltaY ||
+                -a.originalEvent.detail;
+              a.stopPropagation(), a.preventDefault(), b < 0 ? J() : I();
+            }
+          });
+      }
+      function E() {
+        h.on("touchspin.uponce", function () {
+          M(), I();
+        }),
+          h.on("touchspin.downonce", function () {
+            M(), J();
+          }),
+          h.on("touchspin.startupspin", function () {
+            L();
+          }),
+          h.on("touchspin.startdownspin", function () {
+            K();
+          }),
+          h.on("touchspin.stopspin", function () {
+            M();
+          }),
+          h.on("touchspin.updatesettings", function (a, b) {
+            u(b);
+          });
+      }
+      function F(a) {
+        switch (g.forcestepdivisibility) {
+          case "round":
+            return (Math.round(a / g.step) * g.step).toFixed(g.decimals);
+          case "floor":
+            return (Math.floor(a / g.step) * g.step).toFixed(g.decimals);
+          case "ceil":
+            return (Math.ceil(a / g.step) * g.step).toFixed(g.decimals);
+          default:
+            return a;
+        }
+      }
+      function G() {
+        var a, b, c;
+        return (
+          (a = h.val()),
+          "" === a
+            ? void (
+                "" !== g.replacementval &&
+                (h.val(g.replacementval), h.trigger("change"))
+              )
+            : void (
+                (g.decimals > 0 && "." === a) ||
+                ((b = parseFloat(a)),
+                isNaN(b) &&
+                  (b = "" !== g.replacementval ? g.replacementval : 0),
+                (c = b),
+                b.toString() !== a && (c = b),
+                b < g.min && (c = g.min),
+                b > g.max && (c = g.max),
+                (c = F(c)),
+                Number(a).toString() !== c.toString() &&
+                  (h.val(c), h.trigger("change")))
+              )
+        );
+      }
+      function H() {
+        if (g.booster) {
+          var a = Math.pow(2, Math.floor(q / g.boostat)) * g.step;
+          return (
+            g.maxboostedstep &&
+              a > g.maxboostedstep &&
+              ((a = g.maxboostedstep), (l = Math.round(l / a) * a)),
+            Math.max(g.step, a)
+          );
+        }
+        return g.step;
+      }
+      function I() {
+        G(), (l = parseFloat(k.input.val())), isNaN(l) && (l = 0);
+        var a = l,
+          b = H();
+        (l += b),
+          l > g.max && ((l = g.max), h.trigger("touchspin.on.max"), M()),
+          k.input.val(Number(l).toFixed(g.decimals)),
+          a !== l && h.trigger("change");
+      }
+      function J() {
+        G(), (l = parseFloat(k.input.val())), isNaN(l) && (l = 0);
+        var a = l,
+          b = H();
+        (l -= b),
+          l < g.min && ((l = g.min), h.trigger("touchspin.on.min"), M()),
+          k.input.val(l.toFixed(g.decimals)),
+          a !== l && h.trigger("change");
+      }
+      function K() {
+        M(),
+          (q = 0),
+          (r = "down"),
+          h.trigger("touchspin.on.startspin"),
+          h.trigger("touchspin.on.startdownspin"),
+          (o = setTimeout(function () {
+            m = setInterval(function () {
+              q++, J();
+            }, g.stepinterval);
+          }, g.stepintervaldelay));
+      }
+      function L() {
+        M(),
+          (q = 0),
+          (r = "up"),
+          h.trigger("touchspin.on.startspin"),
+          h.trigger("touchspin.on.startupspin"),
+          (p = setTimeout(function () {
+            n = setInterval(function () {
+              q++, I();
+            }, g.stepinterval);
+          }, g.stepintervaldelay));
       }
       function M() {
-        v.is(":disabled,[readonly]") ||
-          (P(),
-          (g = 0),
-          (y = "down"),
-          v.trigger("touchspin.on.startspin"),
-          v.trigger("touchspin.on.startdownspin"),
-          (u = setTimeout(function () {
-            n = setInterval(function () {
-              g++, D();
-            }, a.stepinterval);
-          }, a.stepintervaldelay)));
-      }
-      function S() {
-        v.is(":disabled,[readonly]") ||
-          (P(),
-          (g = 0),
-          (y = "up"),
-          v.trigger("touchspin.on.startspin"),
-          v.trigger("touchspin.on.startupspin"),
-          (c = setTimeout(function () {
-            p = setInterval(function () {
-              g++, j();
-            }, a.stepinterval);
-          }, a.stepintervaldelay)));
-      }
-      function P() {
         switch (
-          (clearTimeout(u),
-          clearTimeout(c),
+          (clearTimeout(o),
+          clearTimeout(p),
+          clearInterval(m),
           clearInterval(n),
-          clearInterval(p),
-          y)
+          r)
         ) {
           case "up":
-            v.trigger("touchspin.on.stopupspin"),
-              v.trigger("touchspin.on.stopspin");
+            h.trigger("touchspin.on.stopupspin"),
+              h.trigger("touchspin.on.stopspin");
             break;
           case "down":
-            v.trigger("touchspin.on.stopdownspin"),
-              v.trigger("touchspin.on.stopspin");
+            h.trigger("touchspin.on.stopdownspin"),
+              h.trigger("touchspin.on.stopspin");
         }
-        (g = 0), (y = !1);
+        (q = 0), (r = !1);
       }
-      v.data("alreadyinitialized") ||
-        (v.data("alreadyinitialized", !0),
-        (A += 1),
-        v.data("spinnerid", A),
-        v.is("input")
-          ? ((a = T.extend(
-              {},
-              q,
-              x,
-              (function () {
-                var o = {};
-                return (
-                  T.each(B, function (t, n) {
-                    n = "bts-" + n;
-                    v.is("[data-" + n + "]") && (o[t] = v.data(n));
-                  }),
-                  T.each(["min", "max", "step"], function (t, n) {
-                    v.is("[" + n + "]") &&
-                      (void 0 !== o[n] &&
-                        console.warn(
-                          'Both the "data-bts-' +
-                            n +
-                            '" data attribute and the "' +
-                            n +
-                            '" individual attribute were specified, the individual attribute will take precedence on: ',
-                          v
-                        ),
-                      (o[n] = v.attr(n)));
-                  }),
-                  o
-                );
-              })(),
-              N
-            )),
-            1 !== parseFloat(a.step) &&
-              (0 != (r = a.max % a.step) && (a.max = parseFloat(a.max) - r),
-              0 != (r = a.min % a.step)) &&
-              (a.min = parseFloat(a.min) + (parseFloat(a.step) - r)),
-            "" !== a.initval && "" === v.val() && v.val(a.initval),
-            _(),
-            (r = v.val()),
-            (x = v.parent()),
-            "" !== r &&
-              ((r = a.callback_before_calculation(r)),
-              (r = a.callback_after_calculation(
-                parseFloat(r).toFixed(a.decimals)
-              ))),
-            v.data("initvalue", r).val(r),
-            v.addClass("form-control"),
-            (t =
-              '\n          <span class="input-group-addon bootstrap-touchspin-vertical-button-wrapper">\n            <span class="input-group-btn-vertical">\n              <button tabindex="-1" class="'
-                .concat(a.buttondown_class, " bootstrap-touchspin-up ")
-                .concat(a.verticalupclass, '" type="button">')
-                .concat(
-                  a.verticalup,
-                  '</button>\n              <button tabindex="-1" class="'
-                )
-                .concat(a.buttonup_class, " bootstrap-touchspin-down ")
-                .concat(a.verticaldownclass, '" type="button">')
-                .concat(
-                  a.verticaldown,
-                  "</button>\n            </span>\n          </span>\n       "
-                )),
-            x.hasClass("input-group")
-              ? ((x = x).addClass("bootstrap-touchspin"),
-                (m = v.prev()),
-                (f = v.next()),
-                (b =
-                  '\n            <span class="input-group-addon input-group-prepend bootstrap-touchspin-prefix input-group-prepend bootstrap-touchspin-injected">\n              <span class="input-group-text">'.concat(
-                    a.prefix,
-                    "</span>\n            </span>\n          "
-                  )),
-                (h =
-                  '\n            <span class="input-group-addon input-group-append bootstrap-touchspin-postfix input-group-append bootstrap-touchspin-injected">\n              <span class="input-group-text">'.concat(
-                    a.postfix,
-                    "</span>\n            </span>\n          "
-                  )),
-                a.verticalbuttons
-                  ? T(t).insertAfter(v)
-                  : (m.hasClass("input-group-btn") ||
-                    m.hasClass("input-group-prepend")
-                      ? ((l = '\n              <button tabindex="-1" class="'
-                          .concat(
-                            a.buttondown_class,
-                            ' bootstrap-touchspin-down bootstrap-touchspin-injected" type="button">'
-                          )
-                          .concat(a.buttondown_txt, "</button>\n            ")),
-                        m.append(l))
-                      : ((l =
-                          '\n              <span class="input-group-btn input-group-prepend bootstrap-touchspin-injected">\n                <button tabindex="-1" class="'
-                            .concat(
-                              a.buttondown_class,
-                              ' bootstrap-touchspin-down" type="button">'
-                            )
-                            .concat(
-                              a.buttondown_txt,
-                              "</button>\n              </span>\n            "
-                            )),
-                        T(l).insertBefore(v)),
-                    f.hasClass("input-group-btn") ||
-                    f.hasClass("input-group-append")
-                      ? ((d = '\n            <button tabindex="-1" class="'
-                          .concat(
-                            a.buttonup_class,
-                            ' bootstrap-touchspin-up bootstrap-touchspin-injected" type="button">'
-                          )
-                          .concat(a.buttonup_txt, "</button>\n          ")),
-                        f.prepend(d))
-                      : ((d =
-                          '\n            <span class="input-group-btn input-group-append bootstrap-touchspin-injected">\n              <button tabindex="-1" class="'
-                            .concat(
-                              a.buttonup_class,
-                              ' bootstrap-touchspin-up" type="button">'
-                            )
-                            .concat(
-                              a.buttonup_txt,
-                              "</button>\n            </span>\n          "
-                            )),
-                        T(d).insertAfter(v))),
-                T(b).insertBefore(v),
-                T(h).insertAfter(v),
-                (l = x))
-              : ((m = ""),
-                v.hasClass("input-sm") || v.hasClass("form-control-sm")
-                  ? (m = "input-group-sm")
-                  : (v.hasClass("input-lg") || v.hasClass("form-control-lg")) &&
-                    (m = "input-group-lg"),
-                (m = a.verticalbuttons
-                  ? '\n            <div class="input-group '
-                      .concat(
-                        m,
-                        ' bootstrap-touchspin bootstrap-touchspin-injected">\n              <span class="input-group-addon input-group-prepend bootstrap-touchspin-prefix">\n                <span class="input-group-text">'
-                      )
-                      .concat(
-                        a.prefix,
-                        '</span>\n              </span>\n              <span class="input-group-addon bootstrap-touchspin-postfix input-group-append">\n                <span class="input-group-text">'
-                      )
-                      .concat(
-                        a.postfix,
-                        "</span>\n              </span>\n              "
-                      )
-                      .concat(t, "\n            </div>\n          ")
-                  : '\n            <div class="input-group bootstrap-touchspin bootstrap-touchspin-injected">\n              <span class="input-group-btn input-group-prepend">\n                <button tabindex="-1" class="'
-                      .concat(
-                        a.buttondown_class,
-                        ' bootstrap-touchspin-down" type="button">'
-                      )
-                      .concat(
-                        a.buttondown_txt,
-                        '</button>\n              </span>\n              <span class="input-group-addon bootstrap-touchspin-prefix input-group-prepend">\n                <span class="input-group-text">'
-                      )
-                      .concat(
-                        a.prefix,
-                        '</span>\n              </span>\n              <span class="input-group-addon bootstrap-touchspin-postfix input-group-append">\n                <span class="input-group-text">'
-                      )
-                      .concat(
-                        a.postfix,
-                        '</span>\n              </span>\n              <span class="input-group-btn input-group-append">\n                <button tabindex="-1" class="'
-                      )
-                      .concat(
-                        a.buttonup_class,
-                        ' bootstrap-touchspin-up" type="button">'
-                      )
-                      .concat(
-                        a.buttonup_txt,
-                        "</button>\n              </span>\n            </div>"
-                      )),
-                (l = T(m).insertBefore(v)),
-                T(".bootstrap-touchspin-prefix", l).after(v),
-                v.hasClass("input-sm") || v.hasClass("form-control-sm")
-                  ? l.addClass("input-group-sm")
-                  : (v.hasClass("input-lg") || v.hasClass("form-control-lg")) &&
-                    l.addClass("input-group-lg")),
-            (i = {
-              down: T(".bootstrap-touchspin-down", l),
-              up: T(".bootstrap-touchspin-up", l),
-              input: T("input", l),
-              prefix: T(".bootstrap-touchspin-prefix", l).addClass(
-                a.prefix_extraclass
-              ),
-              postfix: T(".bootstrap-touchspin-postfix", l).addClass(
-                a.postfix_extraclass
-              ),
-            }),
-            F(),
-            w(),
-            "undefined" != typeof MutationObserver &&
-              new MutationObserver(function (t) {
-                t.forEach(function (t) {
-                  "attributes" !== t.type ||
-                    ("disabled" !== t.attributeName &&
-                      "readonly" !== t.attributeName) ||
-                    F();
-                });
-              }).observe(v[0], { attributes: !0 }),
-            v.on("keydown.touchspin", function (t) {
-              var n = t.keyCode || t.which;
-              38 === n
-                ? ("up" !== y && (j(), S()), t.preventDefault())
-                : 40 === n
-                ? ("down" !== y && (D(), M()), t.preventDefault())
-                : (9 !== n && 13 !== n) || _();
-            }),
-            v.on("keyup.touchspin", function (t) {
-              t = t.keyCode || t.which;
-              (38 !== t && 40 !== t) || P();
-            }),
-            T(document).on("mousedown touchstart", function (t) {
-              T(t.target).is(v) || _();
-            }),
-            v.on("blur.touchspin", function () {
-              _();
-            }),
-            i.down.on("keydown", function (t) {
-              var n = t.keyCode || t.which;
-              (32 !== n && 13 !== n) ||
-                ("down" !== y && (D(), M()), t.preventDefault());
-            }),
-            i.down.on("keyup.touchspin", function (t) {
-              t = t.keyCode || t.which;
-              (32 !== t && 13 !== t) || P();
-            }),
-            i.up.on("keydown.touchspin", function (t) {
-              var n = t.keyCode || t.which;
-              (32 !== n && 13 !== n) ||
-                ("up" !== y && (j(), S()), t.preventDefault());
-            }),
-            i.up.on("keyup.touchspin", function (t) {
-              t = t.keyCode || t.which;
-              (32 !== t && 13 !== t) || P();
-            }),
-            i.down.on("mousedown.touchspin", function (t) {
-              i.down.off("touchstart.touchspin"),
-                v.is(":disabled,[readonly]") ||
-                  (D(), M(), t.preventDefault(), t.stopPropagation());
-            }),
-            i.down.on("touchstart.touchspin", function (t) {
-              i.down.off("mousedown.touchspin"),
-                v.is(":disabled,[readonly]") ||
-                  (D(), M(), t.preventDefault(), t.stopPropagation());
-            }),
-            i.up.on("mousedown.touchspin", function (t) {
-              i.up.off("touchstart.touchspin"),
-                v.is(":disabled,[readonly]") ||
-                  (j(), S(), t.preventDefault(), t.stopPropagation());
-            }),
-            i.up.on("touchstart.touchspin", function (t) {
-              i.up.off("mousedown.touchspin"),
-                v.is(":disabled,[readonly]") ||
-                  (j(), S(), t.preventDefault(), t.stopPropagation());
-            }),
-            i.up.on(
-              "mouseup.touchspin mouseout.touchspin touchleave.touchspin touchend.touchspin touchcancel.touchspin",
-              function (t) {
-                y && (t.stopPropagation(), P());
-              }
-            ),
-            i.down.on(
-              "mouseup.touchspin mouseout.touchspin touchleave.touchspin touchend.touchspin touchcancel.touchspin",
-              function (t) {
-                y && (t.stopPropagation(), P());
-              }
-            ),
-            i.down.on("mousemove.touchspin touchmove.touchspin", function (t) {
-              y && (t.stopPropagation(), t.preventDefault());
-            }),
-            i.up.on("mousemove.touchspin touchmove.touchspin", function (t) {
-              y && (t.stopPropagation(), t.preventDefault());
-            }),
-            v.on("mousewheel.touchspin DOMMouseScroll.touchspin", function (t) {
-              var n;
-              a.mousewheel &&
-                v.is(":focus") &&
-                ((n =
-                  t.originalEvent.wheelDelta ||
-                  -t.originalEvent.deltaY ||
-                  -t.originalEvent.detail),
-                t.stopPropagation(),
-                t.preventDefault(),
-                (n < 0 ? D : j)());
-            }),
-            v.on("touchspin.destroy", function () {
-              var t = v.parent();
-              P(),
-                v.off(".touchspin"),
-                t.hasClass("bootstrap-touchspin-injected")
-                  ? (v.siblings().remove(), v.unwrap())
-                  : (T(".bootstrap-touchspin-injected", t).remove(),
-                    t.removeClass("bootstrap-touchspin")),
-                v.data("alreadyinitialized", !1);
-            }),
-            v.on("touchspin.uponce", function () {
-              P(), j();
-            }),
-            v.on("touchspin.downonce", function () {
-              P(), D();
-            }),
-            v.on("touchspin.startupspin", function () {
-              S();
-            }),
-            v.on("touchspin.startdownspin", function () {
-              M();
-            }),
-            v.on("touchspin.stopspin", function () {
-              P();
-            }),
-            v.on("touchspin.updatesettings", function (t, n) {
-              var o = n;
-              (a = T.extend({}, a, o)),
-                o.postfix &&
-                  (0 ===
-                    v.parent().find(".bootstrap-touchspin-postfix").length &&
-                    s.insertAfter(v),
-                  v
-                    .parent()
-                    .find(".bootstrap-touchspin-postfix .input-group-text")
-                    .text(o.postfix)),
-                o.prefix &&
-                  (0 ===
-                    v.parent().find(".bootstrap-touchspin-prefix").length &&
-                    e.insertBefore(v),
-                  v
-                    .parent()
-                    .find(".bootstrap-touchspin-prefix .input-group-text")
-                    .text(o.prefix)),
-                w(),
-                _(),
-                "" !== (n = i.input.val()) &&
-                  ((n = parseFloat(
-                    a.callback_before_calculation(i.input.val())
-                  )),
-                  i.input.val(
-                    a.callback_after_calculation(
-                      parseFloat(n).toFixed(a.decimals)
-                    )
-                  ));
-            }))
-          : console.log("Must be an input."));
+      var g,
+        j,
+        k,
+        l,
+        m,
+        n,
+        o,
+        p,
+        h = a(this),
+        i = h.data(),
+        q = 0,
+        r = !1;
+      s();
     });
   };
-});
+})(jQuery);

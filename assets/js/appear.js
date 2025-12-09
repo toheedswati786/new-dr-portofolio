@@ -1,81 +1,120 @@
-!(function (p) {
-  (p.fn.appear = function (r, e) {
-    var d = p.extend({ data: void 0, one: !0, accX: 0, accY: 0 }, e);
-    return this.each(function () {
-      var l = p(this);
-      if (((l.appeared = !1), r)) {
-        var h = p(window),
-          a = function () {
-            if (l.is(":visible")) {
-              var e = h.scrollLeft(),
-                a = h.scrollTop(),
-                r = l.offset(),
-                p = r.left,
-                n = r.top,
-                t = d.accX,
-                c = d.accY,
-                i = l.height(),
-                o = h.height(),
-                f = l.width(),
-                s = h.width();
-              a <= n + i + c &&
-              n <= a + o + c &&
-              e <= p + f + t &&
-              p <= e + s + t
-                ? l.appeared || l.trigger("appear", d.data)
-                : (l.appeared = !1);
-            } else l.appeared = !1;
-          },
-          e = function () {
-            if (((l.appeared = !0), d.one)) {
-              h.unbind("scroll", a);
-              var e = p.inArray(a, p.fn.appear.checks);
-              0 <= e && p.fn.appear.checks.splice(e, 1);
-            }
-            r.apply(this, arguments);
-          };
-        d.one ? l.one("appear", d.data, e) : l.bind("appear", d.data, e),
-          h.scroll(a),
-          p.fn.appear.checks.push(a),
-          a();
-      } else l.trigger("appear", d.data);
-    });
-  }),
-    p.extend(p.fn.appear, {
-      checks: [],
-      timeout: null,
-      checkAll: function () {
-        var e = p.fn.appear.checks.length;
-        if (0 < e) for (; e--; ) p.fn.appear.checks[e]();
-      },
-      run: function () {
-        p.fn.appear.timeout && clearTimeout(p.fn.appear.timeout),
-          (p.fn.appear.timeout = setTimeout(p.fn.appear.checkAll, 20));
-      },
-    }),
-    p.each(
-      [
-        "append",
-        "prepend",
-        "after",
-        "before",
-        "attr",
-        "removeAttr",
-        "addClass",
-        "removeClass",
-        "toggleClass",
-        "remove",
-        "css",
-        "show",
-        "hide",
-      ],
-      function (e, a) {
-        var r = p.fn[a];
-        r &&
-          (p.fn[a] = function () {
-            var e = r.apply(this, arguments);
-            return p.fn.appear.run(), e;
-          });
+(function ($) {
+  var selectors = [];
+
+  var checkBinded = false;
+  var checkLock = false;
+  var defaults = {
+    interval: 250,
+    force_process: false
+  };
+  var $window = $(window);
+
+  var $priorAppeared = [];
+
+  function isAppeared() {
+    return $(this).is(':appeared');
+  }
+
+  function isNotTriggered() {
+    return !$(this).data('_appear_triggered');
+  }
+
+  function process() {
+    checkLock = false;
+
+    for (var index = 0, selectorsLength = selectors.length; index < selectorsLength; index++) {
+      var $appeared = $(selectors[index]).filter(isAppeared);
+
+      $appeared
+        .filter(isNotTriggered)
+        .data('_appear_triggered', true)
+        .trigger('appear', [$appeared]);
+
+      if ($priorAppeared[index]) {
+        var $disappeared = $priorAppeared[index].not($appeared);
+        $disappeared
+          .data('_appear_triggered', false)
+          .trigger('disappear', [$disappeared]);
       }
-    );
-})(jQuery);
+      $priorAppeared[index] = $appeared;
+    }
+  }
+
+  function addSelector(selector) {
+    selectors.push(selector);
+    $priorAppeared.push();
+  }
+
+  // ":appeared" custom filter
+  $.expr.pseudos.appeared = $.expr.createPseudo(function (_arg) {
+    return function (element) {
+      var $element = $(element);
+
+      if (!$element.is(':visible')) {
+        return false;
+      }
+
+      var windowLeft = $window.scrollLeft();
+      var windowTop = $window.scrollTop();
+      var offset = $element.offset();
+      var left = offset.left;
+      var top = offset.top;
+
+      if (top + $element.height() >= windowTop &&
+          top - ($element.data('appear-top-offset') || 0) <= windowTop + $window.height() &&
+          left + $element.width() >= windowLeft &&
+          left - ($element.data('appear-left-offset') || 0) <= windowLeft + $window.width()) {
+        return true;
+      }
+      return false;
+    };
+  });
+
+  $.fn.extend({
+    // watching for element's appearance in browser viewport
+    appear: function (selector, options) {
+      $.appear(this, options);
+      return this;
+    }
+  });
+
+  $.extend({
+    appear: function (selector, options) {
+      var opts = $.extend({}, defaults, options || {});
+
+      if (!checkBinded) {
+        var onCheck = function () {
+          if (checkLock) {
+            return;
+          }
+          checkLock = true;
+
+          setTimeout(process, opts.interval);
+        };
+
+        $(window).scroll(onCheck).resize(onCheck);
+        checkBinded = true;
+      }
+
+      if (opts.force_process) {
+        setTimeout(process, opts.interval);
+      }
+
+      addSelector(selector);
+    },
+    // force elements's appearance check
+    force_appear: function () {
+      if (checkBinded) {
+        process();
+        return true;
+      }
+      return false;
+    }
+  });
+}(function () {
+  if (typeof module !== 'undefined') {
+    // Node
+    return require('jquery');
+  }
+  return jQuery;
+}()));
