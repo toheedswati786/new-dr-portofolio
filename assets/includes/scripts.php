@@ -1,0 +1,10 @@
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-dropdown-ml-hack.min.js"></script>
+    <script src="assets/js/cursor.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/appear.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
