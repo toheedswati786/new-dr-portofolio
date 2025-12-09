@@ -18,19 +18,19 @@
             <div class="col-lg-6">
               <div class="hero_content_wrap">
                 <h1 class="heading_text">
-                  Private Mental Health Consultation from a Professional
+                  Coaching & Mentorship for Emotional Resilience
                 </h1>
                 <p class="heading_description">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Sed ut perspiciatis unde omnis iste
-                  natus error sit voluptatem
+                  <b>Dr. Najmun Riyaz, MD </b>is a board-certified psychiatrist and trauma‑informed mentor
+                  supporting people who feel overwhelmed, over-responsible, or emotionally drained to
+                  rediscover calm, clarity, and self‑respect. 
                 </p>
                 <ul class="btns_group unordered_list">
                   <li>
-                    <a class="btn btn-primary" href="contact.php"><span class="btn_text" data-text="Get A Consultation">Get A Consultation </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                    <a class="btn btn-primary" href="contact.php"><span class="btn_text" data-text="Book a Session">Book a Session</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                   </li>
                   <li>
-                    <a class="btn btn-outline-secondary" href="about.php"><span class="btn_text" data-text="Learn More">Learn More </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                    <a class="btn btn-outline-secondary" href="about.php"><span class="btn_text" data-text="Learn More">Learn About Coaching & Mentorship</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                   </li>
                 </ul>
                 <ul class="hero_section_counter unordered_list">
@@ -978,7 +978,7 @@
         </div>
       </section>
     </main>
-      <?php include __DIR__ . '/assets/includes/footer.php'; ?>
+    <?php include __DIR__ . '/assets/includes/footer.php'; ?>
 
   </div>
   <?php include __DIR__ . '/assets/includes/scripts.php'; ?>

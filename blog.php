@@ -18,14 +18,8 @@
       <section class="page_banner decoration_wrapper">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-6">
-              <h1 class="page_title mb-0">Blog Grid</h1>
-            </div>
-            <div class="col-lg-6">
-              <ul class="breadcrumb_nav unordered_list justify-content-md-end justify-content-center">
-                <li><a href="home.php">Home</a></li>
-                <li>Blog Grid</li>
-              </ul>
+            <div class="col-lg-12">
+              <h1 class="page_title mb-0">Blog</h1>
             </div>
           </div>
         </div>

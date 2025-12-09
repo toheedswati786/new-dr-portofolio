@@ -1,205 +1,25 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,shrink-to-fit=no"
-    />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>
-      Сontact Details - Talking Minds – Psychotherapist Site Template
-    </title>
-    <link
-      rel="shortcut icon"
-      href="assets/images/site_logo/favourite_icon.svg"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/css/fontawesome.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/cursor.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/css/slick-theme.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/css/magnific-popup.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="assets/css/odometer.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.min.css" />
+    <?php include __DIR__ . '/assets/includes/links.php'; ?>
+  <style>
+    .flip-vertical {
+  transform: scaleX(-1);
+}
+  </style>
   </head>
   <body>
     <div class="page_wrapper">
       <div class="backtotop">
         <a href="#" class="scroll"><i class="fa-solid fa-arrow-up"></i></a>
       </div>
-      <header class="site_header">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-3 col-5">
-              <div class="site_logo">
-                <a class="site_link" href="home.php"
-                  ><img
-                    src="assets/images/site_logo/site_logo_primary.svg"
-                    alt="Site Logo – Talking Minds – Psychotherapist Site Template"
-                /></a>
-              </div>
-            </div>
-            <div class="col-lg-6 col-2">
-              <nav class="main_menu navbar navbar-expand-lg">
-                <div
-                  class="main_menu_inner collapse navbar-collapse justify-content-center"
-                  id="main_menu_dropdown"
-                >
-                  <ul class="main_menu_list unordered_list">
-                    <li><a class="nav-link" href="home.php">Home</a></li>
-                    <li><a class="nav-link" href="about.php">About</a></li>
-                    <li class="dropdown">
-                      <a
-                        class="nav-link"
-                        href="#"
-                        id="programs_submenu"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                        >Programs</a
-                      >
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="programs_submenu"
-                      >
-                        <li><a href="service.html">Our Services</a></li>
-                        <li>
-                          <a href="service_details.html">Depression Therapy</a>
-                        </li>
-                        <li>
-                          <a href="service_details_2.html">Relationships</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a
-                        class="nav-link"
-                        href="#"
-                        id="help_submenu"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                        >Help</a
-                      >
-                      <ul class="dropdown-menu" aria-labelledby="help_submenu">
-                        <li><a href="team.html">Our Team</a></li>
-                        <li><a href="gallery.html">Our Gallery</a></li>
-                        <li class="dropdown">
-                          <a
-                            class="nav-link"
-                            href="#"
-                            id="blog_submenu"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                            >Blogs</a
-                          >
-                          <ul
-                            class="dropdown-menu"
-                            aria-labelledby="blog_submenu"
-                          >
-                            <li><a href="blog.php">Blog Grid</a></li>
-                            <li><a href="blog_list.html">Blog Listing</a></li>
-                            <li><a href="blog_details.php">Blog Details</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="faq.html">F.A.Q.</a></li>
-                        <li><a href="error.html">404 Error</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown active">
-                      <a
-                        class="nav-link"
-                        href="#"
-                        id="contact_submenu"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                        >Contact</a
-                      >
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="contact_submenu"
-                      >
-                        <li>
-                          <a class="nav-link" href="contact.php"
-                            >Clinic Contacts</a
-                          >
-                        </li>
-                        <li>
-                          <a class="nav-link" href="contact_2.html"
-                            >Contact Information</a
-                          >
-                        </li>
-                        <li class="active">
-                          <a class="nav-link" href="contact_3.html"
-                            >Contact Details</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-            <div class="col-lg-3 col-5">
-              <ul class="header_btns_group unordered_list justify-content-end">
-                <li>
-                  <button
-                    class="mobile_menu_btn"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#main_menu_dropdown"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <i class="far fa-bars"></i>
-                  </button>
-                </li>
-                <li>
-                  <a class="btn_hotline" href="tel:+8801680636189"
-                    ><span class="btn_icon"
-                      ><i class="fa-solid fa-phone"></i> </span
-                    ><span class="btn_text">+880-1680-6361-89</span></a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header>
-      <main class="page_content">
-        <section class="page_banner decoration_wrapper">
+      <?php include __DIR__ . '/assets/includes/header.php'; ?>
+      <main class="page_content" >
+        <section class="page_banner decoration_wrapper" >
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-lg-6">
-                <h1 class="page_title mb-0">Сontact Details</h1>
-              </div>
-              <div class="col-lg-6">
-                <ul
-                  class="breadcrumb_nav unordered_list justify-content-lg-end justify-content-center"
-                >
-                  <li><a href="home.php">Home</a></li>
-                  <li>Contact V3</li>
-                </ul>
+              <div class="col-lg-12">
+                <h1 class="page_title mb-0">Сontact Us</h1>
               </div>
             </div>
           </div>
@@ -216,122 +36,13 @@
             />
           </div>
         </section>
-        <section class="contact_section section_space_lg pb-0">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-6">
-                <div class="section_heading">
-                  <h2 class="section_heading_text">Contact Info</h2>
-                  <p class="section_heading_description mb-0">
-                    If you are going to use a passage of Lorem Ipsum, you need
-                    to be sure there isn't anything embarrassing hidden
-                  </p>
-                </div>
-                <div class="row">
-                  <div class="col-md-6 col-sm-6">
-                    <div class="contact_info_box">
-                      <div class="item_icon">
-                        <i class="fa-solid fa-phone"></i>
-                      </div>
-                      <div class="item_contact">
-                        <h3 class="item_title">Phone</h3>
-                        <ul class="info_list unordered_list_block">
-                          <li>
-                            <span class="info_text">+880-1680-6361-89</span>
-                          </li>
-                          <li>
-                            <span class="info_text">+1-234-56-78-123</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <div class="contact_info_box">
-                      <div class="item_icon">
-                        <i class="fa-solid fa-phone"></i>
-                      </div>
-                      <div class="item_contact">
-                        <h3 class="item_title">Email</h3>
-                        <ul class="info_list unordered_list_block">
-                          <li>
-                            <span class="info_text">info@talkingminds.com</span>
-                          </li>
-                          <li>
-                            <span class="info_text"
-                              >contact@talkingminds.com</span
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <div class="contact_info_box">
-                      <div class="item_icon">
-                        <i class="fa-solid fa-phone"></i>
-                      </div>
-                      <div class="item_contact">
-                        <h3 class="item_title">Address</h3>
-                        <ul class="info_list unordered_list_block">
-                          <li>
-                            <span class="info_text">49, Caradon Hill,</span>
-                          </li>
-                          <li><span class="info_text">ULBSTER</span></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <div class="contact_info_box">
-                      <div class="item_icon">
-                        <i class="fa-solid fa-phone"></i>
-                      </div>
-                      <div class="item_contact">
-                        <h3 class="item_title">Working Hours</h3>
-                        <ul class="info_list unordered_list_block">
-                          <li>
-                            <span class="info_text"
-                              >Mon to Fri 8 am - 6 pm</span
-                            >
-                          </li>
-                          <li>
-                            <span class="info_text"
-                              >Sat to Sun 9 am - 2 pm</span
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="gmap_canvas">
-                  <iframe
-                    src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="consultation_section section_space_lg">
+        <section class="consultation_section section_space_lg"style="padding-top: 10px !important;">
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6">
-                <div class="image_widget">
-                  <img
-                    src="assets/images/about/about_image_17-min.jpg"
-                    alt="About Image - Talking Minds – Psychotherapist Site Template"
-                  />
-                  <div class="image_shape bg_secondary_light"></div>
-                </div>
-              </div>
-              <div class="col-lg-6">
                 <div class="section_heading">
                   <h2 class="section_heading_text mb-0">
-                    Take Care of Your Mental Health
+                    Get In Touch With Us
                   </h2>
                 </div>
                 <div class="row">
@@ -359,30 +70,14 @@
                       />
                     </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <div class="form-group">
-                      <label for="select_therapy">Section</label>
-                      <select
-                        id="select_therapy"
-                        class="form-select"
-                        aria-label="Therapy Select Options"
-                      >
-                        <option selected="selected">Select Therapy</option>
-                        <option value="Therapy One">Therapy One</option>
-                        <option value="Therapy Two">Therapy Two</option>
-                        <option value="Therapy Three">Therapy Three</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label for="input_calendar">Phone</label>
-                      <input
-                        id="input_calendar"
+                      <label for="input_msg">Message</label>
+                      <textarea id="input_msg"
                         class="form-control"
-                        type="date"
-                        name="date"
-                      />
+                        type="tel"
+                        name="phone"
+                        placeholder="Enter Your Message"></textarea>
                     </div>
                   </div>
                 </div>
@@ -396,117 +91,21 @@
                   </button>
                 </div>
               </div>
+              <div class="col-lg-6">
+                <div class="image_widget">
+                  <img
+                    src="assets/images/about/about_image_17-min.jpg" class="flip-vertical" style="border: 1px solid #41132b;"
+                    alt="About Image - Talking Minds – Psychotherapist Site Template"
+                  />
+                  <div class="image_shape bg_secondary_light"></div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
       </main>
-      <footer class="site_footer bg_primary">
-        <div class="container">
-          <div class="site_footer_content">
-            <div class="row align-items-center">
-              <div class="col-lg-3">
-                <div class="site_logo">
-                  <a class="site_link" href="home.php"
-                    ><img
-                      src="assets/images/site_logo/site_logo_white.svg"
-                      alt="Site Logo – Talking Minds – Psychotherapist Site Template"
-                  /></a>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <ul class="info_list unordered_list justify-content-center">
-                  <li>
-                    <a href="home.php"
-                      ><span class="info_icon"
-                        ><i class="fa-solid fa-circle"></i> </span
-                      ><span class="info_text">Home</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="about.php"
-                      ><span class="info_icon"
-                        ><i class="fa-solid fa-circle"></i> </span
-                      ><span class="info_text">About</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="service.html"
-                      ><span class="info_icon"
-                        ><i class="fa-solid fa-circle"></i> </span
-                      ><span class="info_text">Program</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="blog.php"
-                      ><span class="info_icon"
-                        ><i class="fa-solid fa-circle"></i> </span
-                      ><span class="info_text">Blog</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="gallery.html"
-                      ><span class="info_icon"
-                        ><i class="fa-solid fa-circle"></i> </span
-                      ><span class="info_text">Gallery</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="contact.php"
-                      ><span class="info_icon"
-                        ><i class="fa-solid fa-circle"></i> </span
-                      ><span class="info_text">Contacts</span></a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-3">
-                <ul
-                  class="social_links unordered_list justify-content-center justify-content-lg-end"
-                >
-                  <li>
-                    <a href="#!"><i class="fa-brands fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fa-brands fa-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fa-brands fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#!"><i class="fa-brands fa-whatsapp"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="copyright_widget text-center">
-            <p class="copyright_text m-0">
-              Merkulove © <b>TalkingMinds</b> Template All rights reserved
-              Copyrights 2023
-            </p>
-          </div>
-        </div>
-      </footer>
+      <?php include __DIR__ . '/assets/includes/footer.php'; ?>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/bootstrap-dropdown-ml-hack.min.js"></script>
-    <script src="assets/js/cursor.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="assets/js/appear.min.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/main.min.js"></script>
-    <script async="" src="../gtag/js?id=G-8CZB4YJTLB"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-8CZB4YJTLB");
-    </script>
+    <?php include __DIR__ . '/assets/includes/scripts.php'; ?>
   </body>
 </html>
