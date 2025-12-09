@@ -71,10 +71,10 @@
                             class="dropdown-menu"
                             aria-labelledby="blog_submenu"
                           >
-                            <li><a href="blog.html">Blog Grid</a></li>
+                            <li><a href="blog.php">Blog Grid</a></li>
                             <li><a href="blog_list.html">Blog Listing</a></li>
                             <li>
-                              <a href="blog_details.html">Blog Details</a>
+                              <a href="blog_details.php">Blog Details</a>
                             </li>
                           </ul>
                         </li>
@@ -97,7 +97,7 @@
                         aria-labelledby="contact_submenu"
                       >
                         <li>
-                          <a class="nav-link" href="contact.html"
+                          <a class="nav-link" href="contact.php"
                             >Clinic Contacts</a
                           >
                         </li>

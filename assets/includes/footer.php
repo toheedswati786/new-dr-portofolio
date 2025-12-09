@@ -21,13 +21,13 @@
                             <a href="service.html"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Program</span></a>
                         </li>
                         <li>
-                            <a href="blog.html"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Blog</span></a>
+                            <a href="blog.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Blog</span></a>
                         </li>
                         <li>
                             <a href="gallery.html"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Gallery</span></a>
                         </li>
                         <li>
-                            <a href="contact.html"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Contacts</span></a>
+                            <a href="contact.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Contacts</span></a>
                         </li>
                     </ul>
                 </div>

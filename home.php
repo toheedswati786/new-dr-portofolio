@@ -27,7 +27,7 @@
                 </p>
                 <ul class="btns_group unordered_list">
                   <li>
-                    <a class="btn btn-primary" href="contact.html"><span class="btn_text" data-text="Get A Consultation">Get A Consultation </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                    <a class="btn btn-primary" href="contact.php"><span class="btn_text" data-text="Get A Consultation">Get A Consultation </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                   </li>
                   <li>
                     <a class="btn btn-outline-secondary" href="about.php"><span class="btn_text" data-text="Learn More">Learn More </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
@@ -620,7 +620,7 @@
                 <h2 class="section_heading_text mb-0">Latest Articles</h2>
               </div>
               <div class="col-md-6 d-none d-md-flex justify-content-end">
-                <a class="btn btn-primary" href="blog.html"><span class="btn_text" data-text="Read More Articles">Read More Articles </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                <a class="btn btn-primary" href="blog.php"><span class="btn_text" data-text="Read More Articles">Read More Articles </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
               </div>
             </div>
           </div>
@@ -628,7 +628,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="blog_item">
                 <div class="blog_image">
-                  <a class="blog_image_wrap" href="blog_details.html"><img
+                  <a class="blog_image_wrap" href="blog_details.php"><img
                       src="assets/images/blogs/blog_image_1-min.jpg"
                       alt="Talking Minds - The pros and cons of group psychotherapy" /></a>
                 </div>
@@ -642,14 +642,14 @@
                     <li><a href="#!">No Comments</a></li>
                   </ul>
                   <h3 class="item_title">
-                    <a href="blog_details.html">The pros and cons of group psychotherapy</a>
+                    <a href="blog_details.php">The pros and cons of group psychotherapy</a>
                   </h3>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Sunt in similique culpa qui officia
                     deserunt.
                   </p>
-                  <a class="btn-link" href="blog_details.html"><span class="btn_text" style="color: #894198;">Read More</span>
+                  <a class="btn-link" href="blog_details.php"><span class="btn_text" style="color: #894198;">Read More</span>
                     <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
@@ -657,7 +657,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="blog_item">
                 <div class="blog_image">
-                  <a class="blog_image_wrap" href="blog_details.html"><img
+                  <a class="blog_image_wrap" href="blog_details.php"><img
                       src="assets/images/blogs/blog_image_2-min.jpg"
                       alt="Talking Minds - Top seven challenges in counselling children" /></a>
                 </div>
@@ -671,14 +671,14 @@
                     <li><a href="#!">No Comments</a></li>
                   </ul>
                   <h3 class="item_title">
-                    <a href="blog_details.html">Top seven challenges in counselling children</a>
+                    <a href="blog_details.php">Top seven challenges in counselling children</a>
                   </h3>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Sunt in similique culpa qui officia
                     deserunt.
                   </p>
-                  <a class="btn-link" href="blog_details.html"><span class="btn_text" style="color: #894198;">Read More</span>
+                  <a class="btn-link" href="blog_details.php"><span class="btn_text" style="color: #894198;">Read More</span>
                     <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
@@ -686,7 +686,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="blog_item">
                 <div class="blog_image">
-                  <a class="blog_image_wrap" href="blog_details.html"><img
+                  <a class="blog_image_wrap" href="blog_details.php"><img
                       src="assets/images/blogs/blog_image_3-min.jpg"
                       alt="Talking Minds - Actions, types and tips for finding group therapy" /></a>
                 </div>
@@ -700,21 +700,21 @@
                     <li><a href="#!">No Comments</a></li>
                   </ul>
                   <h3 class="item_title">
-                    <a href="blog_details.html">Actions, types and tips for finding group therapy</a>
+                    <a href="blog_details.php">Actions, types and tips for finding group therapy</a>
                   </h3>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Sunt in similique culpa qui officia
                     deserunt.
                   </p>
-                  <a class="btn-link" href="blog_details.html"><span class="btn_text" style="color: #894198;">Read More</span>
+                  <a class="btn-link" href="blog_details.php"><span class="btn_text" style="color: #894198;">Read More</span>
                     <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="btn_wrap pb-0 text-center d-md-none d-block">
-            <a class="btn btn-primary" href="blog.html"><span class="btn_text" data-text="Read More Articles">Read More Articles </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+            <a class="btn btn-primary" href="blog.php"><span class="btn_text" data-text="Read More Articles">Read More Articles </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
           </div>
         </div>
       </section>

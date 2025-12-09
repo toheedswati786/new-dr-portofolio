@@ -40,6 +40,7 @@
   --bs-focus-ring-opacity: 0.25;
   --bs-focus-ring-color: rgba(38, 171, 163, 0.25);
 }
+
 body {
   margin: 0;
   padding: 0;
