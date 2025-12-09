@@ -11,19 +11,17 @@
       <a href="#" class="scroll"><i class="fa-solid fa-arrow-up"></i></a>
     </div>
     <?php include __DIR__ . '/assets/includes/header.php'; ?>
-    <main class="page_content">
-      <section class="hero_section decoration_wrapper">
+    <main class="page_content" style="margin-bottom: 70px;">
+      <section class="hero_section decoration_wrapper" >
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="hero_content_wrap">
+            <div class="col-lg-6  order-lg-last" style="padding: 30px;">
+              <div class="hero_content_wrap" >
                 <h1 class="heading_text">
                   Coaching & Mentorship for Emotional Resilience
                 </h1>
-                <p class="heading_description">
-                  <b>Dr. Najmun Riyaz, MD </b>is a board-certified psychiatrist and trauma‑informed mentor
-                  supporting people who feel overwhelmed, over-responsible, or emotionally drained to
-                  rediscover calm, clarity, and self‑respect. 
+                <p class="heading_description" style="text-align: justify;">
+                  <b>Dr. Najmun Riyaz, MD </b>is a board-certified psychiatrist and trauma‑informed mentor supporting people who feel overwhelmed, over-responsible, or emotionally drained to rediscover calm, clarity, and self‑respect. 
                 </p>
                 <ul class="btns_group unordered_list">
                   <li>
@@ -31,44 +29,6 @@
                   </li>
                   <li>
                     <a class="btn btn-outline-secondary" href="about.php"><span class="btn_text" data-text="Learn More">Learn About Coaching & Mentorship</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
-                  </li>
-                </ul>
-                <ul class="hero_section_counter unordered_list">
-                  <li>
-                    <div class="counter_item">
-                      <div class="counter_value mb-0">
-                        <span class="odometer" data-count="20">0</span>
-                        <span>+</span>
-                      </div>
-                      <hr />
-                      <p class="counter_description mb-0">
-                        The years of our experience
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="counter_item">
-                      <div class="counter_value mb-0">
-                        <span class="odometer" data-count="840">0</span>
-                        <span>+</span>
-                      </div>
-                      <hr />
-                      <p class="counter_description mb-0">
-                        Patients received help this year
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="counter_item">
-                      <div class="counter_value mb-0">
-                        <span class="odometer" data-count="98">0</span>
-                        <span>%</span>
-                      </div>
-                      <hr />
-                      <p class="counter_description mb-0">
-                        Client improved their condition
-                      </p>
-                    </div>
                   </li>
                 </ul>
               </div>
@@ -89,77 +49,7 @@
             alt="Shape Leaf - Talking Minds - Psychotherapist Site Template" />
         </div>
       </section>
-      <section class="service_section section_space_lg bg_primary_light">
-        <div class="container">
-          <div class="section_heading text-center">
-            <h2 class="section_heading_text">What I'm Offer</h2>
-            <p class="section_heading_description mb-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
-            </p>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service_item">
-                <div class="item_icon">
-                  <img
-                    src="assets/images/icons/icon_brain.svg"
-                    alt="Brain Icon - Talking Minds – Psychotherapist Site Template" />
-                </div>
-                <div class="item_contact">
-                  <h3 class="item_title">Depression Therapy</h3>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusant doloremqe laudantium.
-                  </p>
-                  <a class="btn-link" href="service_details.html"><span class="btn_text" style="color: #894198;">More Info</span>
-                    <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service_item">
-                <div class="item_icon">
-                  <img
-                    src="assets/images/icons/icon_head_double.svg"
-                    alt="Head Double Icon - Talking Minds – Psychotherapist Site Template" />
-                </div>
-                <div class="item_contact">
-                  <h3 class="item_title">Couples Counseling</h3>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusant doloremqe laudantium.
-                  </p>
-                  <a class="btn-link" href="service_details.html"><span class="btn_text" style="color: #894198;">More Info</span>
-                    <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="service_item">
-                <div class="item_icon">
-                  <img
-                    src="assets/images/icons/icon_head.svg"
-                    alt="Brain Icon - Talking Minds – Psychotherapist Site Template" />
-                </div>
-                <div class="item_contact">
-                  <h3 class="item_title">Relationships</h3>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusant doloremqe laudantium.
-                  </p>
-                  <a class="btn-link" href="service_details.html"><span class="btn_text" style="color: #894198;">More Info</span>
-                    <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="btn_wrap pb-0 text-center">
-            <a class="btn btn-primary" href="service.html"><span class="btn_text" data-text="All Programs">All Programs </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
-          </div>
-        </div>
-      </section>
-      <section class="about_section section_space_lg">
+      <section class="about_section section_space_lg" style="padding-top: 10px !important;">
         <div class="container">
           <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6 order-lg-last">
@@ -179,36 +69,30 @@
               <div class="about_content">
                 <div class="section_heading mb-4">
                   <h2 class="section_heading_text">
-                    <mark>Dr. Merry Stone</mark> — Licensed Mental Health
-                    Counselor, Psychotherapist
+                    <mark>Dr. Dr. Najmun Riyaz</mark> — Psychiatrist & Trauma-Informed Coach
                   </h2>
                   <p class="section_heading_description mb-0">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page. Sed ut
-                    perspiciatis unde omnis iste natus error.
+                    Dr. Najmun helps individuals move through emotional overwhelm, relational challenges, and life transitions with clarity and compassion. Blending her clinical background with a gentle coaching approach, she guides people toward steadiness, self-awareness, and more intentional living.
                   </p>
                 </div>
                 <div class="row">
                   <div class="col-md-5 col-sm-6">
                     <ul class="info_list unordered_list_block">
                       <li>
-                        <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Personal Consultations</span>
+                        <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">One-on-One Coaching</span>
                       </li>
                       <li>
-                        <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Group Therapy</span>
-                      </li>
-                      <li>
-                        <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Online Therapy</span>
+                        <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Emotional & Relational Guidance</span>
                       </li>
                     </ul>
                   </div>
                   <div class="col-md-5 col-sm-6">
                     <ul class="info_list unordered_list_block">
                       <li>
-                        <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Unique technique</span>
+                        <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Online Global Sessions</span>
                       </li>
                       <li>
-                        <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Couple Problem</span>
+                        <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Trauma-Informed Mentorship</span>
                       </li>
                     </ul>
                   </div>
@@ -221,124 +105,292 @@
           </div>
         </div>
       </section>
-      <section
-        class="pricing_section section_space_lg bg_primary_light decoration_wrapper">
+      <section class="service_section section_space_lg bg_primary_light">
         <div class="container">
           <div class="section_heading text-center">
-            <h2 class="section_heading_text">Pricing Plans</h2>
+            <h2 class="section_heading_text">Coaching & Mentorship Overview</h2>
             <p class="section_heading_description mb-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
+              Guidance that brings you back to clarity, courage, and emotional steadiness.
             </p>
           </div>
-          <div class="pricing_toggle_btn_wrap">
-            <button class="pricing_toggle_btn" type="button">
-              <span>Monthly</span> <span>Annually <mark>Save 20%</mark></span>
-            </button>
-          </div>
           <div class="row justify-content-center">
-            <div class="col-lg-4">
-              <div class="pricing_item">
-                <h3 class="pricing_heading">Light Session</h3>
-                <div class="pricing_price_value">
-                  <span class="pricing_monthly">$150 <sub>Per Month</sub></span>
-                  <span class="pricing_annually">$1,440 <sub>You'll Save $360</sub></span>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="service_item">
+                <div class="item_icon">
+                  <img
+                    src="assets/images/icons/icon_brain.svg"
+                    alt="Brain Icon - Talking Minds – Psychotherapist Site Template" />
                 </div>
-                <hr />
-                <ul class="info_list unordered_list_block">
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">6 Session Therapy</span>
-                  </li>
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Duration 30 Minutes</span>
-                  </li>
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Group Meetting</span>
-                  </li>
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Personal Meeting</span>
-                  </li>
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Support 24 Hours</span>
-                  </li>
-                </ul>
-                <div class="btn_wrap pb-0 text-center">
-                  <a class="btn btn-outline-primary" href="#!"><span class="btn_text" data-text="Buy Now">Buy Now </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                <div class="item_contact">
+                  <h3 class="item_title">Personal Coaching</h3>
+                  <p>
+                    A one-on-one space where you can unpack emotional overwhelm, understand your patterns, and rebuild from a grounded, compassionate place.
+                  </p>
+                  <a class="btn-link" href="about.php"><span class="btn_text" style="color: #894198;">More Info</span>
+                    <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="pricing_item">
-                <h3 class="badge_popular">Most Popular</h3>
-                <h4 class="pricing_heading">Standart Session</h4>
-                <div class="pricing_price_value">
-                  <span class="pricing_monthly">$250 <sub>Per Month</sub></span>
-                  <span class="pricing_annually">$2,400 <sub>You'll Save $600</sub></span>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="service_item">
+                <div class="item_icon">
+                  <img
+                    src="assets/images/icons/icon_head_double.svg"
+                    alt="Head Double Icon - Talking Minds – Psychotherapist Site Template" />
                 </div>
-                <hr />
-                <ul class="info_list unordered_list_block">
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">10 Session Therapy</span>
-                  </li>
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Duration 30 Minutes</span>
-                  </li>
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Group Meetting</span>
-                  </li>
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Personal Meeting</span>
-                  </li>
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Support 24 Hours</span>
-                  </li>
-                </ul>
-                <div class="btn_wrap pb-0 text-center">
-                  <a class="btn btn-primary" href="#!"><span class="btn_text" data-text="Buy Now">Buy Now </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                <div class="item_contact">
+                  <h3 class="item_title">Emotional & Relational Mentorship</h3>
+                  <p>
+                    Support that helps you navigate relationships, communication struggles, and inner conflicts with more clarity, intention, and self-awareness.
+                  </p>
+                  <a class="btn-link" href="about.php"><span class="btn_text" style="color: #894198;">More Info</span>
+                    <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="pricing_item">
-                <h3 class="pricing_heading">Individual Session</h3>
-                <div class="pricing_price_value">
-                  <span class="pricing_monthly">$400 <sub>Per Month</sub></span>
-                  <span class="pricing_annually">$3,840 <sub>You'll Save $960</sub></span>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="service_item">
+                <div class="item_icon">
+                  <img
+                    src="assets/images/icons/icon_head.svg"
+                    alt="Brain Icon - Talking Minds – Psychotherapist Site Template" />
                 </div>
-                <hr />
-                <ul class="info_list unordered_list_block">
+                <div class="item_contact">
+                  <h3 class="item_title">Trauma-Informed Approach</h3>
+                  <p>
+                    Gentle, culturally aware guidance shaped by years of clinical experience—helping you move through life’s heaviness without feeling alone.
+                  </p>
+                  <a class="btn-link" href="about.php"><span class="btn_text" style="color: #894198;">More Info</span>
+                    <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn_wrap pb-0 text-center">
+            <a class="btn btn-primary" href="blog.php"><span class="btn_text" data-text="All Programs">Read Our Blogs</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+          </div>
+        </div>
+      </section>
+      <section class="faq_section" style="margin-top: 20px; margin-bottom: 20px;">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="images_group_widget">
+                <ul class="unordered_list">
                   <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">1 Year Therapy</span>
+                    <img
+                      src="assets/images/about/about_image_2-min.png"
+                      alt="Talking Minds - Psychotherapist Site Template" />
+                    <img
+                      src="assets/images/about/about_image_4-min.png"
+                      alt="Talking Minds - Psychotherapist Site Template" />
                   </li>
                   <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Duration 30 Minutes</span>
-                  </li>
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Group Meetting</span>
-                  </li>
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Personal Meeting</span>
-                  </li>
-                  <li>
-                    <span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Support 24 Hours</span>
+                    <img
+                      src="assets/images/about/about_image_3-min.png"
+                      alt="Talking Minds - Psychotherapist Site Template" />
+                    <img
+                      src="assets/images/about/about_image_5-min.png"
+                      alt="Talking Minds - Psychotherapist Site Template" />
                   </li>
                 </ul>
-                <div class="btn_wrap pb-0 text-center">
-                  <a class="btn btn-outline-primary" href="#!"><span class="btn_text" data-text="Buy Now">Buy Now </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="ps-lg-5">
+                <div class="section_heading mb-lg-4 mb-2">
+                  <h2 class="section_heading_text mb-0">
+                    Why Work With Dr. Najmun
+                  </h2>
+                </div>
+                <div class="accordion" id="faq_accordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header" id="heading_one">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse_one"
+                        aria-expanded="true"
+                        aria-controls="collapse_one">
+                        What makes her approach unique?
+                      </button>
+                    </div>
+                    <div
+                      id="collapse_one"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="heading_one"
+                      data-bs-parent="#faq_accordion">
+                      <div class="accordion-body">
+                        <p class="m-0">
+                          She blends clinical wisdom with a gentle coaching style, creating a space where you feel seen, heard, and supported without judgment.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header" id="heading_two">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse_two"
+                        aria-expanded="false"
+                        aria-controls="collapse_two">
+                        How does she support emotional healing?
+                      </button>
+                    </div>
+                    <div
+                      id="collapse_two"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading_two"
+                      data-bs-parent="#faq_accordion">
+                      <div class="accordion-body">
+                        <p class="m-0">
+                          Through calm, grounded conversations that help you understand your patterns, soften your overwhelm, and reclaim clarity in moments when life feels scattered.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header" id="heading_three">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse_three"
+                        aria-expanded="false"
+                        aria-controls="collapse_three">
+                        Is her guidance trauma-informed?
+                      </button>
+                    </div>
+                    <div
+                      id="collapse_three"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading_three"
+                      data-bs-parent="#faq_accordion">
+                      <div class="accordion-body">
+                        <p class="m-0">
+                          Yes. She approaches every story with sensitivity, honoring your history while helping you move forward at a pace that feels safe for you.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header" id="heading_four">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse_four"
+                        aria-expanded="false"
+                        aria-controls="collapse_four">
+                        Does she understand cultural nuances?
+                      </button>
+                    </div>
+                    <div
+                      id="collapse_four"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading_four"
+                      data-bs-parent="#faq_accordion">
+                      <div class="accordion-body">
+                        <p class="m-0">
+                          Deeply. Her work respects identity, family dynamics, and the emotional realities shaped by culture—so you never have to over-explain yourself.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header" id="heading_five">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse_five"
+                        aria-expanded="false"
+                        aria-controls="collapse_five">
+                        What can you expect during sessions?
+                      </button>
+                    </div>
+                    <div
+                      id="collapse_five"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading_five"
+                      data-bs-parent="#faq_accordion">
+                      <div class="accordion-body">
+                        <p class="m-0">
+                          Warm presence. Clear direction. Compassionate reflection. And practical steps that slowly guide you toward steadiness and self-trust.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="decoration_item shape_leaf_1">
-          <img
-            src="assets/images/shapes/shape_leaf_right_top.svg"
-            alt="Shape Leaf - Talking Minds - Psychotherapist Site Template" />
-        </div>
-        <div class="decoration_item shape_leaf_2">
-          <img
-            src="assets/images/shapes/shape_leaf_left_bottom.svg"
-            alt="Shape Leaf - Talking Minds - Psychotherapist Site Template" />
+      </section>
+      <section class="consultation_section">
+        <div class="container">
+          <div class="consultation_form bg_primary_light decoration_wrapper">
+            <div class="section_heading text-center">
+              <h2 class="section_heading_text mb-0">
+                <span class="d-md-block">Get in Touch With Us</span> 
+              </h2>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-4"></div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-7">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="input_name">Name</label>
+                      <input
+                        id="input_name"
+                        class="form-control"
+                        type="text"
+                        name="name"
+                        placeholder="Your Name" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="input_phone">Phone</label>
+                      <input
+                        id="input_phone"
+                        class="form-control"
+                        type="tel"
+                        name="phone"
+                        placeholder="Mobile phone number" />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label for="input_msg">Message</label>
+                        <textarea id="input_msg" class="form-control" type="text" name="message" placeholder="Enter Your Message"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="btn_wrap pb-0 text-center">
+                  <button type="submit" class="btn btn-primary">
+                    <span class="btn_text" data-text="Get A Consultation">Get A Consultation </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="decoration_item shape_leaf_1">
+              <img
+                src="assets/images/shapes/shape_leaf_right_top.svg"
+                alt="Shape Leaf - Talking Minds - Psychotherapist Site Template" />
+            </div>
+            <div class="decoration_item shape_leaf_2">
+              <img
+                src="assets/images/shapes/shape_leaf_left_bottom.svg"
+                alt="Shape Leaf - Talking Minds - Psychotherapist Site Template" />
+            </div>
+          </div>
         </div>
       </section>
       <section class="testimonial_section section_space_lg">
@@ -530,102 +582,20 @@
           </div>
         </div>
       </section>
-      <section class="consultation_section">
-        <div class="container">
-          <div class="consultation_form bg_primary_light decoration_wrapper">
-            <div class="section_heading text-center">
-              <h2 class="section_heading_text mb-0">
-                <span class="d-md-block">Get your first free</span> online
-                consultation
-              </h2>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-lg-4"></div>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-lg-7">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label for="input_name">Name</label>
-                      <input
-                        id="input_name"
-                        class="form-control"
-                        type="text"
-                        name="name"
-                        placeholder="Your Name" />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label for="input_phone">Phone</label>
-                      <input
-                        id="input_phone"
-                        class="form-control"
-                        type="tel"
-                        name="phone"
-                        placeholder="Mobile phone number" />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label for="select_therapy">Section</label>
-                      <select
-                        id="select_therapy"
-                        class="form-select"
-                        aria-label="Therapy Select Options">
-                        <option selected="selected">Select Therapy</option>
-                        <option value="Therapy One">Therapy One</option>
-                        <option value="Therapy Two">Therapy Two</option>
-                        <option value="Therapy Three">Therapy Three</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <label for="input_calendar">Phone</label>
-                      <input
-                        id="input_calendar"
-                        class="form-control"
-                        type="date"
-                        name="date" />
-                    </div>
-                  </div>
-                </div>
-                <div class="btn_wrap pb-0 text-center">
-                  <button type="submit" class="btn btn-primary">
-                    <span class="btn_text" data-text="Get A Consultation">Get A Consultation </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="decoration_item shape_leaf_1">
-              <img
-                src="assets/images/shapes/shape_leaf_right_top.svg"
-                alt="Shape Leaf - Talking Minds - Psychotherapist Site Template" />
-            </div>
-            <div class="decoration_item shape_leaf_2">
-              <img
-                src="assets/images/shapes/shape_leaf_left_bottom.svg"
-                alt="Shape Leaf - Talking Minds - Psychotherapist Site Template" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="blog_section section_space_lg">
+      <section class="blog_section section_space_lg" style="padding-top: 0px !important; padding-bottom: 100px !important;">
         <div class="container">
           <div class="section_heading">
             <div class="row align-items-center">
               <div class="col-md-6">
-                <h2 class="section_heading_text mb-0">Latest Articles</h2>
+                <h2 class="section_heading_text mb-0">Our Books</h2>
               </div>
               <div class="col-md-6 d-none d-md-flex justify-content-end">
-                <a class="btn btn-primary" href="blog.php"><span class="btn_text" data-text="Read More Articles">Read More Articles </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                <a class="btn btn-primary" href="blog.php"><span class="btn_text" data-text="Read More Articles">See More Resources </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
               </div>
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
               <div class="blog_item">
                 <div class="blog_image">
                   <a class="blog_image_wrap" href="blog_details.php"><img
@@ -633,14 +603,6 @@
                       alt="Talking Minds - The pros and cons of group psychotherapy" /></a>
                 </div>
                 <div class="blog_content">
-                  <ul class="post_category unordered_list">
-                    <li><a href="#!">Family Problem</a></li>
-                  </ul>
-                  <ul class="post_meta unordered_list">
-                    <li>26 July 2023</li>
-                    <li><a href="#!">120 Views</a></li>
-                    <li><a href="#!">No Comments</a></li>
-                  </ul>
                   <h3 class="item_title">
                     <a href="blog_details.php">The pros and cons of group psychotherapy</a>
                   </h3>
@@ -649,65 +611,28 @@
                     typesetting industry. Sunt in similique culpa qui officia
                     deserunt.
                   </p>
-                  <a class="btn-link" href="blog_details.php"><span class="btn_text" style="color: #894198;">Read More</span>
+                  <a class="btn-link" href="blog_details.php"><span class="btn_text" style="color: #894198;">Learn More</span>
                     <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
               <div class="blog_item">
                 <div class="blog_image">
                   <a class="blog_image_wrap" href="blog_details.php"><img
                       src="assets/images/blogs/blog_image_2-min.jpg"
-                      alt="Talking Minds - Top seven challenges in counselling children" /></a>
+                      alt="Talking Minds - The pros and cons of group psychotherapy" /></a>
                 </div>
                 <div class="blog_content">
-                  <ul class="post_category unordered_list">
-                    <li><a href="#!">Family Problem</a></li>
-                  </ul>
-                  <ul class="post_meta unordered_list">
-                    <li>26 July 2023</li>
-                    <li><a href="#!">120 Views</a></li>
-                    <li><a href="#!">No Comments</a></li>
-                  </ul>
                   <h3 class="item_title">
-                    <a href="blog_details.php">Top seven challenges in counselling children</a>
+                    <a href="blog_details.php">The pros and cons of group psychotherapy</a>
                   </h3>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Sunt in similique culpa qui officia
                     deserunt.
                   </p>
-                  <a class="btn-link" href="blog_details.php"><span class="btn_text" style="color: #894198;">Read More</span>
-                    <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="blog_item">
-                <div class="blog_image">
-                  <a class="blog_image_wrap" href="blog_details.php"><img
-                      src="assets/images/blogs/blog_image_3-min.jpg"
-                      alt="Talking Minds - Actions, types and tips for finding group therapy" /></a>
-                </div>
-                <div class="blog_content">
-                  <ul class="post_category unordered_list">
-                    <li><a href="#!">Family Problem</a></li>
-                  </ul>
-                  <ul class="post_meta unordered_list">
-                    <li>26 July 2023</li>
-                    <li><a href="#!">120 Views</a></li>
-                    <li><a href="#!">No Comments</a></li>
-                  </ul>
-                  <h3 class="item_title">
-                    <a href="blog_details.php">Actions, types and tips for finding group therapy</a>
-                  </h3>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Sunt in similique culpa qui officia
-                    deserunt.
-                  </p>
-                  <a class="btn-link" href="blog_details.php"><span class="btn_text" style="color: #894198;">Read More</span>
+                  <a class="btn-link" href="blog_details.php"><span class="btn_text" style="color: #894198;">Learn More</span>
                     <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
@@ -718,265 +643,7 @@
           </div>
         </div>
       </section>
-      <section class="faq_section">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="images_group_widget">
-                <ul class="unordered_list">
-                  <li>
-                    <img
-                      src="assets/images/about/about_image_2-min.png"
-                      alt="Talking Minds - Psychotherapist Site Template" />
-                    <img
-                      src="assets/images/about/about_image_4-min.png"
-                      alt="Talking Minds - Psychotherapist Site Template" />
-                  </li>
-                  <li>
-                    <img
-                      src="assets/images/about/about_image_3-min.png"
-                      alt="Talking Minds - Psychotherapist Site Template" />
-                    <img
-                      src="assets/images/about/about_image_5-min.png"
-                      alt="Talking Minds - Psychotherapist Site Template" />
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="ps-lg-5">
-                <div class="section_heading mb-lg-4 mb-2">
-                  <h2 class="section_heading_text mb-0">
-                    The most popular questions to discuss mental health
-                  </h2>
-                </div>
-                <div class="accordion" id="faq_accordion">
-                  <div class="accordion-item">
-                    <div class="accordion-header" id="heading_one">
-                      <button
-                        class="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapse_one"
-                        aria-expanded="true"
-                        aria-controls="collapse_one">
-                        What is mental health?
-                      </button>
-                    </div>
-                    <div
-                      id="collapse_one"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="heading_one"
-                      data-bs-parent="#faq_accordion">
-                      <div class="accordion-body">
-                        <p class="m-0">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <div class="accordion-header" id="heading_two">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapse_two"
-                        aria-expanded="false"
-                        aria-controls="collapse_two">
-                        What do I do if the support doesn't help?
-                      </button>
-                    </div>
-                    <div
-                      id="collapse_two"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="heading_two"
-                      data-bs-parent="#faq_accordion">
-                      <div class="accordion-body">
-                        <p class="m-0">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <div class="accordion-header" id="heading_three">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapse_three"
-                        aria-expanded="false"
-                        aria-controls="collapse_three">
-                        Can you prevent mental health problems?
-                      </button>
-                    </div>
-                    <div
-                      id="collapse_three"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="heading_three"
-                      data-bs-parent="#faq_accordion">
-                      <div class="accordion-body">
-                        <p class="m-0">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <div class="accordion-header" id="heading_four">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapse_four"
-                        aria-expanded="false"
-                        aria-controls="collapse_four">
-                        What are the 7 components of mental health?
-                      </button>
-                    </div>
-                    <div
-                      id="collapse_four"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="heading_four"
-                      data-bs-parent="#faq_accordion">
-                      <div class="accordion-body">
-                        <p class="m-0">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <div class="accordion-header" id="heading_five">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapse_five"
-                        aria-expanded="false"
-                        aria-controls="collapse_five">
-                        Are there cures for mental health problems?
-                      </button>
-                    </div>
-                    <div
-                      id="collapse_five"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="heading_five"
-                      data-bs-parent="#faq_accordion">
-                      <div class="accordion-body">
-                        <p class="m-0">
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="contact_section section_space_lg">
-        <div class="container">
-          <div class="row align-items-center justify-content-lg-between">
-            <div class="col-lg-5">
-              <div class="section_heading mb-lg-5">
-                <h2 class="section_heading_text">Contact Info</h2>
-                <p class="section_heading_description mb-0">
-                  If you are going to use a passage of Lorem Ipsum, you need
-                  to be sure there isn't anything embarrassing
-                </p>
-              </div>
-              <div class="row">
-                <div class="col-md-6 col-sm-6">
-                  <ul class="contact_info_list unordered_list_block">
-                    <li>
-                      <div class="item_icon">
-                        <i class="fa-solid fa-phone"></i>
-                      </div>
-                      <div class="item_content">
-                        <h3 class="item_title">Phone Number</h3>
-                        <p class="item_info mb-0">+1 234 56 78 123</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="item_icon">
-                        <i class="fa-solid fa-fax"></i>
-                      </div>
-                      <div class="item_content">
-                        <h3 class="item_title">Fax</h3>
-                        <p class="item_info mb-0">+1 234 56 78 123</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <ul class="contact_info_list unordered_list_block">
-                    <li>
-                      <div class="item_icon">
-                        <i class="fa-solid fa-envelope"></i>
-                      </div>
-                      <div class="item_content">
-                        <h3 class="item_title">Email</h3>
-                        <p class="item_info mb-0">info@talkingminds.com</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="item_icon">
-                        <i class="fa-solid fa-location-dot"></i>
-                      </div>
-                      <div class="item_content">
-                        <h3 class="item_title">Location</h3>
-                        <p class="item_info mb-0">
-                          49, Caradon Hill, ULBSTER
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="office_hour_list bg_primary_light mt-5">
-                <h3 class="area_title">Working Time</h3>
-                <ul class="unordered_list_block">
-                  <li>
-                    <span>Monday - Friday:</span> <span>8 am - 5 pm</span>
-                  </li>
-                  <li>
-                    <span>Saturday - Sunday</span> <span>9 am - 2 pm</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="gmap_canvas">
-                <iframe
-                  src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
     </main>
     <?php include __DIR__ . '/assets/includes/footer.php'; ?>
 
