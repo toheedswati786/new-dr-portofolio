@@ -15,14 +15,8 @@
       <section class="page_banner decoration_wrapper">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-6">
-              <h1 class="page_title mb-0">About</h1>
-            </div>
-            <div class="col-lg-6">
-              <ul class="breadcrumb_nav unordered_list justify-content-lg-end justify-content-center">
-                <li><a href="home.php">Home</a></li>
-                <li>About</li>
-              </ul>
+            <div class="col-lg-12">
+              <h1 class="page_title mb-0">My Youtube Videos</h1>
             </div>
           </div>
         </div>
@@ -35,12 +29,12 @@
             <h2 class="section_heading_text">Featured Videos</h2>
           </div>
           <div class="zoom-gallery row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_1-min.jpg"><img src="assets/images/gallery/gallery_image_1-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_2-min.jpg"><img src="assets/images/gallery/gallery_image_2-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_3-min.jpg"><img src="assets/images/gallery/gallery_image_3-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_4-min.jpg"><img src="assets/images/gallery/gallery_image_4-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_5-min.jpg"><img src="assets/images/gallery/gallery_image_5-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_6-min.jpg"><img src="assets/images/gallery/gallery_image_6-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_video" href="https://youtu.be/6QtcumiC7h8?si=FJrOALRbn_6G9Jhv"><img src="assets/images/youtube/img-banner-1.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_video" href="https://youtu.be/1UI7BstdU_k?si=wt1Vl9Qr9r2PInlT"><img src="assets/images/youtube/img-banner-2.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_video" href="https://youtu.be/0AbgAuKT0T8?si=SZ1-04AkmWOlpnxs"><img src="assets/images/youtube/img-banner-3.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_video" href=""><img src="assets/images/youtube/img-banner-3.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_video" href=""><img src="assets/images/youtube/img-banner-1.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_video" href=""><img src="assets/images/youtube/img-banner-2.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
           </div>
         </div>
       </section>
@@ -51,12 +45,12 @@
             <h2 class="section_heading_text">Premium Playlists</h2>
           </div>
           <div class="zoom-gallery row justify-content-center">
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_1-min.jpg"><img src="assets/images/gallery/gallery_image_1-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_2-min.jpg"><img src="assets/images/gallery/gallery_image_2-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_3-min.jpg"><img src="assets/images/gallery/gallery_image_3-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_4-min.jpg"><img src="assets/images/gallery/gallery_image_4-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_5-min.jpg"><img src="assets/images/gallery/gallery_image_5-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
-            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item popup_image" href="assets/images/gallery/gallery_image_6-min.jpg"><img src="assets/images/gallery/gallery_image_6-min.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item " href="#"><img src="assets/images/youtube/img-banner-1.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item " href="#"><img src="assets/images/youtube/img-banner-1.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item " href="#"><img src="assets/images/youtube/img-banner-1.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item " href="#"><img src="assets/images/youtube/img-banner-1.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item " href="#"><img src="assets/images/youtube/img-banner-1.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><a class="gallery_item " href="#"><img src="assets/images/youtube/img-banner-1.jpg" alt="Talking Minds - Psychotherapist Site Template"></a></div>
           </div>
           <div class="btn_wrap pb-0 text-center"><a class="btn btn-primary" href="https://www.youtube.com/@dr.najmunriyaz" target="_blank"><span class="btn_text" data-text="Click Here">Visit Our Youtube Channel</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a></div>
         </div>
