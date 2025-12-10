@@ -52,6 +52,23 @@
                         role="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
+                        >Resources</a
+                      >
+                      <ul class="dropdown-menu" aria-labelledby="help_submenu">
+                        <li><a href="course.php">Courses</a></li>
+                        <li><a href="gallery.html">Books</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="error.html">Videos</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a
+                        class="nav-link"
+                        href="#"
+                        id="help_submenu"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
                         >Help</a
                       >
                       <ul class="dropdown-menu" aria-labelledby="help_submenu">
