@@ -58,7 +58,7 @@
                         <li><a href="course.php">Courses</a></li>
                         <li><a href="books.php">Books</a></li>
                         <li><a href="blog.php">Blog</a></li>
-                        <li><a href="error.html">Videos</a></li>
+                        <li><a href="videos.php">Videos</a></li>
                       </ul>
                     </li>
                     <li class="dropdown">
