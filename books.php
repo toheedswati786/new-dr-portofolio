@@ -3,11 +3,6 @@
 
 <head>
     <?php include __DIR__ . '/assets/includes/links.php'; ?>
-    <style>
-    .flipped-new-img {
-        transform: scaleX(-1);
-    }
-    </style>
 </head>
 
 <body>
@@ -42,7 +37,7 @@
                         <div class="col-lg-6 order-lg-last">
                             <div class="image_widget ps-lg-4">
                                 <img
-                                    src="assets/images/about/about_image_10-min.jpg"
+                                    src="assets/images/books/Self_esteem.jpg"
                                     alt="About Image - Talking Minds – Psychotherapist Site Template" />
                             </div>
                         </div>
@@ -68,7 +63,7 @@
                         <div class="col-lg-6">
                             <div class="image_widget ps-lg-4">
                                 <img
-                                    src="assets/images/about/about_image_10-min.jpg" class="flipped-new-img"
+                                    src="assets/images/books/Trauma.jpg"
                                     alt="About Image - Talking Minds – Psychotherapist Site Template" />
                             </div>
                         </div>
@@ -94,7 +89,7 @@
                         <div class="col-lg-6 order-lg-last">
                             <div class="image_widget ps-lg-4">
                                 <img
-                                    src="assets/images/about/about_image_10-min.jpg"
+                                    src="assets/images/books/a-louts-in-a-swapt.-1.png"
                                     alt="About Image - Talking Minds – Psychotherapist Site Template" />
                             </div>
                         </div>
