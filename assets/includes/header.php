@@ -17,7 +17,7 @@
                   id="main_menu_dropdown"
                 >
                   <ul class="main_menu_list unordered_list">
-                    <li class="active">
+                    <li>
                       <a class="nav-link" href="home.php">Home</a>
                     </li>
                     <li>
