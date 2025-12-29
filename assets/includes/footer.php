@@ -18,13 +18,13 @@
                             <a href="about.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">About</span></a>
                         </li>
                         <li>
-                            <a href="service.html"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Program</span></a>
+                            <a href="course.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Courses</span></a>
                         </li>
                         <li>
                             <a href="blog.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Blog</span></a>
                         </li>
                         <li>
-                            <a href="gallery.html"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Gallery</span></a>
+                            <a href="books.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Books</span></a>
                         </li>
                         <li>
                             <a href="contact.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Contacts</span></a>
@@ -41,10 +41,9 @@
                             <a href="#!"><i class="fa-brands fa-instagram"></i></a>
                         </li>
                         <li>
-                            <a href="#!"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#!"><i class="fa-brands fa-youtube"></i></a>
                         </li>
-                        <li>
-                            <a href="#!"><i class="fa-brands fa-whatsapp"></i></a>
+                        <li><a href="#!"><img src="assets/images/icons/butterflyicon.png" width="42" class="fa-brands fa-youtube" style="border-radius: 50px;" alt="butteflyicon" srcset=""></a>
                         </li>
                     </ul>
                 </div>

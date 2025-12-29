@@ -61,7 +61,7 @@
                 <div class="about_video_icon">
                   <a
                     class="video_play_btn popup_video"
-                    href="https://www.youtube.com/watch?v=7e90gBu4pas"><i class="fa-duotone fa-play"></i></a>
+                    href="https://www.youtube.com/watch?v=nSzacnM1f1g"><i class="fa-duotone fa-play"></i></a>
                 </div>
               </div>
             </div>
@@ -397,10 +397,6 @@
         <div class="container">
           <div class="section_heading text-center">
             <h2 class="section_heading_text">What Patients Say</h2>
-            <p class="section_heading_description mb-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
-            </p>
           </div>
           <div class="testimonial_carousel">
             <div class="carousel_2col row" data-slick='{"arrows":false}'>
@@ -414,22 +410,13 @@
                     <li><i class="fa-solid fa-star"></i></li>
                   </ul>
                   <div class="author_box">
-                    <div class="author_box_image">
-                      <img
-                        src="assets/images/meta/author_image_1.png"
-                        alt="Reviewer Image - Talking Minds - Psychotherapist Site Template" />
-                    </div>
                     <div class="author_box_content">
-                      <h3 class="author_box_name">Kerry Banks</h3>
-                      <span class="author_box_designation">Housewife</span>
+                      <h3 class="author_box_name">Neil</h3>
+                      <span class="author_box_designation">Seminar Attendee</span>
                     </div>
                   </div>
                   <p class="mb-0">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting text industry. Lorem Ipsum has been the
-                    industry's standard dumm ever since the 1500s, when an
-                    unknown printer took a galley of type and scrambled it to
-                    make a type specimen book.
+                    Dr. Riyaz’s seminars on PTSD and insomnia were incredibly helpful. Her keen listening and thoughtful suggestions provide truly effective personal support.
                   </p>
                 </div>
               </div>
@@ -443,22 +430,12 @@
                     <li><i class="fa-solid fa-star"></i></li>
                   </ul>
                   <div class="author_box">
-                    <div class="author_box_image">
-                      <img
-                        src="assets/images/meta/author_image_1.png"
-                        alt="Reviewer Image - Talking Minds - Psychotherapist Site Template" />
-                    </div>
                     <div class="author_box_content">
-                      <h3 class="author_box_name">Damian York</h3>
-                      <span class="author_box_designation">Entrepreneur</span>
+                      <h3 class="author_box_name">Obaid</h3> 
                     </div>
                   </div>
                   <p class="mb-0">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type text of the printing and
-                    typesetting industry.
+                    She offers deeply informative, interactive sessions. Her patient listening and insightful answers to queries provide immense benefit to every participant.
                   </p>
                 </div>
               </div>
@@ -472,22 +449,12 @@
                     <li><i class="fa-solid fa-star"></i></li>
                   </ul>
                   <div class="author_box">
-                    <div class="author_box_image">
-                      <img
-                        src="assets/images/meta/author_image_1.png"
-                        alt="Reviewer Image - Talking Minds - Psychotherapist Site Template" />
-                    </div>
                     <div class="author_box_content">
-                      <h3 class="author_box_name">Kerry Banks</h3>
-                      <span class="author_box_designation">Housewife</span>
+                      <h3 class="author_box_name">Adam</h3> 
                     </div>
                   </div>
                   <p class="mb-0">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting text industry. Lorem Ipsum has been the
-                    industry's standard dumm ever since the 1500s, when an
-                    unknown printer took a galley of type and scrambled it to
-                    make a type specimen book.
+                    Dr. Riyaz’s seminars on PTSD and insomnia were incredibly helpful. Her keen listening and thoughtful suggestions provide truly effective personal support.
                   </p>
                 </div>
               </div>
@@ -501,80 +468,13 @@
                     <li><i class="fa-solid fa-star"></i></li>
                   </ul>
                   <div class="author_box">
-                    <div class="author_box_image">
-                      <img
-                        src="assets/images/meta/author_image_1.png"
-                        alt="Reviewer Image - Talking Minds - Psychotherapist Site Template" />
-                    </div>
                     <div class="author_box_content">
-                      <h3 class="author_box_name">Damian York</h3>
-                      <span class="author_box_designation">Entrepreneur</span>
+                      <h3 class="author_box_name">Gigi</h3> 
                     </div>
                   </div>
                   <p class="mb-0">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type text of the printing and
-                    typesetting industry.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel_item col-">
-                <div class="testimonial_item">
-                  <ul class="rating_star unordered_list">
-                    <li><i class="fa-solid fa-star"></i></li>
-                    <li><i class="fa-solid fa-star"></i></li>
-                    <li><i class="fa-solid fa-star"></i></li>
-                    <li><i class="fa-solid fa-star"></i></li>
-                    <li><i class="fa-solid fa-star"></i></li>
-                  </ul>
-                  <div class="author_box">
-                    <div class="author_box_image">
-                      <img
-                        src="assets/images/meta/author_image_1.png"
-                        alt="Reviewer Image - Talking Minds - Psychotherapist Site Template" />
-                    </div>
-                    <div class="author_box_content">
-                      <h3 class="author_box_name">Kerry Banks</h3>
-                      <span class="author_box_designation">Housewife</span>
-                    </div>
-                  </div>
-                  <p class="mb-0">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting text industry. Lorem Ipsum has been the
-                    industry's standard dumm ever since the 1500s, when an
-                    unknown printer took a galley of type and scrambled it to
-                    make a type specimen book.
-                  </p>
-                </div>
-              </div>
-              <div class="carousel_item col-">
-                <div class="testimonial_item">
-                  <ul class="rating_star unordered_list">
-                    <li><i class="fa-solid fa-star"></i></li>
-                    <li><i class="fa-solid fa-star"></i></li>
-                    <li><i class="fa-solid fa-star"></i></li>
-                    <li><i class="fa-solid fa-star"></i></li>
-                    <li><i class="fa-solid fa-star"></i></li>
-                  </ul>
-                  <div class="author_box">
-                    <div class="author_box_image">
-                      <img
-                        src="assets/images/meta/author_image_1.png"
-                        alt="Reviewer Image - Talking Minds - Psychotherapist Site Template" />
-                    </div>
-                    <div class="author_box_content">
-                      <h3 class="author_box_name">Damian York</h3>
-                      <span class="author_box_designation">Entrepreneur</span>
-                    </div>
-                  </div>
-                  <p class="mb-0">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type text of the printing and
-                    typesetting industry.
+                    Dr. Riyaz provides compassionate support when you are at your lowest. She helps you heal, regain your strength, and believe in yourself. 
+                    She is a professional, knowledgeable coach who handles difficult issues with warmth. Her guidance provides a lucky, life-changing light during hardship.
                   </p>
                 </div>
               </div>
@@ -587,7 +487,7 @@
           <div class="section_heading">
             <div class="row align-items-center">
               <div class="col-md-6">
-                <h2 class="section_heading_text mb-0">Our Books</h2>
+                <h2 class="section_heading_text mb-0">Our Blogs</h2>
               </div>
               <div class="col-md-6 d-none d-md-flex justify-content-end">
                 <a class="btn btn-primary" href="blog.php"><span class="btn_text" data-text="Read More Articles">See More Resources </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
@@ -604,7 +504,7 @@
                 </div>
                 <div class="blog_content">
                   <h3 class="item_title">
-                    <a href="blog_details.php">The pros and cons of group psychotherapy</a>
+                    <a href="blog_details.php">Lorem ipsum dolor sit amet consectetur.</a>
                   </h3>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -625,7 +525,7 @@
                 </div>
                 <div class="blog_content">
                   <h3 class="item_title">
-                    <a href="blog_details.php">The pros and cons of group psychotherapy</a>
+                    <a href="blog_details.php">Lorem ipsum dolor sit amet consectetur.</a>
                   </h3>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and

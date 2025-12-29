@@ -20,30 +20,10 @@
                     <li class="active">
                       <a class="nav-link" href="home.php">Home</a>
                     </li>
-                    <li><a class="nav-link" href="about.php">About</a></li>
-                    <li class="dropdown">
-                      <a
-                        class="nav-link"
-                        href="#"
-                        id="programs_submenu"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                        >Programs</a
-                      >
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="programs_submenu"
-                      >
-                        <li><a href="service.html">Our Services</a></li>
-                        <li>
-                          <a href="service_details.html">Depression Therapy</a>
-                        </li>
-                        <li>
-                          <a href="service_details_2.html">Relationships</a>
-                        </li>
-                      </ul>
+                    <li>
+                      <a class="nav-link" href="service.php">COACHING &amp; MENTORSHIP</a>
                     </li>
+                    <li><a class="nav-link" href="about.php">About</a></li>
                     <li class="dropdown">
                       <a
                         class="nav-link"
@@ -59,44 +39,6 @@
                         <li><a href="books.php">Books</a></li>
                         <li><a href="blog.php">Blog</a></li>
                         <li><a href="videos.php">Videos</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a
-                        class="nav-link"
-                        href="#"
-                        id="help_submenu"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                        >Help</a
-                      >
-                      <ul class="dropdown-menu" aria-labelledby="help_submenu">
-                        <li><a href="team.html">Our Team</a></li>
-                        <li><a href="gallery.html">Our Gallery</a></li>
-                        <li class="dropdown">
-                          <a
-                            class="nav-link"
-                            href="#"
-                            id="blog_submenu"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false"
-                            >Blogs</a
-                          >
-                          <ul
-                            class="dropdown-menu"
-                            aria-labelledby="blog_submenu"
-                          >
-                            <li><a href="blog.php">Blog Grid</a></li>
-                            <li><a href="blog_list.html">Blog Listing</a></li>
-                            <li>
-                              <a href="blog_details.php">Blog Details</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li><a href="faq.html">F.A.Q.</a></li>
-                        <li><a href="error.html">404 Error</a></li>
                       </ul>
                     </li>
                     <li>
@@ -127,7 +69,7 @@
                   </button>
                 </li>
                 <li>
-                  <a class="btn btn-primary" href="tel:+8801680636189">
+                  <a class="btn btn-primary" href="contact.php">
                     <span class="btn_text">Book A Consultation</span></a
                   >
                 </li>
