@@ -50,7 +50,7 @@
                                     </p>
                                 </div>
                                 <div class="btn_wrap pb-0">
-                                    <a class="btn btn-primary" href="assets/resources/Self-Esteem.pdf" download="Self-Esteem"><span class="btn_text" data-text="Get A Consultation">Get A Consultation </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                                    <a class="btn btn-primary" href="assets/resources/Self-Esteem.pdf" download="Self-Esteem"><span class="btn_text" data-text="Download Now">Download Now</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                                     </p>
                                 </div>
                                 <div class="btn_wrap pb-0">
-                                    <a class="btn btn-primary" href="assets/resources/Trauma Education and Awareness.pdf" download="Trauma education and awareness"><span class="btn_text" data-text="Get A Consultation">Get A Consultation </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                                    <a class="btn btn-primary" href="assets/resources/Trauma Education and Awareness.pdf" download="Trauma education and awareness"><span class="btn_text" data-text="Download Now">Download Now</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                                     </p>
                                 </div>
                                 <div class="btn_wrap pb-0">
-                                    <a class="btn btn-primary" href="https://buy.stripe.com/14k15H4p6ei3cb6eUU" target="_blank"><span class="btn_text" data-text="Get A Consultation">Get A Consultation </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                                    <a class="btn btn-primary" href="https://buy.stripe.com/14k15H4p6ei3cb6eUU" target="_blank"><span class="btn_text" data-text="Buy Now">Buy Now</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                                 </div>
                             </div>
                         </div>
