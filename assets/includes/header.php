@@ -70,7 +70,7 @@
                 </li>
                 <li>
                   <a class="btn btn-primary" href="contact.php">
-                    <span class="btn_text">Book A Consultation</span></a
+                    <span class="btn_text" data-text="Book A Consultation">Book A Consultation</span></a
                   >
                 </li>
               </ul>
