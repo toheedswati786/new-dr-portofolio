@@ -1,63 +1,4 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
-
-    <?php
-    include "assets/includes/links.php";
-    ?>
-
-</head>
-
-
-<!-- page wrapper -->
-
-<body>
-
-    <div class="boxed_wrapper">
-
-
-        <!-- preloader -->
-        <?php
-        echo "<style>.scroll-to-top{display: none;}</style>";
-        ?>
-        <!-- preloader end -->
-
-
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu">
-            <div class="menu-backdrop"></div>
-            <div class="close-btn"><i class="fas fa-times"></i></div>
-
-            <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-                <div class="contact-info">
-                    <h4>Contact Info</h4>
-                    <ul>
-                        <li>Chicago 12, Melborne City, USA</li>
-                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                        <li><a href="mailto:info@example.com">info@example.com</a></li>
-                    </ul>
-                </div>
-                <div class="social-links">
-                    <ul class="clearfix">
-                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div><!-- End Mobile Menu -->
-
-
-        <!-- blog-details -->
+﻿        <!-- blog-details -->
         <section class="blog-details">
             <div class="auto-container">
                 <div class="row clearfix">
@@ -72,13 +13,13 @@
                                             <p>Unfortunately, as we get older, we forget about this amazing power of imagination inside us. Instead, we find our thoughts constraining us as we gain more and more knowledge. We see less of a need to use our imagination; we slowly lose our creativity as we become engulfed in the stresses of life.</p>
                                             <p>During my tenure as a consultation-liaison psychiatrist, I was often consulted to see very ill patients in the ICU. Some of them were too sick to even speak, such as those with tracheostomies (or tubes in their throats). These were the most difficult cases for a psychiatrist to evaluate. Most history-taking had to be done either by talking to their family members or looking into their hospital records. At times, we had patients who had been in the ICU for months, and these were the ones who had developed substantial depression. Some would even make suicidal gestures, either by pulling out their airway tubes, their IV lines, or engaging in other self-injurious behaviors.</p>
                                             <p>Whenever I entered their rooms, I would try to maintain eye contact with them and ask them medically relevant questions. They would communicate either by nodding their head or by using hand and facial gestures. I would first introduce myself and explain why I was there to assess them. As much as I tried to empathize with their situations, it was extremely difficult to put myself in their shoes. But I would try my best to establish an emotional connection with them- sometimes with a touch of the hand, sometimes just by asking them if being in the ICU for so long was stressful or exhausting.</p>
-                                            <p>It would often take several visits to get any sort of response from them, even just a smile or a nod. At times they would express their helplessness through what I call “nature’s overflow relief bucket,” a.k.a., tears. The primary role of tears is to keep our eyes clean, due to their antibacterial properties. But there is a reason that God installed an emotional nerve into these lacrimal glands on the inside of each eye. (And that’s what I usually tell my patients who repeatedly apologize for crying in my office after they share a painful memory or a sad moment. I always remind them that that’s precisely the reason they are there to see me).</p>
-                                            <p>During some of these consultations with long-term ICU patients, I would share exercises with them that they could practice simply while laying in their hospital beds. I would ask them to use the power of their imagination– to close their eyes and imagine their favorite place, their favorite activity, or their favorite people. To go back in time and relive some of their most gratifying moments. Imagine a time when they could do whatever they wanted to, from going on a light stroll to hiking mountains. I would even have them imagine going skydiving, going on a rollercoaster, deep-sea diving, or bungee jumping. Oftentimes, they would crack up at some of my suggestions. Perhaps they were unsure of what we were trying to achieve with these exercises. But knowing how our brain works, and how we can use imagination to fool it into genuinely believing that it’s having a certain experience, we may create hope for the future and a sense of wellbeing. It was so gratifying to watch these patients practice this forgotten human skill, and slowly get better. I saw them come out of their states of helplessness, and begin to express what they were feeling in whatever way they could. Of course, medications were helpful as well.</p>
-                                            <p>Interestingly enough, I have in recent years found myself in somewhat of a similar state of helplessness, after my father’s sudden passing due to a massive heart attack. I had just flown back from my home country of Kashmir, after attending my brother’s wedding. The very next day after my arrival in the U.S., I received this tragic news. I was in a state of complete shock; it hadn’t even been 48 hours since my father dropped me off at the airport back in Kashmir. My children were very young at the time, and taking another transatlantic flight just two days after I had flown from there was nearly impossible. I never got to attend his funeral.</p>
-                                            <p>I wanted to cry, but the tears simply wouldn’t come. It was a bizarre state of anxiety and denial. I had to ground myself and counsel my brain into understanding and processing my father’s loss. I was able to make strides with that through the incredible power of imagination. Whenever I got some alone time, I would start imagining my home back in Kashmir. I’d imagine my mother grieving her husband’s loss, the faces of the relatives visiting to pay their homage. I imagined people sharing stories of my father and the events that led to his death. I imagined how they must have prepared my father’s body for the last rites, wrapped him in a shroud, and buried him with the Quranic verses. I even imagined the faces of all the relatives who would have come to pay their last rites. I imagined the state of my aunt, who loved her brother so dearly, and how torn up she must have been about the sudden loss.</p>
+                                            <p>It would often take several visits to get any sort of response from them, even just a smile or a nod. At times they would express their helplessness through what I call "nature's overflow relief bucket," a.k.a., tears. The primary role of tears is to keep our eyes clean, due to their antibacterial properties. But there is a reason that God installed an emotional nerve into these lacrimal glands on the inside of each eye. (And that's what I usually tell my patients who repeatedly apologize for crying in my office after they share a painful memory or a sad moment. I always remind them that that's precisely the reason they are there to see me).</p>
+                                            <p>During some of these consultations with long-term ICU patients, I would share exercises with them that they could practice simply while laying in their hospital beds. I would ask them to use the power of their imagination– to close their eyes and imagine their favorite place, their favorite activity, or their favorite people. To go back in time and relive some of their most gratifying moments. Imagine a time when they could do whatever they wanted to, from going on a light stroll to hiking mountains. I would even have them imagine going skydiving, going on a rollercoaster, deep-sea diving, or bungee jumping. Oftentimes, they would crack up at some of my suggestions. Perhaps they were unsure of what we were trying to achieve with these exercises. But knowing how our brain works, and how we can use imagination to fool it into genuinely believing that it's having a certain experience, we may create hope for the future and a sense of wellbeing. It was so gratifying to watch these patients practice this forgotten human skill, and slowly get better. I saw them come out of their states of helplessness, and begin to express what they were feeling in whatever way they could. Of course, medications were helpful as well.</p>
+                                            <p>Interestingly enough, I have in recent years found myself in somewhat of a similar state of helplessness, after my father's sudden passing due to a massive heart attack. I had just flown back from my home country of Kashmir, after attending my brother's wedding. The very next day after my arrival in the U.S., I received this tragic news. I was in a state of complete shock; it hadn't even been 48 hours since my father dropped me off at the airport back in Kashmir. My children were very young at the time, and taking another transatlantic flight just two days after I had flown from there was nearly impossible. I never got to attend his funeral.</p>
+                                            <p>I wanted to cry, but the tears simply wouldn't come. It was a bizarre state of anxiety and denial. I had to ground myself and counsel my brain into understanding and processing my father's loss. I was able to make strides with that through the incredible power of imagination. Whenever I got some alone time, I would start imagining my home back in Kashmir. I'd imagine my mother grieving her husband's loss, the faces of the relatives visiting to pay their homage. I imagined people sharing stories of my father and the events that led to his death. I imagined how they must have prepared my father's body for the last rites, wrapped him in a shroud, and buried him with the Quranic verses. I even imagined the faces of all the relatives who would have come to pay their last rites. I imagined the state of my aunt, who loved her brother so dearly, and how torn up she must have been about the sudden loss.</p>
                                             <p>I would also take walks down memory lane, remembering the times my father and I got to spend together. Him holding my hand whenever he would walk me to school. His soft, yet deep voice with which he would sing for me and tell me stories. The way he would very meticulously iron my school uniform, to ensure that the pleads are crisp and straight, and so many more little moments through which he showed his unconditional love for me. I would imagine the current state of my home, with my father gone in an instant. The loss that not only my family had felt, but scores of his dear friends and neighbors, both rich and poor, towards whom he was extremely kind and generous.</p>
-                                            <p>Interestingly, I noticed that all of this imagining helped me begin my grieving process. It slowly brought me out of the denial state. I would finally find myself letting out tears and missing my father’s presence, just the way it should have been, had I witnessed his death and the subsequent funeral. Having utilized this human ability, I began to cope and heal. And at that time, I was somewhat able to put myself in the shoes of those hospital patients in the ICU setting, whom I would counsel on utilizing this coping skill, to achieve a sense of well-being during their moments of helplessness.</p>
-                                            <p>Since then, I’ve used “imagination” to cope with many other stressful events, be it having to wait for my premature baby to come home after spending two months in NICU, healing from a six-week-long period of a severely herniated disc, or dealing with the COVID-19 pandemic lockdown. This ability to use our imagination can genuinely help us to stay grounded, grateful, and hopeful.</p>
+                                            <p>Interestingly, I noticed that all of this imagining helped me begin my grieving process. It slowly brought me out of the denial state. I would finally find myself letting out tears and missing my father's presence, just the way it should have been, had I witnessed his death and the subsequent funeral. Having utilized this human ability, I began to cope and heal. And at that time, I was somewhat able to put myself in the shoes of those hospital patients in the ICU setting, whom I would counsel on utilizing this coping skill, to achieve a sense of well-being during their moments of helplessness.</p>
+                                            <p>Since then, I've used "imagination" to cope with many other stressful events, be it having to wait for my premature baby to come home after spending two months in NICU, healing from a six-week-long period of a severely herniated disc, or dealing with the COVID-19 pandemic lockdown. This ability to use our imagination can genuinely help us to stay grounded, grateful, and hopeful.</p>
                                             <p>I hope we all can use this inexpensive, readily available, simple yet effective tool to thrive in some of the most complex and challenging moments of our lives.</p>
                                             <p>Stay safe, and blessed!</p>
                                         </div>
@@ -100,31 +41,3 @@
             </div>
         </section>
         <!-- blog-details end -->
-
-
-
-        <!--Scroll to top-->
-        <div class="scroll-to-top">
-            <div>
-                <div class="scroll-top-inner">
-                    <div class="scroll-bar">
-                        <div class="bar-inner"></div>
-                    </div>
-                    <div class="scroll-bar-text">Go To Top</div>
-                </div>
-            </div>
-        </div>
-        <!-- Scroll to top end -->
-
-    </div>
-
-    <?php
-    include "assets/includes/scripts.php";
-    ?>
-
-    <script src="assets/js/isotope.js"></script>
-
-
-</body><!-- End of .page_wrapper -->
-
-</html>

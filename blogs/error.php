@@ -24,7 +24,7 @@
 
         <!-- preloader -->
         <?php
-        echo "<style>.scroll-to-top{display: none;}</style>";
+        include "assets/includes/loader.php";
         ?>
         <!-- preloader end -->
 
@@ -55,7 +55,7 @@
                     </div>
                     <div class="col-lg-7 col-md-12 col-sm-12 form-column">
                         <div class="form-inner">
-                            <form action="contact.php" method="post">
+                            <form action="mailer.php" method="post">
                                 <div class="form-group">
                                     <input type="email" name="emaail" placeholder="Enter Your Email Adress" required="">
                                     <button type="submit" class="theme-btn btn-one"><i class="icon-7"></i>Subscribe</button>
