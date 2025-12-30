@@ -15,6 +15,11 @@ $bsae_url = "";
     include "assets/includes/links.php";
     ?>
 
+    <?php
+    echo "<style>.scroll-to-top{display: none;}</style>";
+    ?>
+
+
 </head>
 
 
@@ -27,7 +32,7 @@ $bsae_url = "";
 
         <!-- preloader -->
         <?php
-        include "assets/includes/loader.php";
+        echo "<style>.scroll-to-top{display: none;}</style>";
         ?>
         <!-- preloader end -->
 

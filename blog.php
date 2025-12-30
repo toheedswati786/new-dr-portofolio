@@ -29,10 +29,10 @@
               <div class="row">
                 <div class="col-md-4">
                   <div class="blog_item">
-                    <div class="blog_image"><a class="blog_image_wrap" href="VDTFATR.php"><img src="http://localhost/dr/assets/images/blog/thumbnail/1.png" alt="Talking Minds - The pros and cons of group psychotherapy"></a></div>
+                    <div class="blog_image"><a class="blog_image_wrap" href="blog-details.php"><img src="http://localhost/dr/assets/images/blog/thumbnail/1.png" alt="Talking Minds - The pros and cons of group psychotherapy"></a></div>
                     <div class="blog_content">
-                      <h3 class="item_title"><a href="VDTFATR.php">Valentine’s Day: The Fantasies and The Realities</a></h3>
-                      <p>Valentine’s Day isn't just about romance. Explore the history of the holiday, the reality of toxic cycles, and how to reclaim the day through the power of self-love.</p><a class="btn-link" href="VDTFATR.php"><span class="btn_text" style="color: #41132b;">Read More</span> <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                      <h3 class="item_title"><a href="blog-details.php">Valentine’s Day: The Fantasies and The Realities</a></h3>
+                      <p>Valentine’s Day isn't just about romance. Explore the history of the holiday, the reality of toxic cycles, and how to reclaim the day through the power of self-love.</p><a class="btn-link" href="blog-details.php"><span class="btn_text" style="color: #41132b;">Read More</span> <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                     </div>
                   </div>
                 </div>

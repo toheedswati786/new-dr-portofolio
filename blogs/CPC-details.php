@@ -23,7 +23,7 @@
 
         <!-- preloader -->
         <?php
-        include "assets/includes/loader.php";
+        echo "<style>.scroll-to-top{display: none;}</style>";
         ?>
         <!-- preloader end -->
 
