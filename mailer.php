@@ -11,7 +11,6 @@ if(isset($_POST['form']) && $_POST['form'] == 'done'){
 function sendMail(){
     $name = $_POST['name'];
     $phone = $_POST['phone'];
-    $email = $_POST['email'];
     $msg = $_POST['message'];
     // MailerSend API Key
 $api_key = 'mlsn.438d15b55ddccdddf49c5b26c19e0514662bdc76c70c001a97e8150b71b82efb';
@@ -27,8 +26,8 @@ $data = [
         ]
     ],
     "subject" => "New Contact Form Submission",
-    "text" => "You have received a new message from your website contact form.\n\nName: $name\nPhone: $phone\nEmail: $email\nMessage: $msg",
-    "html" => "<p>You have received a new message from your website contact form.</p><p><strong>Name:</strong> $name</p><p><strong>Phone:</strong> $phone</p><p><strong>Email:</strong> $email</p><p><strong>Message:</strong> $msg</p>"
+    "text" => "You have received a new message from your website contact form.\n\nName: $name\nPhone: $phone\nMessage: $msg",
+    "html" => "<p>You have received a new message from your website contact form.</p><p><strong>Name:</strong> $name</p><p><strong>Phone:</strong> $phone</p><p><strong>Message:</strong> $msg</p>"
 ];
 
 // Initialize cURL
