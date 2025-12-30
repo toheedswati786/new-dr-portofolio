@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+    <?php
+    include "assets/includes/links.php";
+    ?>
+
+</head>
+
+
+<!-- page wrapper -->
+
+<body>
+
+    <div class="boxed_wrapper">
+
+
+        <!-- preloader -->
+        <?php
+        include "assets/includes/loader.php";
+        ?>
+        <!-- preloader end -->
+
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+
+        <!-- blog-details -->
+        <section class="blog-details">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12 content-side">
+                        <div class="blog-details-content">
+                            <div class="content-one">
+                                <div class="inner-box">
+                                    <div class="lower-content">
+                                         
+                                        <div class="text">
+                                            <h2>Mindfulness: A Father’s Gift</h2>
+                                            <p>During my talks on stress management, I am always obligated to speak about mindfulness. Whenever I prepare a presentation, I have an inner desire to make that connection with my audience. A connection we can all remember in that very moment and hopefully afterwards as well. Through that connection, my hope is to learn from each other, empower each other, and grow together to be better human beings. It is in these moments of opportunity and connection that the little girl in me wants to share the amazing gift of awareness, which I learnt from my father growing up in Kashmir in the 70s and 80s.</p>
+                                            <p>My father had created a ritual for me on Sunday afternoons, which was the only day he would get off from work. He would invite me to sit on the windowsill of our ancestral home, our three-story house with big old-fashioned windows. I remember those late Sunday afternoons in early spring, when he and I would just watch our front yard for hours from the sill. This ritual continued throughout my elementary years. I remember him humming old Bollywood songs, in his soft yet deep voice. A voice for which he had won many awards during his college years. His singing was so soothing to my ears. We would sit there for hours at a time, with absolutely no anxieties around missing a deadline, no desire to run and watch cartoons on the TV, no fears or intrusive thoughts. Just pure stillness.</p>
+                                            <p>As we would hop on that windowsill, I remember watching the drizzle of the spring rain. Within minutes, it would wet the ground, and the smell of the earth would fill our senses. That earthy smell, one of a kind, so unique and pure, to this day is deeply ingrained in my mind. Each time it rains, my memories take me back to that windowsill, that time with my dad, hearing his humming and telling me stories of prophets and folk tales that were passed on to him from generations before. I remember how that drizzle of rain would, at times, turn into torrential downpours.  Our long rooftops kept us dry, no matter how heavy it rained. In a matter of seconds our view began to look like a waterfall coming down from the tin roof, yet we would be cozied up with our hands and feet tucked inside our pherans*. It gave us a warm feeling, watching the rain create little puddles and splatters on our front yard. It was mother nature’s treat. The sound of that rain, the smell of the soil, my father’s hum, the “pitter patter” of the rain drops… remembering this scene soothes my anxieties to this day. So much so, that whenever it rains, all I want to do is to watch through my big, kitchen glass door. Nowadays I may not be sitting by the window for hours, but just those five minutes by the window, allowing memories of my time with Dad to flood me with nostalgia revitalize me, just like the new grasses nurtured by the spring rain.</p>
+                                            <p>It’s been 15 years since my father left this earth, but through scores of such beautiful moments where he taught me the value of stillness, the value of doing nothing and just sitting on a rainy day on my window sill for hours watching the rain, were indeed my first lessons on mindfulness. Sometimes we don’t have to go to a yoga studio, or listen to a meditation tape, or even pay money to take a mindfulness class. Just pick a spot in your home, by the window, and be still. And really listen, listen to the sounds of the traffic going by, or the chirping of the birds, the chattering of passers-by, the laughter of the children playing in the park. Smell the rain falling, or the cool breeze, or the food from a nearby restaurant. All one has to do is to observe, listen, watch, feel, smell and use whatever senses one can to achieve a sense of calmness. Once you learn to appreciate these moments of stillness, gratitude floods your heart for everything else you have, and creates a positive ripple effect into the rest of your life. I hope that we all can create that moment of happiness for ourselves and pass it on to our children, as a gift of everlasting love!</p>
+                                            <p>Pheran; Long , loose traditional robe from Kashmir worn by men, women, and children for warmth.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog-details end -->
+
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <div>
+                <div class="scroll-top-inner">
+                    <div class="scroll-bar">
+                        <div class="bar-inner"></div>
+                    </div>
+                    <div class="scroll-bar-text">Go To Top</div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll to top end -->
+
+    </div>
+
+    <?php
+    include "assets/includes/scripts.php";
+    ?>
+
+    <script src="assets/js/isotope.js"></script>
+
+
+</body><!-- End of .page_wrapper -->
+
+</html>

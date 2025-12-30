@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+    <?php
+    include "assets/includes/links.php";
+    ?>
+
+</head>
+
+
+<!-- page wrapper -->
+
+<body>
+
+    <div class="boxed_wrapper">
+
+
+        <!-- preloader -->
+        <?php
+        include "assets/includes/loader.php";
+        ?>
+        <!-- preloader end -->
+
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+
+        <!-- blog-details -->
+        <section class="blog-details">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12 content-side">
+                        <div class="blog-details-content">
+                            <div class="content-one">
+                                <div class="inner-box">
+                                    <div class="lower-content">
+                                         
+                                        <div class="text">
+                                            <p>Theme parks have not been my priority of places to visit during my vacation time. For one very obvious reason: my agonizing fear of roller coasters. They freak me out.</p>
+                                            <p>But interestingly enough, each time I visit one, it leaves me with new insights. There is something very uplifting about them. One feels a sense of belonging to the crowd of people who appear happy, excited, full of energy, yet patient, content, and relaxed.</p>
+                                            <p>Well, why not? Where else can one find such healthy shots of dopamine than in a theme park?</p>
+                                            <p>So this time during our visit to Disney World, I couldn’t help but notice that how this trip might also give us some new perspectives on emotional intelligence (EI). Having just finished a session on emotional intelligence for a group of team members at an IT company, my mind was still turning over this concept.</p>
+                                            <p>The concept of EI is familiar to many people in this day and age. In recent years, all the research clearly shows how it’s not just academic achievement, but more so the level of one’s emotional intelligence, that can determine how successful a person is or will be.</p>
+                                            <p>I’m talking about success in all areas of our life, be it our career, our relationships, our general level of contentment, inner peace, and our journey towards our true purpose; success in its real form, not just by the figures on our paycheck or the rank we hold in our workplace.</p>
+                                            <p>So what aspects of emotional intelligence can we learn by taking a trip to the world’s most exhilarating theme park- Disney World?</p>
+                                            <h2>1. Flexibility and Acceptance</h2>
+                                            <p>I was pleasantly surprised watching the crowds of people being mindful of the important COVID-19 precautions while in the park. Everyone was strictly following all the safety measures with social distancing and wearing masks (including young children some of them as old as three).</p>
+                                            <p>I was fascinated by how capable humans are of accepting new norms, new rules, and big changes. This is not only because we can adapt quickly as a species, but also when it comes to survival, we are known to go to any extent and without compromising our daily lives, at times. Even if it means covering our faces with a tightly fitted cloth under the hot scorching sun, temperatures of more than 90 degrees, and that too while waiting in line for our favorite ride, for hours.</p>
+                                            <p>Ha! A true display of excellent flexibility and acceptance, one of the key elements for emotional intelligence.</p>
+                                            <h2>2. Emotional Regulation</h2>
+                                            <p>Expedition Everest is a famous thrill ride in Disney’s Animal Kingdom. I noticed that the crowd ahead of me had been waiting in line for about an hour. All of a sudden, the instructor announced that there were some technical issues and that the ride would be closed until they could fix it. My 11-year-old screamed in disappointment and so did many other children who had been waiting for a very long time. The adults were unhappy too. But ultimately, everyone was able to handle this disappointment in stride. I watched hundreds of people waiting in this long line, just to get that few minutes of thrill, disperse without starting a fight or demanding their money back. In reality, this was quite a practical display of emotional regulation. The emotions were felt, then everyone continued about their day, moving on to the next exhibit.</p>
+                                            <h2>3. Delayed Gratification</h2>
+                                            <p>Having to wait in long lines, some even lasting for one to two hours, and during this time of Pandemic, there were not even fast passes, so everyone had to wait like everyone else, just to be able to enjoy their favorite ride. Some of these rides lasted only two to three minutes. That I thought was nice training on delayed gratification.</p>
+                                            <p>Or even walking long blocks, sometimes up to at least half a mile, in order to grab some lunch, an hour-long wait in your favorite restaurant, or one of your favorite ice creams, can be quite a lesson on teaching us patience and value of things we enjoy. Especially in this day and age when we are so used to getting them instantly. Even fast food is not so fast in places like Disney.</p>
+                                            <h2>4. Building Connection</h2>
+                                            <p>The other great advantage of taking such a trip with your family is strengthening your connection with each other, especially if you have a teenager like myself. Family members have no choice but to stick together, tolerate each other. And yes! Even if you have arguments and disagreements, shutting the door or hiding behind gadgets is not an option in this setting.</p>
+                                            <h2>While we were riding the ‘Test Track” a high-speed slot car ride in Epcot, I couldn’t escape the depth of connection we felt with our boys, sitting in the front seat, laughing hysterically, hands up in the air, screaming with excitement, making eye contact that was worth every penny spent on this trip. That was a connection we had not felt with them in a long time, especially with our 16-year-old who spends most of his time in his room or with his friends. It brought back those memories of when he was a baby and would stare at us with his big shiny eyes. Yes! That gave us goosebumps for sure.</h2>
+                                            <h2>5. Leadership Skills</h2>
+                                            <p>If we allow our children, of course depending on what their ages are, to stay in charge of some of the decisions that are required for taking such a trip, we can build those leadership skills very early on in their lives. We had our boys plan the trip, do the google search about places to stay, budgeting, coupon search, parking tickets, etc.</p>
+                                            <p>We even handed them the map at the entrance and told them that we will follow them while they get to pick where they would like to start from. The best part of that was how there were some rides that they loved so much, we returned to them on at least three different occasions and each time, we all were willing to wait for more than thirty minutes or so. As the thrill was just mind-boggling.</p>
+                                            <h2>6. Meaning of “Real Play”.</h2>
+                                            <p>When it comes to connecting with our inner child, what more than engaging in “real play”. On a trip like this one, kids and adults alike get a chance to do that. You forget all about deadlines, projects to finish, or showing up to work/school on time. Soaring in this land of imagination and creativity helps us to nurture our inner child and reconnect with the parts of us that we may have ignored in the stress of the day to day lives. We can emerge satisfied, content, confident, capable, and more emotionally intelligent.</p>
+                                            <h2>7. Building Empathy.</h2>
+                                            <p>As our trip came to an end, I couldn’t help but notice that how close and empathic( another basic requirement for being emotionally intelligent) we had grown not just towards each other as a family, but for many other visitors in the park, who were experiencing this trip at their own level. Witnessing my children comment on how hard it must be for parents with very young children to take this trip, ensure their kids use the sanitizer, wear those masks, and other observations that they shared with us, was pretty gratifying.</p>
+                                            <p>Traveling for sure is a good way to build on our level of emotional intelligence. It can put us in a state of self-awareness, self-regulation, motivation, empathy, and definitely improve our social skills. And it does not have to be a trip to Disney, to learn all these wonderful skills. Traveling to other parts of the world if one can afford, explore different cultures, different nations, even to a local theme park, hike to nearby woods, a museum, or just your local library can also greatly add to our level of emotional intelligence. Especially if we stay curious, mindful, and willing to try new things.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog-details end -->
+
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <div>
+                <div class="scroll-top-inner">
+                    <div class="scroll-bar">
+                        <div class="bar-inner"></div>
+                    </div>
+                    <div class="scroll-bar-text">Go To Top</div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll to top end -->
+
+    </div>
+
+    <?php
+    include "assets/includes/scripts.php";
+    ?>
+
+    <script src="assets/js/isotope.js"></script>
+
+
+</body><!-- End of .page_wrapper -->
+
+</html>

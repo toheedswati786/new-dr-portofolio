@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+    <?php
+    include "assets/includes/links.php";
+    ?>
+
+</head>
+
+
+<!-- page wrapper -->
+
+<body>
+
+    <div class="boxed_wrapper">
+
+
+        <!-- preloader -->
+        <?php
+        include "assets/includes/loader.php";
+        ?>
+        <!-- preloader end -->
+
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+
+        <!-- blog-details -->
+        <section class="blog-details">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12 content-side">
+                        <div class="blog-details-content">
+                            <div class="content-one">
+                                <div class="inner-box">
+                                    <div class="lower-content">
+                                         
+                                        <div class="text">
+                                            <p>I was raised by middle class parents in the disputed land of Jammu and Kashmir, a nation under occupation by the Indian Government. Like my motherland, I too felt a strong urge to find my own identity as a woman, a mother, a daughter and a mental health professional in a world which is now more like a global village.</p>
+                                            <p>Growing up in Kashmir, one of our biggest challenges was the political turmoil that began in the eighties, when the uprising against Indian occupation really took off. I was preparing for my entrance exams for medical school when “Lion of the Desert”, a movie about Omar Mukhtar, a revolutionary Hero from Libya, started playing in theaters. This ignited the suppressed freedom movement of Kashmir. Groups of young men started training in guerrilla warfare to fight the thousands of Indian soldiers deployed in Kashmir. Within months, the valley was torn up by open cross firing in the streets, hand grenades thrown by militants of the insurgency- some of whom were as young as 10 years old, and ear-splitting sounds of rocket launchers. In retaliation, the Indian military would lock Kashmir down and put search operations and curfews in place. Our lives came to a standstill. Offices closed, schools shut for months to years. People who were poor were biggest victims of military abuse. Looting, arson, and the raping of women by Indian military became the norm. Simultaneously, upper middle class people, especially those who worked in government offices, also became victims of looting, threats, and even killings by some wrong elements who had joined this Revolutionary movement.</p>
+                                            <p>My family was a part of scores of those who were stuck in between. My dad was a veterinarian, but had entered the administrative sector as the Director in the state veterinary hospital services. For the military, we were like any normal Kashmiri family who they suspected were providing refuge to freedom fighters. Some days groups of insurgents would knock on our door, demanding an overnight stay or a meal in our home. Other days military forces would come barging into our home, banging on doors and breaking windows. They would dismantle our furniture and break closets to see if we were hiding any freedom fighters. On several occasions, I remember shaking with fear, holding my parents tight when I would hear the non-stop gun shots being fired for hours from our very own attic, by heavily armed Indian Military, as they would barge in to our house as it was the tallest and they could spot any insurgents from afar.</p>
+                                            <p>To this day, even the fireworks on Fourth of July remind me of the gun shots in Kashmir. That initial, split-second reaction of trauma may never fully go away.</p>
+                                            <p>I remember my grandma’s hysterical crying and begging the soldiers to spare the life of my brother, who was 16 at that time, and would be studying in his room when they would break in to our house. Her worry was that they might mistake him for an insurgent and shoot him. Some of the soldiers fortunately seemed to be empathic men, or may be their common sense told them that we appeared a well to do, educated family, so chances were low that our family held any freedom fighters. These were just my guesses. The reality was that we were extremely lucky; the military did not spare many. Many wealthy and educated young boys would be killed, either accidentally or on purpose, under the assumption that they were armed insurgents.</p>
+                                            <p>Then there were some of those local Kashmiri men who somehow acquired arms, and had either quit school, become unemployed, or who joined the movement with the selfish intentions of harassing and Terrorizing common people. They set out to intimidate middle or upper class families, either to get money or to force the fathers to get their daughters married to them. One group of such men would often throw handwritten notes into my and my friends’ homes, threatening to kill our fathers if they didn’t provide employment to their men. We would often hear from our neighbors that they would wait for my Father’s vehicle to pull in front of our gate and were either planning to Kidnap him or to shoot him. This was all extremely, extremely anxiety provoking. Sometimes they would throw notes demanding the young girls like me to be married to them. It substantially limited our movement from our house, and whenever we had to go somewhere, a male had to escort us. Thankfully the notes were usually empty threats.</p>
+                                            <p>What helped us survive the trauma and torment of those days was the sense of safety our family created around us. Love and prayers, warm tea, delicious food, and above all, the opportunity to vent our emotions to each other after the encounters were over. After the departure of the last soldier, or the final goodbye of a group of insurgents who would finish an occasional dinner at my place, at least 2 to 3 families in my neighborhood would pop in from our back door and hug us, with food and cookies in hand to express their love and support. I remember how my mom and grandma would keep talking and talking until they would get exhausted, detailing every single thing that happened. In an hour, their anxiety would turn into a sort of celebration. When everyone would leave, there was laughter and relief, at least until the next encounter. This had become a routine for us all, and we we would do the same for our neighbors when they were victims of such experiences. I remember us having such a closely connected, loving community; that’s what kept us afloat.</p>
+                                            <p>The following days would bring an outpouring of relatives to show empathy, and again the whole experience was relived. Conversation began with anxiety and fear in their voices and ended with screams of joy and laughter. It was a constant ongoing debriefing. And that became our free and intensive grief counseling, our trauma therapy. It made us stronger and closer as a family and community. To to this day, whenever my mind goes to that time, there is very little fear and anxiety, but rather a bittersweet memory of challenging times amidst lots and lots of love and support. Social support and lot of unconditional love is one of the best ways to cope with trauma, after all.</p>
+                                            <p>Witnessing that warfare and knowing what helped me to become stronger and more resilient makes me a living example of the fact that trauma surely can cause PTSD, but it can also lead to enormous growth. Through those experiences, I am a firm believer of the concept of post-traumatic growth. Love, comfort, community, and a chance to express and relive these unpleasant experiences in a safe manner is what helped us not only go through it, but heal from it and grow to become better and more grateful individuals.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog-details end -->
+
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <div>
+                <div class="scroll-top-inner">
+                    <div class="scroll-bar">
+                        <div class="bar-inner"></div>
+                    </div>
+                    <div class="scroll-bar-text">Go To Top</div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll to top end -->
+
+    </div>
+
+    <?php
+    include "assets/includes/scripts.php";
+    ?>
+
+    <script src="assets/js/isotope.js"></script>
+
+
+</body><!-- End of .page_wrapper -->
+
+</html>

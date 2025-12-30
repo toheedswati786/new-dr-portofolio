@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+    <?php
+    include "assets/includes/links.php";
+    ?>
+
+</head>
+
+
+<!-- page wrapper -->
+
+<body>
+
+    <div class="boxed_wrapper">
+
+
+        <!-- preloader -->
+        <?php
+        include "assets/includes/loader.php";
+        ?>
+        <!-- preloader end -->
+
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+
+        <!-- blog-details -->
+        <section class="blog-details">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12 content-side">
+                        <div class="blog-details-content">
+                            <div class="content-one">
+                                <div class="inner-box">
+                                    <div class="lower-content">
+                                         
+                                        <div class="text">
+                                            <H2>Self-Love: The Remedy for People Pleasing</H2>
+                                            <p>Having been born in a culture where marriage was considered to be the ultimate goal for a woman, obedience to one’s husband and in-laws was not just instilled but strongly enforced. Any time a group of women would sit together and have a chat about marriage and relationships, one thing always stood out to me; if you had a voice, you couldn’t be a good wife. For marriages to work, women have to make compromises. This was the message the society would want both girls and boys to understand crystal clearly. The result of this conditioning? The creation of scores of people pleasing girls with codependency traits and self esteem issues- myself being one of them- and self-centered men, who had high expectations of their wives. Neither party was able to experience the joys of an equal partnership.</p>
+                                            <p>Another commonly heard expression throughout my childhood was, “What a nice girl! She will make a perfect wife for her future home.” The message most of us young women got from our peers, extended family, and society at large was that only “nice girls” get to sustain a marriage and have a family.</p>
+                                            <p>Interestingly, my family had a completely different energy. My own mother not only had a say in all matters, but was my father’s best friend, his confidant. She was adored and loved deeply by him, and he cared well for her despite her hearing disability. The irony was, despite having these amazing traits as a husband, my father was often mocked by some of his extended family members and sometimes labeled “henpecked”.</p>
+                                            <p>Even though my family dynamic differed, I took the message of society to heart. I worked so hard to get that title of the “nice girl”, starting my journey of what I call “cultural codependency” or, in other words, people pleasing. Having a mother with special needs also had an effect on my self esteem. I would subconsciously put effort into being a better listener than she was, and I’d go the extra mile to be there for everyone around me. I always had a smile on my face, I was always willing to help others, no matter what. Even if someone said something hurtful, I would just smile, nod my head, and avoid confrontation at any cost.</p>
+                                            <p>With this cultural baggage, one thing was clear in my mind. As a young adult, no matter what, I have to gain the trust of the man I will marry, care for him, and help him fulfil his dreams. My childhood dream of becoming a physician was already coming true, so I was all set to help the man who would become my husband to fulfill all of his dreams.</p>
+                                            <p>Being a “nice girl” came in handy once it came time to finding me a husband. Lots of proposals started pouring in once I completed medical school. Out of the lot, I seemed to have found a pretty good match for me. He was a charming, kind, high-achieving man who was the life of the party and one of the best students in med school.</p>
+                                            <p>For the first few years of marriage, I would subconsciously catch myself ignoring my own needs and focusing more on my husband’s. Trying my best to please his family, ensuring I become that daughter-in-law that they would take pride in, reaching out to them even when I didn’t have to. In all the people-pleasing, I had lost my own identity. On top of that, I had my own children, and all their needs to fulfill. Since my husband works in a demanding field and always challenged himself in his career, most of the parenting responsibilities fell on me. Despite the challenge that it was, I had no regrets and feel enormously blessed to have nurtured, cared for, and provided for my children.</p>
+                                            <p>Being married to an overachiever came with challenges as well. Not too long into my marriage, I realized that my codependency on my husband was making me unhappy. I would often catch myself complaining when he would take up another project or get busy with writing another research proposal. I had to take a step back, because this was not who I wanted to be. I noticed how I’d stopped paying attention to my own needs, and lost sight of my own dreams.</p>
+                                            <p>Luckily, even though my husband was very busy and focused on work, he always encouraged me to be a self-reliant, independent, strong-minded woman, and I thank him for that to this day. Coming from a culture where men have the urge to take the upper hand in a marriage and consider women to be strictly caregivers, my husband didn’t just stand by me, but drove me towards pursuing my dreams. He would constantly remind me of my strengths as a successful physician, and encouraged me to move forward in my career alongside being a mother. Beyond that, I had to look inward and rediscover my passion for being a psychiatrist. With my husband, I wanted to reach a healthy balance of supporting each other without dependence.</p>
+                                            <p>The tools of self-love and self-compassion that I was so good at teaching my patients came in handy in my own journey towards authenticity. So, instead of paying attention to what my husband was doing, as to why he was not available for certain events or helping out with certain parenting responsibilities, I started paying attention to my own feelings, my own desires, and my own needs.</p>
+                                            <p>Whenever I would catch myself feeling lonely, I took it as a sign that I was not paying attention to myself. I was not being my own companion, and had been abandoning myself in a way. So I did what I do with patients: I started listening to myself. Listened to my feelings, to what I really needed at that moment. What were my own dreams and aspirations?</p>
+                                            <p>Something amazing happened once I started practicing this. In the little free time I had during the day, I started working on things I have always wanted to do. I got a chance to write a children’s book and host virtual story times. I could volunteer for my kids’ school, go for a lunch date with friends, take a mini vacation by myself, ride a bike, listen to some music while going on a long drive, or just have some nice breakfast in my kitchen table while watching the birds.</p>
+                                            <p>I enjoyed the company of the little girl inside me. I stopped complaining so much about my husband’s busy work schedule. In fact, I started asking my husband about his day. Genuinely curious about what he did, what new ventures he had taken up. I noticed that not only did I become more content with myself, but my relationship with my husband got better and more gratifying. He started turning to me not only for companionship as a wife, but for friendly company and advice on how he should handle certain situations. It was extremely gratifying to hear him say in one of his award ceremonies, “My wife is my rock”. It wasn’t too long before that he’d jokingly told me, “I need to start a support group for spouses of shrinks!” I learned how to go from bitterness- from neglecting my needs, wanting to please others, and no self love- to such a deep self-reliance and inner peace that no matter what the people around me were doing, I could find stability and happiness within. The journey is a long but gratifying one, and everyone is capable of finding that love for self within themselves.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog-details end -->
+
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <div>
+                <div class="scroll-top-inner">
+                    <div class="scroll-bar">
+                        <div class="bar-inner"></div>
+                    </div>
+                    <div class="scroll-bar-text">Go To Top</div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll to top end -->
+
+    </div>
+
+    <?php
+    include "assets/includes/scripts.php";
+    ?>
+
+    <script src="assets/js/isotope.js"></script>
+
+
+</body><!-- End of .page_wrapper -->
+
+</html>
