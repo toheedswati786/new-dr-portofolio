@@ -246,7 +246,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Gratitude: An Antidote to Perfectionism</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Can gratitude cure perfectionism? From therapy sessions to bedtime prayers, learn how one family embraced 'faking imperfection' to help their gifted son navigate the pressures of third grade and rediscover his love for school.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="AATP">
                                         <input type="hidden" name="name" value="Gratitude: An Antidote to Perfectionism">
@@ -279,7 +279,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Self-Love: The Remedy for People Pleasing</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Can you be a 'nice girl' and still have an identity? Explore the reality of cultural codependency, the burden of being a people-pleaser, and the transformative power of self-compassion in creating an equal, gratifying partnership.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="SLRP">
                                         <input type="hidden" name="name" value="Self-Love: The Remedy for People Pleasing">
@@ -312,7 +312,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Eight Everlasting Gifts To Reduce Holiday Stress During The Pandemic</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Rediscover the real spirit of the holidays. Move beyond the stress of shopping and planning with eight simple shifts in perspective—from the gift of imagination to the power of self-love—that will leave you feeling grounded and grateful.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="SLRPP">
                                         <input type="hidden" name="name" value="Eight Everlasting Gifts To Reduce Holiday Stress During The Pandemic">
@@ -345,7 +345,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Daughters: Our Biggest Teachers</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Can your child be your most important life coach? Explore the lessons of a first-generation American daughter who taught her psychiatrist mother to trade anxiety for trust, and cultural rigidity for unconditional love. A story of feminism, faith, and the power of an open mind.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="DODT">
                                         <input type="hidden" name="name" value="Daughters: Our Biggest Teachers">
@@ -377,7 +377,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Navigating Impostor Syndrome</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Stop feeling like a fraud. Dive into the origins of Impostor Syndrome and learn five practical strategies to silence your inner critic, set achievable goals, and finally embrace the success you’ve worked so hard to earn.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="NIS">
                                         <input type="hidden" name="name" value="Navigating Impostor Syndrome">
@@ -410,7 +410,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">A Guide to Deep Emotional Connections</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Connection is a human necessity, but how do we keep it healthy? Discover the practical side of deep emotional bonds: from the science of mental health benefits to the importance of self-reliance and the subtle art of setting boundaries in a complex world.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="GTDEC">
                                         <input type="hidden" name="name" value="A Guide to Deep Emotional Connections">
@@ -443,7 +443,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Seasonal Depression: Shedding Light on the Winter Blues</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Don't let the winter months dim your spark. From the impact of northern latitudes to the benefits of phototherapy, we dive into the causes and treatments of Seasonal Affective Disorder. Take control of your mental health and find hope even on the shortest days of the year.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="sd">
                                         <input type="hidden" name="name" value="Seasonal Depression: Shedding Light on the Winter Blues">
@@ -476,7 +476,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">The Complex Psychology of Control and Coercion</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Control is a reaction to fear, but coercion is a weapon of manipulation. Learn the psychology behind these destructive behaviors, why 'nice' people are often at higher risk, and how to break the cycle of coercive control through self-awareness and strong boundaries.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="CPC">
                                         <input type="hidden" name="name" value="The Complex Psychology of Control and Coercion">
@@ -509,7 +509,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Navigating Anxiety Through Nervous System Regulation</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Stop the racing thoughts by starting with your body. Dive into the delicate balance of your nervous system and learn how simple shifts in breath, movement, and sleep can act as an antidote to anxiety and a lifeline to serenity.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="NATN">
                                         <input type="hidden" name="name" value="Navigating Anxiety Through Nervous System Regulation">
@@ -541,7 +541,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">The Gentle/Respectful Parenting Movement: Raising Emotionally Intelligent Children</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Parenting is a two-way street. Dive into the respectful parenting movement and see how modeling the behavior you want to see—and apologizing when you slip up—can reduce behavioral issues and build a home rooted in love, not fear.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="GPM">
                                         <input type="hidden" name="name" value="The Gentle/Respectful Parenting Movement: Raising Emotionally Intelligent Children">
@@ -574,7 +574,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Married to an Overachiever? How to Balance Ambition and Emotional Well-being</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Don't lose yourself in your partner's pursuit of excellence. Explore 10 ways to foster a realistic, balanced partnership with an overachiever, where mutual respect and personal fulfillment are just as important as the next big promotion.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="MTAO">
                                         <input type="hidden" name="name" value="Married to an Overachiever? How to Balance Ambition and Emotional Well-being">
@@ -604,10 +604,10 @@
                                         <form action="blog-details.php" method="post">
                                             <input type="hidden" name="file" value="TMET">
                                             <input type="hidden" name="name" value='Is "Too Much Empathy" A Thing?'>
-                                            <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;'>Is " Too Much Empathy" A Thing?</button>
+                                            <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Is "Too Much Empathy" A Thing?</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Stop absorbing everyone else's energy. If you struggle to say 'no' or prioritize others' needs over your own, you might be experiencing empathy overload. Dive into our guide on preventing empath burnout and learn how to maintain your emotional intelligence without losing your inner peace.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="TMET">
                                         <input type="hidden" name="name" value='Is "Too Much Empathy" A Thing?'>
@@ -640,7 +640,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Invalidating Childhood Environments: Understanding their Impact</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Your feelings were never the problem. Dive into our latest post on the impact of invalidating environments. Learn why we suppress our primary emotions, how to overcome the survival mechanism of secondary anger, and how to start trusting your body’s signals again.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="ICE">
                                         <input type="hidden" name="name" value="Invalidating Childhood Environments: Understanding their Impact">
@@ -673,7 +673,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">The Overachiever's Dilemma: Striving for Excellence in a Competitive World</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>The A+ shouldn't be your only motivator. Dive into the challenges of the overachieving mindset—from the 'unending quest' to the fear of setbacks. Learn practical ways to balance your high standards with your physical, emotional, and spiritual needs for a more fulfilling life.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="TOD">
                                         <input type="hidden" name="name" value="The Overachiever's Dilemma: Striving for Excellence in a Competitive World">
@@ -705,7 +705,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Five signs of a Toxic Workplace</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Titles, hierarchy, and high-pressure 60-hour weeks: is your job worth your well-being? Dive into the five indicators of a toxic workplace and discover why the loss of community and the absence of positive feedback are major red flags for your mental health.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="FSTW">
                                         <input type="hidden" name="name" value="Five signs of a Toxic Workplace">
@@ -738,7 +738,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">How to Manage the Holiday Stress – FREE Webinar</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>From trauma triggers to the burnout of busy schedules: why do the holidays stress us out? Join me for a free webinar on the neurobiology of holiday anxiety. Learn how to reclaim your joy by understanding your body’s stress-relieving systems and shifting your focus back to meaningful connection.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="HMHS">
                                         <input type="hidden" name="name" value="How to Manage the Holiday Stress – FREE Webinar">
@@ -771,7 +771,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">How Art Helps To Heal Anxiety</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>You don't have to be an artist to benefit from art therapy. Dive into the research showing how 10 weeks of creative intervention can boost psychological resilience, calm the nervous system, and provide a voice for children and trauma survivors alike.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="HPPA">
                                         <input type="hidden" name="name" value="How Art Helps To Heal Anxiety">
@@ -804,7 +804,7 @@
                                             <button type="submit" style="border:none;background:none;padding:0;color:#41132b;font-size:inherit;font-family:inherit;text-align: left;font-weight:600;">Telepathy: A paranormal phenomenon, a symptom of Psychosis, or a Love language?</button>
                                         </form>
                                     </h3>
-                                    <p>Can trauma lead to growth? Reflecting on my youth in Kashmir, I explore the concept of Post-Traumatic Growth and how the safety of family and community can transform an environment of fear into a foundation of resilience.</p>
+                                    <p>Telepathy: Greek for 'distant feeling.' Whether you call it a sixth sense or emotional intelligence, our brains are wired for connection. Explore the biological mechanisms behind empathy, the reality of 'mind reading' in schizophrenia, and why humans were given the gift of complex language.</p>
                                     <form action="blog-details.php" method="post">
                                         <input type="hidden" name="file" value="TAPPA">
                                         <input type="hidden" name="name" value="Telepathy: A paranormal phenomenon, a symptom of Psychosis, or a Love language?">

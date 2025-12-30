@@ -9,7 +9,6 @@
                                     <div class="lower-content">
                                          
                                         <div class="text">
-                                            <h2>Daughters: Our Biggest Teachers</h2>
                                             <p>As parents, we feel an obligation to guide our children and be their role models. But only when we emerge from our own anxieties and perfectionism, even if for a little while, we can see how our children may teach us much more about life than we can.</p>
                                             <p>When I was pregnant with my daughter, I dreamt one night that a beautiful baby was placed in my arms and someone whispered, "Here is Medina". Medina is a city in Saudi Arabia, a sacred place to Muslims worldwide, where Prophet Muhammad (PBUH) took refuge when he escaped the terror and torture of the disbelievers in Mecca. I knew from the moment I woke up that night that we have to name our baby girl "Medina". In my husband's family, it was expected that the first grandchild be named by the paternal grandparents- a practice common in our culture. I remember not giving them any choice, I just announced as to what we were going to name our daughter. To this day, I am not sure how they perceived that announcement, but I know they just love her and her name as much as we do.</p>
                                             <p>That was the first lesson on assertiveness and advocacy which my daughter taught me, even before entering this world.</p>
