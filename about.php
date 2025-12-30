@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <?php include __DIR__ . '/assets/includes/links.php'; ?>
+  <?php include __DIR__ . '../../assets/includes/links.php'; ?>
 </head>
 
 <body>

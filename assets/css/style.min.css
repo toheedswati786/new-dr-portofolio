@@ -2498,7 +2498,8 @@ button[class*="-dark"]:hover {
   border-radius: var(--bs-border-radius);
 }
 [class*="_details_section"] .details_image img {
-  width: 100%;
+  width: 60%;
+  border-radius: var(--bs-border-radius);
   display: block;
 }
 [class*="_details_section"] .details_item_title {

@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <?php include __DIR__ . '/assets/includes/links.php'; ?>
+    <style>
+    p{
+      text-align: justify;
+      font-size: 19px !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page_wrapper">
+    <div class="backtotop">
+      <a href="#" class="scroll"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <?php include __DIR__ . '/assets/includes/header.php'; ?>
+    <main class="page_content">
+      <section class="page_banner decoration_wrapper">
+        <div class="container">
+          <h1 class="page_title">
+            Valentine’s Day: The Fantasies and The Realities
+          </h1>
+        </div>
+        <div class="decoration_item shape_leaf_1">
+          <img
+            src="assets/images/shapes/shape_leaf_left.svg"
+            alt="Shape Leaf - Talking Minds - Psychotherapist Site Template" />
+        </div>
+        <div class="decoration_item shape_leaf_2">
+          <img
+            src="assets/images/shapes/shape_leaf_right.svg"
+            alt="Shape Leaf - Talking Minds - Psychotherapist Site Template" />
+        </div>
+      </section>
+      <section class="blog_details_section  pb-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="details_image">
+                <!-- blog thumbnail img -->
+                <center class="m-3 mt-5"><img
+                    src="assets/images/blogs/2.png" style="width: 200 !important;"
+                    alt="Talking Minds - Psychotherapist Site Template" /></center>
+              </div>
+              <div class="details_content">
+                <p>
+                  A while back, I had written a blog about daughters being our first teachers. In that, I had shared how in many immigrant families, children can take up early leadership roles. That includes my family. I had also shared how our own daughter, who is now a senior at college, challenged our belief systems and introduced us to a different set of thinking and values based on what she absorbed during her experiences as a first-generation American. We happened to embrace some of that mindset. Many times with an open heart, and at others with cautious optimism. However, mostly through the power of parental trust on a child who we closely observed as someone with strong instincts, wisdom, and deep awareness. She has and continues to evolve into a very self-motivated and independent young woman.
+                </p>
+                <p>Like everyone else, she too has had her challenges in life, especially after going through the stress of a Pandemic in her senior year of college. But to have watched her navigate her life’s ups and downs, reach out to her peers, her mentors, or other professionals, whenever she needed any extra help or support, has been nothing but gratifying.
+
+                </p>
+                <p>As she was finding new venues, new opportunities with this pandemic, I as her mother, got a chance to explore some new ways to expand my own dreams of giving back to my home country, especially during these stressful times. While running a support group for single Kashmiri moms, who had lost their husbands at a very early age in their marriage I noticed an area of concern in their teenage children. Especially the oldest children. It is a psychological phenomenon where children’s roles are unconsciously switched to that of a parent. A process called “parentification”. This term was first coined by Boszormenyi-Nagy and Spark in 1973.
+
+                </p>
+                <p>Parentification happens in every part of the world, in every culture, every society, except that its effects may be different depending on what the cultural norm of that society maybe. In some cultures like that of some Asian, Mexican, or even African American, since there is more focus on familial interdependency and responsibility rather than individual autonomy, some level of parentification may be beneficial. It could lead to resilience, a sense of social responsibility, and more caretaking skills in children who are being Parentified, especially if it happens in the later years of childhood. Episodic parentification has also been found to be a boost to children’s self-esteem from such cultural backgrounds. ( <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Khafi%20TY%5BAuthor%5D&cauthor=true&cauthor_uid=24684188">Tamar Y. Khafi,</a> <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Yates%20TM%5BAuthor%5D&cauthor=true&cauthor_uid=24684188"> Tuppett M. Yates</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Luthar%20SS%5BAuthor%5D&cauthor=true&cauthor_uid=24684188">Suniya S. Luthar</a> )</p>
+
+                <p>In most cases, however, parentification, unfortunately, leads to severe psychological issues, not only during childhood but more so when these children become adults- especially when children are Parentified at a very early age and also depending on the extent or severity of this practice.
+
+                </p>
+                <p>Parentification can be emotional or instrumental. In emotional parentification, which also happens to be the most detrimental to a child’s psychological wellbeing, the child can become a confidant of the parent, sort of a counselor, or a secret keeper. They can feel a constant obligation to maintain peace in the home. Such children feel responsible for their parent’s happiness and can become people-pleasers as adults. They can struggle with chronic low self-esteem and lack of self-love. They may have a hard time setting appropriate boundaries in their future relationships, thus putting them at risk for anxiety, depression, substance abuse, or other emotional conditions.
+
+                </p>
+                <p>On the other extreme, some of them can also feel an undue sense of wanting to be in control of everyone and everything around them. They can develop a sense of pathologic entitlement or a lack of remorse or empathy, since their own personal needs were ignored, unmet, or neglected when they were children. This can create narcissism and overachievement at the expense of their own psychologic wellbeing and that of their own children, partners, and friends. In instrumental parentification, the child is subjected to taking up physical responsibilities like taking care of younger siblings, preparing dinner, having to work early in life, and other age-inappropriate chores of the family.
+
+                </p>
+                <p>It is important to understand the difference between appropriate and not-appropriate responsibilities that parents expect or set on children. Assignment of age-appropriate chores and being emotionally vulnerable with a child (keeping in mind the child’s age and capabilities) can help build their own emotional intelligence and can actually be very beneficial in building character and self-esteem in children.
+
+                </p>
+                <p>Whether it is due to a parent’s underlying mental illness, excessive responsibilities, dysfunctional and unhappy marriages, or other huge cultural barriers, many children of immigrant families can become easy targets of this unconscious practice of parentification. Parentification is mostly unconscious, and most of the time parents do not intend to cause harm. And after doing some more extensive search, I found that in many immigrant families, children do tend to become translators and advisors due to their parent’s ignorance of the new culture. That may contribute to their parentification. However, if parents keep the channels of communication open with their children, applaud them for having good leadership qualities, being patient, self-motivated, the children can see their parents as stable adults and may look up to them as their confidants. They will perceive their parents or parent as imperfect but loving, caring people, who love them unconditionally. They will feel appreciated and cherished for their strengths and capabilities, thus building a stronger sense of identity.
+
+                </p>
+                <p>Parents can also keep their own egos in check, by asking questions, involving children in decision making, and providing structure. The best thing they can do for their children is to admit that they may not be aware of many aspects and availabilities in the new culture, but they have an open mind and are willing to learn.
+
+                </p>
+                <p>By taking parenting classes, utilizing other services from their local community (religious organizations, community centers, ESL classes), or even going for counseling themselves, parents can truly serve as great role models for their children. They can maintain that loving, caring, holding parental status for their unconditionally deserving children.
+
+                </p>
+                <p>It is also important to do frequent emotional check-ins with our children; ask them how they are feeling and reassure them that you are there for them no matter what. Support them, honor their feelings. Provide a safe non-judgmental space where they can freely share their insecurities, their inner needs, inner fears. And in fact, many of us immigrant parents deal with way more challenges than our non-immigrant counterparts, due to the added stress of acculturation. Our children also tend to be at higher risk for becoming victims of racial/cultural intolerance, which unfortunately still runs rampant in America.
+
+                </p>
+                <p>One of the profound ways that we can be empathic, sensitive, and fully present to our children is when we can do the same for ourselves. When our children watch us being too hard on ourselves, they tend to be hard on themselves too.</p>
+                <p>Taking occasional breaks from parental responsibilities- going out for a dinner with friends, take short trips with our spouses/partners, fulfilling our personal goals, nurturing our inner child- will relieve our children from that duty, that obligation, or that unconscious need to keep their parents happy. It gives them an opportunity and an example to focus on their own needs.
+
+                </p>
+                <p>For those children who have grown up in such households and are victims of parentification, it is important that they learn to tend to that “inner child” whose needs may have been ignored by their parents. When such children grow into adults, they can and should practice that self-love, self-reassurance, putting that healthy structure and healthy boundaries on themselves and the people around them that they deserve. They also need to be aware of the fact that their childhoods have made them capable, strong, and resilient individuals. They can discover and appreciate their leadership qualities, their empathic, caring nature, and they can also see their parents not as perfect or divine beings but as ordinary, imperfect people who tried to do their best, and just didn’t know enough.
+
+                </p>
+                <p>Parentification can be generational to a large extent. However, we can stop this cycle by gaining awareness and through self-discovery. Being a parent myself, it will need to begin with us. We will need to ask for forgiveness from our children for not knowing enough. We will need to open up that dialogue with them. We will need to ask them how they felt being raised by parents that expected care from them rather than the other way around. And we’ll need to actively work on our boundaries with them, ask them what their emotional needs are, and do our best to fulfill those needs in big and small ways.
+
+                </p>
+                <p>It is also important that we share with our children stories from back home, of our childhood, of their grand aunts/uncles, or extended family they have not known. Share stories of failures, mistakes, lessons, and how we are still learning to navigate our lives. Above all, keep reminding them of how proud we are of them. How we appreciate them not for becoming who we want them to be, but for being who they want to and are destined to be.
+
+                </p>
+                <p>So after writing that blog on daughters, I did some self-reflection and asked myself, that as immigrant parents, did we ever subject our own daughter to this practice unconsciously? We still don’t have the right answer. We just keep doing our best. We also keep checking in with her, and we try our best to support her as she is navigating her life as an adult. We ask for forgiveness for our mistakes, but there is one thing we have absolutely no doubt about. How we all love each other unconditionally, with all our ups and downs, all our imperfections, all our mistakes. As they say, love can move mountains. So can it heal, forgive, and help us to grow.</p>
+                <center class=" mb-5">
+                  <quote>
+                    "My heart leaps up when I behold <br>
+                    A rainbow in the sky: <br>
+                    So was it when my life began; <br>
+                    So is it now I am a man; <br>
+                    So be it when I shall grow old, <br>
+                    Or let me die! <br>
+                    The Child is father of the Man; <br>
+                    And I could wish my days to be <br>
+                    Bound each to each by natural piety." <br>
+                    <br>
+                    ― <strong><i>William Wordsworth</i></strong>
+                  </quote>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <?php include __DIR__ . '/assets/includes/footer.php'; ?>
+  </div>
+  <?php include __DIR__ . '/assets/includes/scripts.php'; ?>
+
+</body>
+
+</html>

@@ -3,9 +3,10 @@
 
 <head>
   <?php include __DIR__ . '/assets/includes/links.php'; ?>
-  <style>
-    span.btn_text {
-      color: #41132b;
+    <style>
+    p{
+      text-align: justify;
+      font-size: 19px !important;
     }
   </style>
 </head>
@@ -34,14 +35,15 @@
             alt="Shape Leaf - Talking Minds - Psychotherapist Site Template" />
         </div>
       </section>
-      <section class="blog_details_section section_space_lg pb-0">
+      <section class="blog_details_section  pb-0">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
               <div class="details_image">
-                <img
-                  src="http://localhost/dr/assets/images/blog/thumbnail/1.png"
-                  alt="Talking Minds - Psychotherapist Site Template" />
+                <!-- blog thumbnail img -->
+                <center class="m-3 mt-5"><img
+                  src="assets/images/blogs/1.png" style="width: 200 !important;"
+                  alt="Talking Minds - Psychotherapist Site Template" /></center>
               </div>
               <div class="details_content">
                 <p>
