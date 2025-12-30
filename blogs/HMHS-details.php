@@ -7,7 +7,6 @@
                     <div class="content-one">
                         <div class="inner-box">
                             <div class="lower-content">
-                                <h2>It's That time of the year again. <br>HOLIDAYS!</h2>
                                 <div class="text">
                                     <p>Even though a lot of us feel the warmth, smiles, and inner joy of celebrating Holidays with our friends and families. Eating together, cooking together, sharing laughter, and memories, and recreating those deep and meaningful connections.</p>
                                     <p>Yet there are many, for whom this time brings challenges of their own, be it busy working moms, with young children, some of whom have to work 2 jobs to make their needs met, or some who have such a busy schedule, that there is little time left for holiday shopping, buying gifts, wrapping them, cooking and then organizing elaborate Christmas dinner.</p>

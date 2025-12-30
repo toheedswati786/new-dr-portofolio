@@ -1,10 +1,10 @@
 <?php
     // Get the blog file name from the query parameter
-    $fileName = isset($_GET['file']) ? $_GET['file'] : 'default-blog';
+    $fileName = isset($_POST['file']) ? $_POST['file'] : 'default-blog';
 
     // Sanitize the file name to prevent directory traversal attacks
     $fileName = basename($fileName);
-    $blogName = isset($_GET['name']) ? $_GET['name'] : 'Blog Details';
+    $blogName = isset($_POST['name']) ? $_POST['name'] : 'Blog Details';
 ?>
 
 <!DOCTYPE html>
@@ -25,6 +25,7 @@
             height: 100vh;
             border: none;
         }
+
     </style>
 </head>
 
