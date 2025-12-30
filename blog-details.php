@@ -1,7 +1,12 @@
-<?php 
-$baseUrl = "http://" . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['PHP_SELF']), '/\\') . '/';
-$blogUrl = $baseUrl . 'blogs/VDTFATR-details.php';
+<?php
+    // Get the blog file name from the query parameter
+    $fileName = isset($_GET['file']) ? $_GET['file'] : 'default-blog';
+
+    // Sanitize the file name to prevent directory traversal attacks
+    $fileName = basename($fileName);
+    $blogName = isset($_GET['name']) ? $_GET['name'] : 'Blog Details';
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +18,7 @@ $blogUrl = $baseUrl . 'blogs/VDTFATR-details.php';
         }
         p {
             text-align: justify;
-            font-size: 19px !important;
+            font-size: 18px !important;
         }
         .view-blog-page {
             width: 100%;
@@ -33,7 +38,7 @@ $blogUrl = $baseUrl . 'blogs/VDTFATR-details.php';
             <section class="page_banner decoration_wrapper">
                 <div class="container">
                     <h1 class="page_title">
-                        Valentine’s Day: The Fantasies and The Realities
+                        <?php echo htmlspecialchars($blogName); ?>
                     </h1>
                 </div>
                 <div class="decoration_item shape_leaf_1">
@@ -52,8 +57,15 @@ $blogUrl = $baseUrl . 'blogs/VDTFATR-details.php';
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="details_content">
-                                <!-- blog section starts here -->
-                                <iframe class="view-blog-page" src="<?php echo $blogUrl;?>"></iframe>
+                                <?php 
+                                    // Include the blog content from the get request parameter\
+                                    $blogFilePath = __DIR__ . '/blogs/' . $fileName . '-details.php';
+                                    if (file_exists($blogFilePath)) {
+                                        include $blogFilePath;
+                                    } else {
+                                        echo "<p>Blog not found.</p>";
+                                    }
+                                ?>
                             </div>
                         </div>
                     </div>

@@ -6,7 +6,6 @@
                     <div class="content-one">
                         <div class="inner-box">
                             <div class="lower-content">
-                                 
                                 <div class="text">
                                     <p>In work, millions of people deal with bullies and abusive managers. Every day, these employees are the objects of their manager's heckling, threats, or insulting remarks. As a result, their job happiness, productivity, and dedication to the company as a whole suffer.</p>
                                     <p>While dealing with "bad bosses" directly can be upsetting for workers, the issue frequently involves more than one person.</p>
