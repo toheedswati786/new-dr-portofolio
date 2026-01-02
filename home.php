@@ -12,16 +12,16 @@
     </div>
     <?php include __DIR__ . '/assets/includes/header.php'; ?>
     <main class="page_content" style="margin-bottom: 70px;">
-      <section class="hero_section decoration_wrapper" >
+      <section class="hero_section decoration_wrapper">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6  order-lg-last" style="padding: 30px;">
-              <div class="hero_content_wrap" >
+              <div class="hero_content_wrap">
                 <h1 class="heading_text">
                   Coaching & Mentorship for Emotional Resilience
                 </h1>
                 <p class="heading_description" style="text-align: justify;">
-                  <b>Dr. Najmun Riyaz, MD </b>is a board-certified psychiatrist and trauma‑informed mentor supporting people who feel overwhelmed, over-responsible, or emotionally drained to rediscover calm, clarity, and self‑respect. 
+                  <b>Dr. Najmun Riyaz, MD </b>is a board-certified psychiatrist and trauma‑informed mentor supporting people who feel overwhelmed, over-responsible, or emotionally drained to rediscover calm, clarity, and self‑respect.
                 </p>
                 <ul class="btns_group unordered_list">
                   <li>
@@ -335,7 +335,7 @@
           <div class="consultation_form bg_primary_light decoration_wrapper">
             <div class="section_heading text-center">
               <h2 class="section_heading_text mb-0">
-                <span class="d-md-block">Get in Touch With Us</span> 
+                <span class="d-md-block">Get in Touch With Us</span>
               </h2>
             </div>
             <div class="row justify-content-center">
@@ -369,7 +369,7 @@
                   <div class="col-md-12">
                     <div class="form-group">
                       <label for="input_msg">Message</label>
-                        <textarea id="input_msg" class="form-control" type="text" name="message" placeholder="Enter Your Message"></textarea>
+                      <textarea id="input_msg" class="form-control" type="text" name="message" placeholder="Enter Your Message"></textarea>
                     </div>
                   </div>
                 </div>
@@ -396,7 +396,7 @@
       <section class="testimonial_section section_space_lg">
         <div class="container">
           <div class="section_heading text-center">
-            <h2 class="section_heading_text">What Patients Say</h2>
+            <h2 class="section_heading_text">Testemonials</h2>
           </div>
           <div class="testimonial_carousel">
             <div class="carousel_2col row" data-slick='{"arrows":false}'>
@@ -431,7 +431,7 @@
                   </ul>
                   <div class="author_box">
                     <div class="author_box_content">
-                      <h3 class="author_box_name">Obaid</h3> 
+                      <h3 class="author_box_name">Obaid</h3>
                     </div>
                   </div>
                   <p class="mb-0">
@@ -450,7 +450,7 @@
                   </ul>
                   <div class="author_box">
                     <div class="author_box_content">
-                      <h3 class="author_box_name">Adam</h3> 
+                      <h3 class="author_box_name">Adam</h3>
                     </div>
                   </div>
                   <p class="mb-0">
@@ -469,11 +469,11 @@
                   </ul>
                   <div class="author_box">
                     <div class="author_box_content">
-                      <h3 class="author_box_name">Gigi</h3> 
+                      <h3 class="author_box_name">Gigi</h3>
                     </div>
                   </div>
                   <p class="mb-0">
-                    Dr. Riyaz provides compassionate support when you are at your lowest. She helps you heal, regain your strength, and believe in yourself. 
+                    Dr. Riyaz provides compassionate support when you are at your lowest. She helps you heal, regain your strength, and believe in yourself.
                     She is a professional, knowledgeable coach who handles difficult issues with warmth. Her guidance provides a lucky, life-changing light during hardship.
                   </p>
                 </div>
