@@ -482,67 +482,6 @@
           </div>
         </div>
       </section>
-      <section class="blog_section section_space_lg" style="padding-top: 0px !important; padding-bottom: 100px !important;">
-        <div class="container">
-          <div class="section_heading">
-            <div class="row align-items-center">
-              <div class="col-md-6">
-                <h2 class="section_heading_text mb-0">Our Blogs</h2>
-              </div>
-              <div class="col-md-6 d-none d-md-flex justify-content-end">
-                <a class="btn btn-primary" href="blog.php"><span class="btn_text" data-text="Read More Articles">See More Resources </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-6 col-sm-6">
-              <div class="blog_item">
-                <div class="blog_image">
-                  <a class="blog_image_wrap" href="blog_details.php"><img
-                      src="assets/images/blogs/blog_image_1-min.jpg"
-                      alt="Talking Minds - The pros and cons of group psychotherapy" /></a>
-                </div>
-                <div class="blog_content">
-                  <h3 class="item_title">
-                    <a href="blog_details.php">Lorem ipsum dolor sit amet consectetur.</a>
-                  </h3>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Sunt in similique culpa qui officia
-                    deserunt.
-                  </p>
-                  <a class="btn-link" href="blog_details.php"><span class="btn_text" style="color: #894198;">Learn More</span>
-                    <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-              <div class="blog_item">
-                <div class="blog_image">
-                  <a class="blog_image_wrap" href="blog_details.php"><img
-                      src="assets/images/blogs/blog_image_2-min.jpg"
-                      alt="Talking Minds - The pros and cons of group psychotherapy" /></a>
-                </div>
-                <div class="blog_content">
-                  <h3 class="item_title">
-                    <a href="blog_details.php">Lorem ipsum dolor sit amet consectetur.</a>
-                  </h3>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Sunt in similique culpa qui officia
-                    deserunt.
-                  </p>
-                  <a class="btn-link" href="blog_details.php"><span class="btn_text" style="color: #894198;">Learn More</span>
-                    <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="btn_wrap pb-0 text-center d-md-none d-block">
-            <a class="btn btn-primary" href="blog.php"><span class="btn_text" data-text="Read More Articles">Read More Articles </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
-          </div>
-        </div>
-      </section>
 
     </main>
     <?php include __DIR__ . '/assets/includes/footer.php'; ?>
