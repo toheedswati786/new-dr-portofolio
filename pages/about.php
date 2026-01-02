@@ -1,15 +1,15 @@
-ï»¿<!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <?php include __DIR__ . '/assets/includes/links.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/links.php'; ?>
 </head>
 
 <body>
   <div class="page_wrapper">
     <div class="backtotop"><a href="#" class="scroll"><i class="fa-solid fa-arrow-up"></i></a></div>
 
-      <?php include __DIR__ . '/assets/includes/header.php'; ?>
+      <?php include __DIR__ . '/../assets/includes/header.php'; ?>
 
     <main class="page_content">
       <section class="page_banner decoration_wrapper">
@@ -27,7 +27,7 @@
         <div class="container">
           <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6 order-lg-last">
-              <div class="image_widget"><img src="assets/images/about/about_image_1-min.jpg" alt="About Image - Talking Minds â€“ Psychotherapist Site Template">
+              <div class="image_widget"><img src="assets/images/about/about_image_1-min.jpg" alt="About Image - Talking Minds – Psychotherapist Site Template">
                 <div class="image_shape bg_primary_light"></div>
                 <div class="about_video_icon"><a class="video_play_btn popup_video" href="https://www.youtube.com/watch?v=nSzacnM1f1g"><i class="fa-duotone fa-play"></i></a></div>
               </div>
@@ -35,7 +35,7 @@
             <div class="col-lg-6">
               <div class="about_content">
                 <div class="section_heading mb-4">
-                  <h2 class="section_heading_text"><mark>Dr. Najmun Riyaz</mark> â€” Board-Certified Psychiatrist & Mental Wellness Leader</h2>
+                  <h2 class="section_heading_text"><mark>Dr. Najmun Riyaz</mark> — Board-Certified Psychiatrist & Mental Wellness Leader</h2>
                   <p class="section_heading_description mb-0">Dr. Najmun Riyaz is a board-certified psychiatrist focused on compassionate, evidence-based mental health care. She supports adults in healing from emotional challenges, addressing trauma, and building inner resilience, while actively promoting mental health awareness and stigma reduction across communities.</p>
                 </div>
                 <div class="row">
@@ -48,12 +48,12 @@
                   </div>
                   <div class="col-md-5 col-sm-6">
                     <ul class="info_list unordered_list_block">
-                      <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Womenâ€™s Mental Health</span></li>
+                      <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Women’s Mental Health</span></li>
                       <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span class="info_text">Emotional Wellness</span></li>
                     </ul>
                   </div>
                 </div>
-                <div class="btn_wrap pb-0"><a class="btn btn-primary" href="about.php"><span class="btn_text" data-text="Learn More">Learn More </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a></div>
+                <div class="btn_wrap pb-0"><a class="btn btn-primary" href="about"><span class="btn_text" data-text="Learn More">Learn More </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a></div>
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@
           <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="service_item">
-                <div class="item_icon"><img src="assets/images/icons/icon_brain.svg" alt="Brain Icon - Talking Minds â€“ Psychotherapist Site Template"></div>
+                <div class="item_icon"><img src="assets/images/icons/icon_brain.svg" alt="Brain Icon - Talking Minds – Psychotherapist Site Template"></div>
                 <div class="item_contact">
                   <h3 class="item_title">Empowerment Coaching</h3>
                   <p>I guide individuals to discover their inner strength and build confidence.</p>
@@ -126,7 +126,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="service_item">
-                <div class="item_icon"><img src="assets/images/icons/icon_head_double.svg" alt="Head Double Icon - Talking Minds â€“ Psychotherapist Site Template"></div>
+                <div class="item_icon"><img src="assets/images/icons/icon_head_double.svg" alt="Head Double Icon - Talking Minds – Psychotherapist Site Template"></div>
                 <div class="item_contact">
                   <h3 class="item_title">Personal Growth</h3>
                   <p>Practical strategies to enhance self-awareness and personal development.</p>
@@ -135,7 +135,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="service_item">
-                <div class="item_icon"><img src="assets/images/icons/icon_head.svg" alt="Brain Icon - Talking Minds â€“ Psychotherapist Site Template"></div>
+                <div class="item_icon"><img src="assets/images/icons/icon_head.svg" alt="Brain Icon - Talking Minds – Psychotherapist Site Template"></div>
                 <div class="item_contact">
                   <h3 class="item_title">Relationship Guidance</h3>
                   <p>Coaching to improve communication and nurture healthy relationships.</p>
@@ -144,7 +144,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="service_item">
-                <div class="item_icon"><img src="assets/images/icons/icon_head_plus.svg" alt="Brain Icon - Talking Minds â€“ Psychotherapist Site Template"></div>
+                <div class="item_icon"><img src="assets/images/icons/icon_head_plus.svg" alt="Brain Icon - Talking Minds – Psychotherapist Site Template"></div>
                 <div class="item_contact">
                   <h3 class="item_title">Stress & Mindset</h3>
                   <p>Techniques to manage stress and maintain a positive mindset.</p>
@@ -153,16 +153,16 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="service_item">
-                <div class="item_icon"><img src="assets/images/icons/icon_head_children.svg" alt="Head Double Icon - Talking Minds â€“ Psychotherapist Site Template"></div>
+                <div class="item_icon"><img src="assets/images/icons/icon_head_children.svg" alt="Head Double Icon - Talking Minds – Psychotherapist Site Template"></div>
                 <div class="item_contact">
-                  <h3 class="item_title">Womenâ€™s Empowerment</h3>
+                  <h3 class="item_title">Women’s Empowerment</h3>
                   <p>Helping women embrace their power and achieve life goals.</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
               <div class="service_item">
-                <div class="item_icon"><img src="assets/images/icons/icon_brain_plus.svg" alt="Brain Icon - Talking Minds â€“ Psychotherapist Site Template"></div>
+                <div class="item_icon"><img src="assets/images/icons/icon_brain_plus.svg" alt="Brain Icon - Talking Minds – Psychotherapist Site Template"></div>
                 <div class="item_contact">
                   <h3 class="item_title">Life Coaching Support</h3>
                   <p>Personalized coaching sessions to overcome obstacles and grow.</p>
@@ -170,7 +170,7 @@
               </div>
             </div>
           </div>
-          <div class="btn_wrap pb-0 text-center"><a class="btn btn-primary" href="contact.php"><span class="btn_text" data-text="Get In Touch">Get In Touch</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a></div>
+          <div class="btn_wrap pb-0 text-center"><a class="btn btn-primary" href="contact"><span class="btn_text" data-text="Get In Touch">Get In Touch</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a></div>
         </div>
       </section>
       <section class="consultation_section section_space_lg">
@@ -201,10 +201,10 @@
         </div>
       </section>
     </main>
-    <?php include __DIR__ . '/assets/includes/footer.php'; ?>
+    <?php include __DIR__ . '/../assets/includes/footer.php'; ?>
   </div>
 
-  <?php include __DIR__ . '/assets/includes/scripts.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/scripts.php'; ?>
 
 </body>
 

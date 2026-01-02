@@ -1,7 +1,7 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-  <?php include __DIR__ . '/assets/includes/links.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/links.php'; ?>
   </head>
   <body>
     <div class="page_wrapper">
@@ -14,9 +14,9 @@
             <div class="row justify-content-center">
               <div class="col-lg-7 text-center">
                 <h1>404</h1>
-                <h2>Oops! That Page Can’t be Found</h2>
+                <h2>Oops! That Page Can�t be Found</h2>
                 <div class="btn_wrap pb-0 text-center">
-                  <a class="btn btn-primary" href="home.php"
+                  <a class="btn btn-primary" href="home"
                     ><span class="btn_icon me-2 ms-0"
                       ><i class="fa-solid fa-arrow-up-left"></i> </span
                     ><span class="btn_text" data-text="Back to Home Page"
@@ -52,7 +52,7 @@
         </section>
       </main>
     </div>
-  <?php include __DIR__ . '/assets/includes/scripts.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/scripts.php'; ?>
 
   </body>
 </html>

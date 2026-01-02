@@ -1,14 +1,14 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <?php include __DIR__ . '/assets/includes/links.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/links.php'; ?>
 </head>
 
 <body>
   <div class="page_wrapper">
     <div class="backtotop"><a href="#" class="scroll"><i class="fa-solid fa-arrow-up"></i></a></div>
-    <?php include __DIR__ . '/assets/includes/header.php'; ?>
+    <?php include __DIR__ . '/../assets/includes/header.php'; ?>
     <main class="page_content">
       <section class="page_banner decoration_wrapper">
         <div class="container">
@@ -53,7 +53,7 @@
                 <div class="team_memder_image"><img src="https://img-c.udemycdn.com/course/750x422/6590645_e5c5_3.jpg" alt="Talking Minds - Psychotherapist Site Template"></div>
                 <div class="team_memder_info text-center">
                   <h4 class="team_memder_name">Stress Management</h4>
-                  <h3 class="team_memder_designation" style="font-size: large;">Master Your Brain’s Response to Stress with Neuroscience-Backed Techniques & Natural Calming Tools</h3>
+                  <h3 class="team_memder_designation" style="font-size: large;">Master Your Brain�s Response to Stress with Neuroscience-Backed Techniques & Natural Calming Tools</h3>
                   <ul class=" unordered_list justify-content-center">
                     <li><a href="#!" class="btn btn-primary pt-2 pb-2"><span>Buy Now</span></a></li>
                   </ul>
@@ -64,9 +64,9 @@
         </div>
       </section>
     </main>
-    <?php include __DIR__ . '/assets/includes/footer.php'; ?>
+    <?php include __DIR__ . '/../assets/includes/footer.php'; ?>
   </div>
-  <?php include __DIR__ . '/assets/includes/scripts.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/scripts.php'; ?>
 </body>
 
 </html>

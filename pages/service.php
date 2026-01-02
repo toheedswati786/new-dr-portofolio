@@ -1,8 +1,8 @@
-ï»¿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <?php include __DIR__ . '/assets/includes/links.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/links.php'; ?>
 </head>
 
 <body>
@@ -10,7 +10,7 @@
     <div class="backtotop">
       <a href="#" class="scroll"><i class="fa-solid fa-arrow-up"></i></a>
     </div>
-    <?php include __DIR__ . '/assets/includes/header.php'; ?>
+    <?php include __DIR__ . '/../assets/includes/header.php'; ?>
     <main class="page_content">
       <section class="page_banner decoration_wrapper">
         <div class="container">
@@ -38,7 +38,7 @@
               <div class="image_widget ps-lg-4">
                 <img
                   src="assets/images/about/about_image_10-min.jpg"
-                  alt="About Image - Talking Minds â€“ Psychotherapist Site Template" />
+                  alt="About Image - Talking Minds – Psychotherapist Site Template" />
               </div>
             </div>
             <div class="col-lg-6">
@@ -104,7 +104,7 @@
                   </div>
                 </div>
                 <div class="btn_wrap pb-0">
-                  <a class="btn btn-primary" href="contact.php"><span class="btn_text" data-text="Get A Consultation">Get A Consultation </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                  <a class="btn btn-primary" href="contact"><span class="btn_text" data-text="Get A Consultation">Get A Consultation </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
             </div>
@@ -120,7 +120,7 @@
                   What is Coaching & Mentorship?
                 </h1>
                 <p class="heading_description" style="text-align: justify;">
-                  Coaching and mentorship with Dr. Najmun Riyaz is a personalized guidance experience designed to help you grow, achieve your goals, and overcome challenges. Through expert advice, practical strategies, and empathetic support, youâ€™ll gain clarity, build confidence, and unlock your full potential in both personal and professional aspects of life.
+                  Coaching and mentorship with Dr. Najmun Riyaz is a personalized guidance experience designed to help you grow, achieve your goals, and overcome challenges. Through expert advice, practical strategies, and empathetic support, you’ll gain clarity, build confidence, and unlock your full potential in both personal and professional aspects of life.
                 </p>
               </div>
             </div>
@@ -128,7 +128,7 @@
               <div class="hero_image_wrap">
                 <img
                   src="assets/images/hero/hero_image_1-min.jpg"
-                  alt="Talking Minds â€“ Psychotherapist Site Template" />
+                  alt="Talking Minds – Psychotherapist Site Template" />
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@
       <section class="work_process_section pt-3 mt-3">
         <div class="container">
           <div class="section_heading text-center">
-            <h2 class="section_heading_text">Who Itâ€™s For</h2>
+            <h2 class="section_heading_text">Who It’s For</h2>
           </div>
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
@@ -196,7 +196,7 @@
                 <div class="item_icon">
                   <img
                     src="assets/images/icons/icon_brain.svg"
-                    alt="Brain Icon - Talking Minds â€“ Psychotherapist Site Template" />
+                    alt="Brain Icon - Talking Minds – Psychotherapist Site Template" />
                 </div>
                 <div class="item_contact">
                   <h3 class="item_title">Personal Coaching</h3>
@@ -211,7 +211,7 @@
                 <div class="item_icon">
                   <img
                     src="assets/images/icons/icon_head_double.svg"
-                    alt="Head Double Icon - Talking Minds â€“ Psychotherapist Site Template" />
+                    alt="Head Double Icon - Talking Minds – Psychotherapist Site Template" />
                 </div>
                 <div class="item_contact">
                   <h3 class="item_title">Emotional & Relational Mentorship</h3>
@@ -226,12 +226,12 @@
                 <div class="item_icon">
                   <img
                     src="assets/images/icons/icon_head.svg"
-                    alt="Brain Icon - Talking Minds â€“ Psychotherapist Site Template" />
+                    alt="Brain Icon - Talking Minds – Psychotherapist Site Template" />
                 </div>
                 <div class="item_contact">
                   <h3 class="item_title">Trauma-Informed Approach</h3>
                   <p>
-                    Gentle, culturally aware guidance shaped by years of clinical experienceâ€”helping you move through lifeâ€™s heaviness without feeling alone.
+                    Gentle, culturally aware guidance shaped by years of clinical experience—helping you move through life’s heaviness without feeling alone.
                   </p>
                 </div>
               </div>
@@ -313,7 +313,7 @@
                     </div>
                   </div>
                   <p class="mb-0">
-                    Dr. Riyazâ€™s seminars on PTSD and insomnia were incredibly helpful. Her keen listening and thoughtful suggestions provide truly effective personal support.
+                    Dr. Riyaz’s seminars on PTSD and insomnia were incredibly helpful. Her keen listening and thoughtful suggestions provide truly effective personal support.
                   </p>
                 </div>
               </div>
@@ -351,7 +351,7 @@
                     </div>
                   </div>
                   <p class="mb-0">
-                    Dr. Riyazâ€™s seminars on PTSD and insomnia were incredibly helpful. Her keen listening and thoughtful suggestions provide truly effective personal support.
+                    Dr. Riyaz’s seminars on PTSD and insomnia were incredibly helpful. Her keen listening and thoughtful suggestions provide truly effective personal support.
                   </p>
                 </div>
               </div>
@@ -503,7 +503,7 @@
                       data-bs-parent="#faq_accordion">
                       <div class="accordion-body">
                         <p class="m-0">
-                          Deeply. Her work respects identity, family dynamics, and the emotional realities shaped by cultureâ€”so you never have to over-explain yourself.
+                          Deeply. Her work respects identity, family dynamics, and the emotional realities shaped by culture—so you never have to over-explain yourself.
                         </p>
                       </div>
                     </div>
@@ -592,7 +592,7 @@
               <div class="image_widget">
                 <img
                   src="assets/images/about/about_image_11-min.jpg"
-                  alt="About Image - Talking Minds â€“ Psychotherapist Site Template" />
+                  alt="About Image - Talking Minds – Psychotherapist Site Template" />
                 <div class="image_shape bg_secondary_light"></div>
               </div>
             </div>
@@ -600,9 +600,9 @@
         </div>
       </section>
     </main>
-    <?php include __DIR__ . '/assets/includes/footer.php'; ?>
+    <?php include __DIR__ . '/../assets/includes/footer.php'; ?>
   </div>
-  <?php include __DIR__ . '/assets/includes/scripts.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/scripts.php'; ?>
 </body>
 
 </html>

@@ -1,15 +1,15 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <?php include __DIR__ . '/assets/includes/links.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/links.php'; ?>
 </head>
 
 <body>
   <div class="page_wrapper">
     <div class="backtotop"><a href="#" class="scroll"><i class="fa-solid fa-arrow-up"></i></a></div>
 
-      <?php include __DIR__ . '/assets/includes/header.php'; ?>
+      <?php include __DIR__ . '/../assets/includes/header.php'; ?>
 
     <main class="page_content">
       <section class="page_banner decoration_wrapper">
@@ -56,10 +56,10 @@
         </div>
       </section>
     </main>
-    <?php include __DIR__ . '/assets/includes/footer.php'; ?>
+    <?php include __DIR__ . '/../assets/includes/footer.php'; ?>
   </div>
 
-  <?php include __DIR__ . '/assets/includes/scripts.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/scripts.php'; ?>
 
 </body>
 

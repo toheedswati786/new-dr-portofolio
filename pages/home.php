@@ -1,8 +1,8 @@
-ï»¿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <?php include __DIR__ . '/assets/includes/links.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/links.php'; ?>
 </head>
 
 <body>
@@ -10,7 +10,7 @@
     <div class="backtotop">
       <a href="#" class="scroll"><i class="fa-solid fa-arrow-up"></i></a>
     </div>
-    <?php include __DIR__ . '/assets/includes/header.php'; ?>
+    <?php include __DIR__ . '/../assets/includes/header.php'; ?>
     <main class="page_content" style="margin-bottom: 70px;">
       <section class="hero_section decoration_wrapper">
         <div class="container">
@@ -21,7 +21,7 @@
                   Coaching & Mentorship for Emotional Resilience
                 </h1>
                 <p class="heading_description" style="text-align: justify;">
-                  <b>Dr. Najmun Riyaz, MD </b>is a board-certified psychiatrist and traumaâ€‘informed mentor supporting people who feel overwhelmed, over-responsible, or emotionally drained to rediscover calm, clarity, and selfâ€‘respect.
+                  <b>Dr. Najmun Riyaz, MD </b>is a board-certified psychiatrist and trauma-informed mentor supporting people who feel overwhelmed, over-responsible, or emotionally drained to rediscover calm, clarity, and self-respect.
                 </p>
                 <ul class="btns_group unordered_list">
                   <li>
@@ -37,7 +37,7 @@
               <div class="hero_image_wrap">
                 <img
                   src="assets/images/hero/hero_image_1-min.jpg"
-                  alt="Talking Minds â€“ Psychotherapist Site Template" />
+                  alt="Talking Minds – Psychotherapist Site Template" />
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@
               <div class="image_widget">
                 <img
                   src="assets/images/about/about_image_1-min.jpg"
-                  alt="About Image - Talking Minds â€“ Psychotherapist Site Template" />
+                  alt="About Image - Talking Minds – Psychotherapist Site Template" />
                 <div class="image_shape bg_primary_light"></div>
                 <div class="about_video_icon">
                   <a
@@ -69,7 +69,7 @@
               <div class="about_content">
                 <div class="section_heading mb-4">
                   <h2 class="section_heading_text">
-                    <mark>Dr. Dr. Najmun Riyaz</mark> â€” Psychiatrist & Trauma-Informed Coach
+                    <mark>Dr. Dr. Najmun Riyaz</mark> — Psychiatrist & Trauma-Informed Coach
                   </h2>
                   <p class="section_heading_description mb-0">
                     Dr. Najmun helps individuals move through emotional overwhelm, relational challenges, and life transitions with clarity and compassion. Blending her clinical background with a gentle coaching approach, she guides people toward steadiness, self-awareness, and more intentional living.
@@ -119,7 +119,7 @@
                 <div class="item_icon">
                   <img
                     src="assets/images/icons/icon_brain.svg"
-                    alt="Brain Icon - Talking Minds â€“ Psychotherapist Site Template" />
+                    alt="Brain Icon - Talking Minds – Psychotherapist Site Template" />
                 </div>
                 <div class="item_contact">
                   <h3 class="item_title">Personal Coaching</h3>
@@ -136,7 +136,7 @@
                 <div class="item_icon">
                   <img
                     src="assets/images/icons/icon_head_double.svg"
-                    alt="Head Double Icon - Talking Minds â€“ Psychotherapist Site Template" />
+                    alt="Head Double Icon - Talking Minds – Psychotherapist Site Template" />
                 </div>
                 <div class="item_contact">
                   <h3 class="item_title">Emotional & Relational Mentorship</h3>
@@ -153,12 +153,12 @@
                 <div class="item_icon">
                   <img
                     src="assets/images/icons/icon_head.svg"
-                    alt="Brain Icon - Talking Minds â€“ Psychotherapist Site Template" />
+                    alt="Brain Icon - Talking Minds – Psychotherapist Site Template" />
                 </div>
                 <div class="item_contact">
                   <h3 class="item_title">Trauma-Informed Approach</h3>
                   <p>
-                    Gentle, culturally aware guidance shaped by years of clinical experienceâ€”helping you move through lifeâ€™s heaviness without feeling alone.
+                    Gentle, culturally aware guidance shaped by years of clinical experience—helping you move through life’s heaviness without feeling alone.
                   </p>
                   <a class="btn-link" href="about"><span class="btn_text" style="color: #894198;">More Info</span>
                     <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
@@ -295,7 +295,7 @@
                       data-bs-parent="#faq_accordion">
                       <div class="accordion-body">
                         <p class="m-0">
-                          Deeply. Her work respects identity, family dynamics, and the emotional realities shaped by cultureâ€”so you never have to over-explain yourself.
+                          Deeply. Her work respects identity, family dynamics, and the emotional realities shaped by culture—so you never have to over-explain yourself.
                         </p>
                       </div>
                     </div>
@@ -416,7 +416,7 @@
                     </div>
                   </div>
                   <p class="mb-0">
-                    Dr. Riyazâ€™s seminars on PTSD and insomnia were incredibly helpful. Her keen listening and thoughtful suggestions provide truly effective personal support.
+                    Dr. Riyaz’s seminars on PTSD and insomnia were incredibly helpful. Her keen listening and thoughtful suggestions provide truly effective personal support.
                   </p>
                 </div>
               </div>
@@ -454,7 +454,7 @@
                     </div>
                   </div>
                   <p class="mb-0">
-                    Dr. Riyazâ€™s seminars on PTSD and insomnia were incredibly helpful. Her keen listening and thoughtful suggestions provide truly effective personal support.
+                    Dr. Riyaz’s seminars on PTSD and insomnia were incredibly helpful. Her keen listening and thoughtful suggestions provide truly effective personal support.
                   </p>
                 </div>
               </div>
@@ -484,10 +484,10 @@
       </section>
 
     </main>
-    <?php include __DIR__ . '/assets/includes/footer.php'; ?>
+    <?php include __DIR__ . '/../assets/includes/footer.php'; ?>
 
   </div>
-  <?php include __DIR__ . '/assets/includes/scripts.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/scripts.php'; ?>
 
 </body>
 

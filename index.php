@@ -17,23 +17,23 @@ $request = ltrim($request, '/');
 
 // Define routes
 $routes = [
-    '' => 'home.php',
-    '/' => 'home.php',
-    'home' => 'home.php',
-    'about' => 'about.php',
-    'service' => 'service.php',
-    'services' => 'service.php', // Alias
-    'courses' => 'course.php',
-    'course' => 'course.php',   // Alias
-    'books' => 'books.php',
-    'blog' => 'blog.php',
-    'blogs' => 'blog.php',      // Alias
-    'blog-details' => 'blog-details.php',
-    'videos' => 'videos.php',
-    'contact' => 'contact.php',
-    'mailer' => 'mailer.php',
-    'not-available' => 'not-available.php',
-    'sitemap.xml' => 'sitemap.php'
+    '' => 'pages/home.php',
+    '/' => 'pages/home.php',
+    'home' => 'pages/home.php',
+    'about' => 'pages/about.php',
+    'service' => 'pages/service.php',
+    'services' => 'pages/service.php', // Alias
+    'courses' => 'pages/course.php',
+    'course' => 'pages/course.php',   // Alias
+    'books' => 'pages/books.php',
+    'blog' => 'pages/blog.php',
+    'blogs' => 'pages/blog.php',      // Alias
+    'blog-details' => 'pages/blog-details.php',
+    'videos' => 'pages/videos.php',
+    'contact' => 'pages/contact.php',
+    'mailer' => 'pages/mailer.php',
+    'not-available' => 'pages/not-available.php',
+    'sitemap.xml' => 'pages/sitemap.php'
 ];
 
 // Check if route exists
@@ -42,5 +42,5 @@ if (array_key_exists($request, $routes)) {
 } else {
     // 404 Not Found
     http_response_code(404);
-    include __DIR__ . '/error.php';
+    include __DIR__ . '/pages/error.php';
 }

@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <?php include __DIR__ . '/assets/includes/links.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/links.php'; ?>
   <style>
     .flip-vertical {
       transform: scaleX(-1);
@@ -15,13 +15,13 @@
     <div class="backtotop">
       <a href="#" class="scroll"><i class="fa-solid fa-arrow-up"></i></a>
     </div>
-    <?php include __DIR__ . '/assets/includes/header.php'; ?>
+    <?php include __DIR__ . '/../assets/includes/header.php'; ?>
     <main class="page_content">
       <section class="page_banner decoration_wrapper">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12">
-              <h1 class="page_title mb-0">Сontact Us</h1>
+              <h1 class="page_title mb-0">?ontact Us</h1>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@
               <div class="image_widget">
                 <img
                   src="assets/images/about/about_image_17-min.jpg" class="flip-vertical" style="border: 1px solid #41132b;"
-                  alt="About Image - Talking Minds – Psychotherapist Site Template" />
+                  alt="About Image - Talking Minds � Psychotherapist Site Template" />
                 <div class="image_shape bg_secondary_light"></div>
               </div>
             </div>
@@ -100,9 +100,9 @@
         </div>
       </section>
     </main>
-    <?php include __DIR__ . '/assets/includes/footer.php'; ?>
+    <?php include __DIR__ . '/../assets/includes/footer.php'; ?>
   </div>
-  <?php include __DIR__ . '/assets/includes/scripts.php'; ?>
+  <?php include __DIR__ . '/../assets/includes/scripts.php'; ?>
 </body>
 
 </html>
