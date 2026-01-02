@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-3">
                     <div class="site_logo">
-                        <a class="site_link" href="home.php"><img
+                        <a class="site_link" href="home"><img
                                 src="assets/images/site_logo/logo.svg" width="200" style="background-color: white;padding: 20px; border-radius: 20px;"
                                 alt="Site Logo – Talking Minds – Psychotherapist Site Template" /></a>
                     </div>
@@ -12,22 +12,22 @@
                 <div class="col-lg-6">
                     <ul class="info_list unordered_list justify-content-center">
                         <li>
-                            <a href="home.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Home</span></a>
+                            <a href="home"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Home</span></a>
                         </li>
                         <li>
-                            <a href="about.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">About</span></a>
+                            <a href="about"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">About</span></a>
                         </li>
                         <li>
-                            <a href="course.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Courses</span></a>
+                            <a href="courses"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Courses</span></a>
                         </li>
                         <li>
-                            <a href="blog.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Blog</span></a>
+                            <a href="blog"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Blog</span></a>
                         </li>
                         <li>
-                            <a href="books.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Books</span></a>
+                            <a href="books"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Books</span></a>
                         </li>
                         <li>
-                            <a href="contact.php"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Contacts</span></a>
+                            <a href="contact"><span class="info_icon"><i class="fa-solid fa-circle"></i> </span><span class="info_text">Contacts</span></a>
                         </li>
                     </ul>
                 </div>

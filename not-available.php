@@ -40,11 +40,11 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-12 text-center">
                             <div class="btn_wrap pb-0">
-                                <a class="btn btn-primary" href="home.php">
+                                <a class="btn btn-primary" href="home">
                                     <span class="btn_text" data-text="Back to Home">Back to Home</span>
                                     <span class="btn_icon"><i class="fa-solid fa-arrow-left"></i></span>
                                 </a>
-                                <a class="btn btn-outline-secondary ms-3" href="blog.php">
+                                <a class="btn btn-outline-secondary ms-3" href="blog">
                                     <span class="btn_text" data-text="Read Our Blog">Read Our Blog</span>
                                     <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span>
                                 </a>

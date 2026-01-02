@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://drnajmunriyaz.com/sitemap.xml

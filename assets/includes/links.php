@@ -15,6 +15,17 @@
 <meta property="og:url" content="https://drnajmunriyaz.com<?= $_SERVER['REQUEST_URI'] ?>">
 <meta property="og:type" content="website">
 
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<?= $page_title ?>">
+<meta name="twitter:description" content="<?= $page_description ?>">
+<meta name="twitter:image" content="https://drnajmunriyaz.com/assets/images/logo.png">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+  <?= $json_ld ?>
+</script>
+
 <!-- Canonical -->
 <link rel="canonical" href="https://drnajmunriyaz.com<?= $_SERVER['REQUEST_URI'] ?>">
 

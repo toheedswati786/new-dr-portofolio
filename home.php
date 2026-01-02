@@ -25,10 +25,10 @@
                 </p>
                 <ul class="btns_group unordered_list">
                   <li>
-                    <a class="btn btn-primary" href="contact.php"><span class="btn_text" data-text="Book a Session">Book a Session</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                    <a class="btn btn-primary" href="contact"><span class="btn_text" data-text="Book a Session">Book a Session</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                   </li>
                   <li>
-                    <a class="btn btn-outline-secondary" href="about.php"><span class="btn_text" data-text="Learn More">Learn About Coaching & Mentorship</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                    <a class="btn btn-outline-secondary" href="about"><span class="btn_text" data-text="Learn More">Learn About Coaching & Mentorship</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                   </li>
                 </ul>
               </div>
@@ -98,7 +98,7 @@
                   </div>
                 </div>
                 <div class="btn_wrap pb-0">
-                  <a class="btn btn-primary" href="about.php"><span class="btn_text" data-text="Learn More">Learn More </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                  <a class="btn btn-primary" href="about"><span class="btn_text" data-text="Learn More">Learn More </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
             </div>
@@ -126,7 +126,7 @@
                   <p>
                     A one-on-one space where you can unpack emotional overwhelm, understand your patterns, and rebuild from a grounded, compassionate place.
                   </p>
-                  <a class="btn-link" href="about.php"><span class="btn_text" style="color: #894198;">More Info</span>
+                  <a class="btn-link" href="about"><span class="btn_text" style="color: #894198;">More Info</span>
                     <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
@@ -143,7 +143,7 @@
                   <p>
                     Support that helps you navigate relationships, communication struggles, and inner conflicts with more clarity, intention, and self-awareness.
                   </p>
-                  <a class="btn-link" href="about.php"><span class="btn_text" style="color: #894198;">More Info</span>
+                  <a class="btn-link" href="about"><span class="btn_text" style="color: #894198;">More Info</span>
                     <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
@@ -160,14 +160,14 @@
                   <p>
                     Gentle, culturally aware guidance shaped by years of clinical experience—helping you move through life’s heaviness without feeling alone.
                   </p>
-                  <a class="btn-link" href="about.php"><span class="btn_text" style="color: #894198;">More Info</span>
+                  <a class="btn-link" href="about"><span class="btn_text" style="color: #894198;">More Info</span>
                     <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="btn_wrap pb-0 text-center">
-            <a class="btn btn-primary" href="blog.php"><span class="btn_text" data-text="All Programs">Read Our Blogs</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+            <a class="btn btn-primary" href="blog"><span class="btn_text" data-text="All Programs">Read Our Blogs</span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
           </div>
         </div>
       </section>
